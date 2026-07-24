@@ -1,0 +1,708 @@
+{
+ "version": 1,
+ "updated": "2026-07-24",
+ "nutrients": [
+  {
+   "id": "N",
+   "symbol": "N",
+   "category": "macro",
+   "mobile": true,
+   "name": {
+    "de": "Stickstoff",
+    "en": "Nitrogen"
+   },
+   "role": {
+    "de": "Baut Chlorophyll, Aminosäuren, Proteine, Enzyme. Treibt das vegetative Wachstum.",
+    "en": "Builds chlorophyll, amino acids, proteins, enzymes. Drives vegetative growth."
+   },
+   "deficiency": {
+    "de": "Blasse / gelbe ÄLTERE (untere) Blätter, breitet sich nach oben aus. Ganze Pflanze wird hellgrün. Langsames, gehemmtes Wachstum. Stängel können röten.",
+    "en": "Pale / yellow OLDER (lower) leaves moving up. Whole plant eventually light green. Slow, stunted growth. Stems may redden."
+   },
+   "excess": {
+    "de": "Dunkelgrüne, krallenförmige (Claw-Tip) Blätter. Weicher, schwacher, gestreckter Wuchs. In der Blüte verzögert er die Reife und mindert den Ertrag. Verbrannte Blattspitzen.",
+    "en": "Dark green, clawed (claw-tip) leaves. Soft, weak, elongated growth. In flower, delays maturation and reduces yield. Burnt leaf tips."
+   },
+   "phWindow": {
+    "de": "6,0–7,5 (bakterielle Nitrifikation)",
+    "en": "6.0–7.5 (bacteria-driven nitrification)"
+   },
+   "sources": {
+    "de": [
+     "Luzernemehl (2-1-3)",
+     "Blutmehl (12-0-0) — schnell",
+     "Federmehl (12-0-0) — langsam",
+     "Fischemulsion / Hydrolysat (4-2-2 bis 5-2-2)",
+     "Sojamehl (7-2-1)",
+     "Wurmhumus"
+    ],
+    "en": [
+     "Alfalfa meal (2-1-3)",
+     "Blood meal (12-0-0) — fast",
+     "Feather meal (12-0-0) — slow",
+     "Fish emulsion / hydrolysate (4-2-2 to 5-2-2)",
+     "Soybean meal (7-2-1)",
+     "Worm castings"
+    ]
+   }
+  },
+  {
+   "id": "P",
+   "symbol": "P",
+   "category": "macro",
+   "mobile": true,
+   "name": {
+    "de": "Phosphor",
+    "en": "Phosphorus"
+   },
+   "role": {
+    "de": "Energie (ATP), DNA, Wurzelbildung, Blüte und Samenbildung.",
+    "en": "Energy (ATP), DNA, root development, flowering and seed set."
+   },
+   "deficiency": {
+    "de": "Stumpfe, dunkel blaugrüne ältere Blätter. Lila / rötliche Stängel und Blattstiele. Langsame Blüte. Oft fehldiagnostiziert — meist blockiert kalter Boden den P, es fehlt nicht wirklich.",
+    "en": "Dull, dark bluish-green older leaves. Purple / reddish stems and petioles. Slow to flower. Often misdiagnosed — usually cold soil locking P, not a real shortage."
+   },
+   "excess": {
+    "de": "Selten direkt sichtbar; zeigt sich als Zn-, Fe- oder Cu-Mangel an neuen Blättern (synthetischer P blockiert Mikronährstoffaufnahme UND tötet Mykorrhiza).",
+    "en": "Rarely obvious directly; shows up as Zn, Fe, or Cu deficiency on new growth (synthetic P blocks micro uptake AND kills mycorrhizae)."
+   },
+   "phWindow": {
+    "de": "6,0–7,0 (unter 6,0 durch Fe/Al blockiert, über 7,5 durch Ca)",
+    "en": "6.0–7.0 (locked below 6.0 by Fe/Al, above 7.5 by Ca)"
+   },
+   "sources": {
+    "de": [
+     "Knochenmehl (3-15-0) — langsam",
+     "Weiches/kolloidales Rohphosphat (0-2,5-0) — sehr langsam",
+     "Fledermausguano P-reich (1-10-0) — mittel",
+     "Fischknochenmehl",
+     "Krabbenschalenmehl (2-3-0)"
+    ],
+    "en": [
+     "Bone meal (3-15-0) — slow",
+     "Soft/colloidal rock phosphate (0-2.5-0) — very slow",
+     "Bat guano high-P (1-10-0) — medium",
+     "Fish bone meal",
+     "Crab shell (2-3-0)"
+    ]
+   }
+  },
+  {
+   "id": "K",
+   "symbol": "K",
+   "category": "macro",
+   "mobile": true,
+   "name": {
+    "de": "Kalium",
+    "en": "Potassium"
+   },
+   "role": {
+    "de": "Osmoseregulierung, Stomataöffnung, Enzymaktivierung, Zucker- und Stärketransport, Trockenheits- und Kältetoleranz, Blütendichte.",
+    "en": "Osmotic regulation, stomatal opening, enzyme activation, sugar & starch translocation, drought and cold tolerance, bud density."
+   },
+   "deficiency": {
+    "de": "Ältere Blätter: Randnekrose (braune trockene Ränder) und interveinale Vergilbung, Blätter rollen nach unten. Schwache Stängel, kleine Blüten.",
+    "en": "Older leaves: marginal necrosis (brown crispy edges) and interveinal yellowing, curl downward. Weak stems, small buds."
+   },
+   "excess": {
+    "de": "Zeigt sich meist als Ca- oder Mg-Mangel (Kationenkonkurrenz). Salzverbrennungen an den Wurzeln.",
+    "en": "Usually shows as Ca or Mg deficiency (cation competition). Salt burn on roots."
+   },
+   "phWindow": {
+    "de": "6,0–8,5 (breit verfügbar)",
+    "en": "6.0–8.5 (widely available)"
+   },
+   "sources": {
+    "de": [
+     "Seetangmehl (1-0-2) — schneller Mikroboost",
+     "Grünsand (0-0-7) — sehr langsam",
+     "Holzasche (0-1-3) — schnell, hebt pH (sparsam einsetzen)",
+     "Patentkali / Kaliumsulfat (0-0-50) — stark, OMRI-zugelassen",
+     "Langbeinit (0-0-22, +Mg, +S)",
+     "Bananenschalenferment"
+    ],
+    "en": [
+     "Kelp meal (1-0-2) — fast micro boost",
+     "Greensand (0-0-7) — very slow",
+     "Wood ash (0-1-3) — fast, raises pH (use sparingly)",
+     "Sulfate of potash (0-0-50) — strong, OMRI-approved",
+     "Langbeinite (0-0-22, +Mg, +S)",
+     "Banana peel ferment"
+    ]
+   }
+  },
+  {
+   "id": "Ca",
+   "symbol": "Ca",
+   "category": "secondary",
+   "mobile": false,
+   "name": {
+    "de": "Calcium",
+    "en": "Calcium"
+   },
+   "role": {
+    "de": "Zellwände, Membranstabilität, Signalwege, Blütenfestigung, pH-Pufferung, KAK.",
+    "en": "Cell walls, membrane integrity, signaling, buds firming, pH buffering, CEC."
+   },
+   "deficiency": {
+    "de": "NEUES (oberes) Wachstum: deformierte, hakige oder verdrehte Blätter; braune Flecken; blütenendfäuleartige Nekrose an neuen Spitzen. Schwache Zellwände begünstigen Blütenfäule.",
+    "en": "NEW (upper) growth: deformed, hooked, or twisted leaves; brown spots; blossom-end–rot style necrosis on new tips. Weak cell walls invite bud rot."
+   },
+   "excess": {
+    "de": "Blockiert Mg und K. Alkalisiert den Boden.",
+    "en": "Locks out Mg and K. Alkalinizes soil."
+   },
+   "phWindow": {
+    "de": "6,5–7,5",
+    "en": "6.5–7.5"
+   },
+   "sources": {
+    "de": [
+     "Calcitischer Kalkstein (0-0-0 aber +Ca) — langsam, pH-neutral",
+     "Dolomitkalk (+Ca +Mg) — langsam, hebt pH",
+     "Gips (CaSO4) — schnell, pH-neutral, liefert auch S",
+     "Austernschalenmehl — langsam",
+     "Eierschalen (gemahlen) — langsam"
+    ],
+    "en": [
+     "Calcitic limestone (0-0-0 but +Ca) — slow, neutral pH",
+     "Dolomitic lime (+Ca +Mg) — slow, raises pH",
+     "Gypsum (CaSO4) — fast, pH-neutral, adds S too",
+     "Oyster shell flour — slow",
+     "Eggshells (powdered) — slow"
+    ]
+   }
+  },
+  {
+   "id": "Mg",
+   "symbol": "Mg",
+   "category": "secondary",
+   "mobile": true,
+   "name": {
+    "de": "Magnesium",
+    "en": "Magnesium"
+   },
+   "role": {
+    "de": "Zentralatom im Chlorophyll. Enzym-Cofaktor. ATP-Bindung.",
+    "en": "Central atom in chlorophyll. Enzyme cofactor. ATP binding."
+   },
+   "deficiency": {
+    "de": "Klassisch: ÄLTERE Blätter vergilben ZWISCHEN den Adern, während die Adern grün bleiben (interveinale Chlorose). Breitet sich nach oben aus. Untere Blätter werden schließlich braun und fallen ab.",
+    "en": "Classic: OLDER leaves yellow BETWEEN the veins while veins stay green (interveinal chlorosis). Progresses upward. Lower leaves eventually brown and fall."
+   },
+   "excess": {
+    "de": "Allein selten toxisch; zeigt sich als blockierter K oder Ca.",
+    "en": "Rarely toxic alone; shows as locked K or Ca."
+   },
+   "phWindow": {
+    "de": "6,5–8,0",
+    "en": "6.5–8.0"
+   },
+   "sources": {
+    "de": [
+     "Dolomitkalk (langsam)",
+     "Bittersalz (MgSO4·7H2O) — schnell, 1 EL / 4 L eingegossen, oder 1 % Blattspray (nur Veg)",
+     "Langbeinit (K-Mag)"
+    ],
+    "en": [
+     "Dolomitic lime (slow)",
+     "Epsom salt (MgSO4·7H2O) — fast, 1 Tbsp / 4 L watered in, or 1% foliar (veg only)",
+     "Langbeinite (K-Mag)"
+    ]
+   }
+  },
+  {
+   "id": "S",
+   "symbol": "S",
+   "category": "secondary",
+   "mobile": false,
+   "name": {
+    "de": "Schwefel",
+    "en": "Sulfur"
+   },
+   "role": {
+    "de": "Aminosäuren (Cystein, Methionin), Proteine, Enzyme, Terpene / aromatische Verbindungen.",
+    "en": "Amino acids (cysteine, methionine), proteins, enzymes, terpenes / aromatic compounds."
+   },
+   "deficiency": {
+    "de": "NEUE Blätter gleichmäßig blassgelb (wie N-Mangel, aber oben statt unten). Schmale, gehemmte Stängel.",
+    "en": "NEW leaves uniformly pale yellow (like N deficiency but on top not bottom). Slender, stunted stems."
+   },
+   "excess": {
+    "de": "Sehr selten; senkt pH.",
+    "en": "Very rare; drops pH."
+   },
+   "phWindow": {
+    "de": "6,0–7,0",
+    "en": "6.0–7.0"
+   },
+   "sources": {
+    "de": [
+     "Gips (CaSO4) — schnell",
+     "Bittersalz (MgSO4)",
+     "Elementarer Schwefel — senkt pH langsam",
+     "Langbeinit"
+    ],
+    "en": [
+     "Gypsum (CaSO4) — fast",
+     "Epsom salt (MgSO4)",
+     "Elemental sulfur — slowly lowers pH",
+     "Langbeinite"
+    ]
+   }
+  },
+  {
+   "id": "Fe",
+   "symbol": "Fe",
+   "category": "micro",
+   "mobile": false,
+   "name": {
+    "de": "Eisen",
+    "en": "Iron"
+   },
+   "role": {
+    "de": "Chlorophyllsynthese (auch wenn es nicht im Molekül sitzt), Elektronentransport.",
+    "en": "Chlorophyll synthesis (even though it’s not in the molecule), electron transport."
+   },
+   "deficiency": {
+    "de": "NEUE (obere) Blätter mit interveinaler Chlorose — feine grüne Adern auf blassgelbem Grund. Am schlimmsten oben, genau umgekehrt zu Mg.",
+    "en": "NEW (upper) leaves interveinal chlorosis — fine green veins on pale yellow background. Worst at top, opposite of Mg."
+   },
+   "excess": {
+    "de": "Selten; bronzefarbene Blätter, blockiert P.",
+    "en": "Rare; bronzing on leaves, locks P."
+   },
+   "phWindow": {
+    "de": "5,5–6,5 — über pH 7 blockiert",
+    "en": "5.5–6.5 — locked out above pH 7"
+   },
+   "sources": {
+    "de": [
+     "Eisenchelat (Fe-EDDHA für hohen pH, Fe-DTPA mittel)",
+     "Blutmehl",
+     "Grünsand",
+     "Kompost + organische Substanz"
+    ],
+    "en": [
+     "Iron chelate (Fe-EDDHA for high pH, Fe-DTPA mid)",
+     "Blood meal",
+     "Greensand",
+     "Compost + organic matter"
+    ]
+   }
+  },
+  {
+   "id": "Mn",
+   "symbol": "Mn",
+   "category": "micro",
+   "mobile": false,
+   "name": {
+    "de": "Mangan",
+    "en": "Manganese"
+   },
+   "role": {
+    "de": "Fotosynthese (spaltet Wasser), Enzymaktivierung.",
+    "en": "Photosynthesis (splits water), enzyme activation."
+   },
+   "deficiency": {
+    "de": "NEUE Blätter interveinale Chlorose ähnlich Fe, aber mit kleineren gelben Flecken zwischen feineren Adern. Braune nekrotische Punkte möglich.",
+    "en": "NEW leaves interveinal chlorosis similar to Fe but with smaller yellow patches between finer veins. Brown necrotic spots possible."
+   },
+   "excess": {
+    "de": "Ältere Blätter: kleine braune/violette Flecken; kann Fe-Mangel nachahmen.",
+    "en": "Older leaves: small brown/purple spots; can mimic Fe deficiency."
+   },
+   "phWindow": {
+    "de": "5,5–6,5",
+    "en": "5.5–6.5"
+   },
+   "sources": {
+    "de": [
+     "Kompost",
+     "Seetang",
+     "Mangansulfat (schnell, sparsam einsetzen)"
+    ],
+    "en": [
+     "Compost",
+     "Kelp",
+     "Manganese sulfate (fast, use sparingly)"
+    ]
+   }
+  },
+  {
+   "id": "Zn",
+   "symbol": "Zn",
+   "category": "micro",
+   "mobile": true,
+   "name": {
+    "de": "Zink",
+    "en": "Zinc"
+   },
+   "role": {
+    "de": "Enzym-Cofaktor, Auxin-Synthese (Wachstumshormon), Internodienstreckung.",
+    "en": "Enzyme cofactor, auxin (growth hormone) synthesis, internode elongation."
+   },
+   "deficiency": {
+    "de": "Verkürzte Internodien, rosettenartiges neues Wachstum, kleine bandförmige Blätter, Vergilbung mit weißen/nekrotischen Flecken.",
+    "en": "Shortened internodes, rosette-like new growth, small strap-like leaves, yellowing with white/necrotic patches."
+   },
+   "excess": {
+    "de": "Blockiert Fe und Mn am neuen Wuchs.",
+    "en": "Locks Fe and Mn on new growth."
+   },
+   "phWindow": {
+    "de": "5,5–7,0",
+    "en": "5.5–7.0"
+   },
+   "sources": {
+    "de": [
+     "Kompost",
+     "Seetang",
+     "Zinksulfat"
+    ],
+    "en": [
+     "Compost",
+     "Kelp",
+     "Zinc sulfate"
+    ]
+   }
+  },
+  {
+   "id": "Cu",
+   "symbol": "Cu",
+   "category": "micro",
+   "mobile": false,
+   "name": {
+    "de": "Kupfer",
+    "en": "Copper"
+   },
+   "role": {
+    "de": "Enzym-Cofaktor, Ligninsynthese, Pollenbildung.",
+    "en": "Enzyme cofactor, lignin synthesis, pollen formation."
+   },
+   "deficiency": {
+    "de": "Neue Blätter welken, bekommen metallisch blaugrünen Schimmer, Spitzen sterben ab. Blüte kann verzögert werden.",
+    "en": "New leaves wilt, get metallic blue-green tint, tip die-back. Flowering can be delayed."
+   },
+   "excess": {
+    "de": "Wurzelschäden, Vergilbung.",
+    "en": "Root damage, yellowing."
+   },
+   "phWindow": {
+    "de": "5,5–7,0",
+    "en": "5.5–7.0"
+   },
+   "sources": {
+    "de": [
+     "Kompost",
+     "Kupfersulfat (Vorsicht, ab 5 ppm toxisch)"
+    ],
+    "en": [
+     "Compost",
+     "Copper sulfate (careful, toxic above 5 ppm)"
+    ]
+   }
+  },
+  {
+   "id": "B",
+   "symbol": "B",
+   "category": "micro",
+   "mobile": false,
+   "name": {
+    "de": "Bor",
+    "en": "Boron"
+   },
+   "role": {
+    "de": "Zellwand, Membranstabilität, Zuckertransport, Blütenansatz.",
+    "en": "Cell wall, membrane integrity, sugar transport, flower set."
+   },
+   "deficiency": {
+    "de": "Triebspitze verformt oder stirbt ab. Neue Blätter dick, spröde, gekräuselt. Hohle Stängel.",
+    "en": "Growing tip distorted or dies. New leaves thick, brittle, curled. Hollow stems."
+   },
+   "excess": {
+    "de": "Sehr enger Spielraum. Blattränder verbrennen braun, zuerst an ÄLTEREN Blättern. Leicht überdosiert — sparsam sein.",
+    "en": "Very narrow margin. Leaf margins burn brown, starting on OLDER leaves. Easy to overdose — go light."
+   },
+   "phWindow": {
+    "de": "5,5–7,0",
+    "en": "5.5–7.0"
+   },
+   "sources": {
+    "de": [
+     "Borax (winzige Mengen)",
+     "Seetang",
+     "Kompost"
+    ],
+    "en": [
+     "Borax (tiny amounts)",
+     "Kelp",
+     "Compost"
+    ]
+   }
+  },
+  {
+   "id": "Mo",
+   "symbol": "Mo",
+   "category": "micro",
+   "mobile": true,
+   "name": {
+    "de": "Molybdän",
+    "en": "Molybdenum"
+   },
+   "role": {
+    "de": "Stickstoffstoffwechsel (Nitratreduktase). N-Fixierung bei Leguminosen.",
+    "en": "Nitrogen metabolism (nitrate reductase). N-fixation in legumes."
+   },
+   "deficiency": {
+    "de": "Ahmt N-Mangel nach: blasse ältere Blätter. Selten. Häufig auf sauren Böden.",
+    "en": "Mimics N deficiency: pale older leaves. Rare. Often in acidic soils."
+   },
+   "excess": {
+    "de": "Sehr selten.",
+    "en": "Very rare."
+   },
+   "phWindow": {
+    "de": "6,0–8,5 (unter 6,0 blockiert)",
+    "en": "6.0–8.5 (locked below 6.0)"
+   },
+   "sources": {
+    "de": [
+     "Kompost",
+     "Seetang"
+    ],
+    "en": [
+     "Compost",
+     "Kelp"
+    ]
+   }
+  },
+  {
+   "id": "Cl",
+   "symbol": "Cl",
+   "category": "micro",
+   "mobile": false,
+   "name": {
+    "de": "Chlor",
+    "en": "Chlorine"
+   },
+   "role": {
+    "de": "Osmotisches Gleichgewicht, Fotosynthese.",
+    "en": "Osmotic balance, photosynthesis."
+   },
+   "deficiency": {
+    "de": "Sehr selten. Welken, gelbe Flecken.",
+    "en": "Very rare. Wilting, yellow spotting."
+   },
+   "excess": {
+    "de": "Häufig im Leitungswasser — tötet Mikroben sofort und sammelt sich als Salz an. Immer entchloren oder Regenwasser nehmen.",
+    "en": "Common in tap water — kills microbes on contact and accumulates as salt. Always de-chlorinate or use rainwater."
+   },
+   "phWindow": {
+    "de": "beliebig",
+    "en": "any"
+   },
+   "sources": {
+    "de": [
+     "Spurenmengen im Kompost. Leitungswasser hat reichlich (zu viel)."
+    ],
+    "en": [
+     "Trace in compost. Tap water has plenty (too much)."
+    ]
+   }
+  },
+  {
+   "id": "Ni",
+   "symbol": "Ni",
+   "category": "micro",
+   "mobile": false,
+   "name": {
+    "de": "Nickel",
+    "en": "Nickel"
+   },
+   "role": {
+    "de": "Urease-Enzym (spaltet Harnstoff in NH4+). Samenkeimfähigkeit.",
+    "en": "Urease enzyme (breaks urea into NH4+). Seed viability."
+   },
+   "deficiency": {
+    "de": "Extrem selten. Keimversagen; Blattspitzennekrose.",
+    "en": "Extremely rare. Seed failure; leaf tip necrosis."
+   },
+   "excess": {
+    "de": "Selten, Schwermetallproblem.",
+    "en": "Toxic metals issue, rare."
+   },
+   "phWindow": {
+    "de": "5,5–6,5",
+    "en": "5.5–6.5"
+   },
+   "sources": {
+    "de": [
+     "Spurenmengen in Kompost / Gesteinsmehlen."
+    ],
+    "en": [
+     "Trace in compost / rock dusts."
+    ]
+   }
+  }
+ ],
+ "myco": [
+  {
+   "id": "what",
+   "title": {
+    "de": "Was Cannabis von Mykorrhiza bekommt",
+    "en": "What cannabis gets from mycorrhizae"
+   },
+   "body": {
+    "de": "Cannabis bildet **arbuskuläre Mykorrhiza (AMF)** — der Pilz dringt in die Wurzelzellwände ein und baut innen mikroskopisch kleine baumartige Strukturen (Arbuskeln), dort findet der eigentliche Nährstofftausch statt.\n\nEine Wurzel allein ist auf eine schmale Verarmungszone beschränkt. Pilzhyphen sind **5× dünner** als Wurzelhaare und erreichen das 100.000-fache Bodenvolumen. Messbare Vorteile für Cannabis-ähnliche Kulturen:\n\n• **80 % des Pflanzen-Phosphors** (P ist in den meisten Böden chemisch gebunden)\n• **25 % des Stickstoffs** (besonders NH4+)\n• **60 % des Kupfers, 25 % des Zinks, der Großteil des Eisens**\n• **50–100× mehr Wasserzugang** bei Trockenheit\n• Pathogenabwehr (physische + chemische Barrieren um die Wurzel)\n• Verbesserte Bodenstruktur durch **Glomalin** — der Kleber, der Aggregate zusammenhält\n• Schwermetallpufferung (Pilze binden Cd, Pb, Al, bevor sie die Pflanze erreichen)\n\nAls Gegenleistung gibt die Pflanze rund **20 % ihrer Photosynthese-Zucker** als Hexose ab. Es lohnt sich.",
+    "en": "Cannabis forms **arbuscular mycorrhizae (AMF)** — the fungus penetrates root cell walls and builds microscopic tree-like structures (arbuscules) inside, which is where the actual nutrient trade happens.\n\nA plant root alone is limited to a narrow depletion zone. Fungal hyphae are **5× thinner** than root hairs and can reach 100,000× more soil volume. Measurable gains for cannabis-like crops:\n\n• **80% of plant phosphorus** (P is chemically locked in most soils)\n• **25% of nitrogen** (especially NH4+)\n• **60% of copper, 25% of zinc, most iron**\n• **50–100× more water access** during drought\n• Pathogen resistance (physical + chemical barriers around the root)\n• Improved soil structure from **glomalin** — the glue that holds aggregates together\n• Heavy-metal buffering (fungi sequester Cd, Pb, Al before they hit the plant)\n\nIn return the plant gives up around **20% of its photosynthetic sugars** as hexose. It’s worth it."
+   }
+  },
+  {
+   "id": "products",
+   "title": {
+    "de": "Was kaufen (und was vermeiden)",
+    "en": "What to buy (and what to avoid)"
+   },
+   "body": {
+    "de": "Auf **arbuskuläre (Endo-)** Mykorrhiza achten. Produkte mit Ektomykorrhiza-Pilzen ignorieren — die sind für Nadelbäume und Eichen, für Cannabis nutzlos.\n\n**Gute Arten auf dem Etikett:**\n• *Rhizophagus irregularis* (früher *Glomus intraradices*) — Arbeitstier\n• *Funneliformis mosseae* (früher *Glomus mosseae*)\n• *Claroideoglomus etunicatum*\n• *Gigaspora margarita*\n\n**Eine Mischung ist besser als ein einzelner Stamm.** Verschiedene Pilze arbeiten unter verschiedenen Bedingungen; der Mix schützt gegen einen schlechten Match.\n\n**Keimfähigkeit zählt, nicht nur die Sporenzahl.** Industriell produzierte Sporen halten 1–2 Jahre; Wurzel-/Hyphenfragmente etwa ein Jahr. **Kühl, dunkel, trocken** lagern (18–24 °C ideal, nie über 49 °C). Hitze tötet sie; Feuchtigkeit löst vorzeitige Keimung aus.\n\n**Gängige Marken, die funktionieren:** MycoApply, Great White, Plant Success Orca/Tribus, Xtreme Gardening Mykos, Rootgrow Pro.",
+    "en": "Look for **arbuscular (endo-)** mycorrhizae. Ignore products with ectomycorrhizal fungi — those are for conifers and oaks, useless on cannabis.\n\n**Good species to see on the label:**\n• *Rhizophagus irregularis* (formerly *Glomus intraradices*) — workhorse\n• *Funneliformis mosseae* (formerly *Glomus mosseae*)\n• *Claroideoglomus etunicatum*\n• *Gigaspora margarita*\n\n**A mix is better than a single strain.** Different fungi perform under different conditions; the mix insures against a bad match.\n\n**Viability matters, not just spore count.** Commercially produced spores last 1–2 years; root/hyphal fragments about a year. Store **cool, dark, dry** (18–24 °C ideal, never above 49 °C). Heat kills them; moisture triggers premature germination.\n\n**Common brands that work:** MycoApply, Great White, Plant Success Orca/Tribus, Xtreme Gardening Mykos, Rootgrow Pro."
+   }
+  },
+  {
+   "id": "when",
+   "title": {
+    "de": "Wann impfen",
+    "en": "When to inoculate"
+   },
+   "body": {
+    "de": "**So früh wie irgend möglich.** Der Pilz hat nach dem Keimen 7–10 Tage, bevor ihm der eigene Kohlenstoff ausgeht und er stirbt — er braucht schnell Wurzelkontakt.\n\n• **Samenstadium:** Samen in granuliertem Impfmittel rollen oder den Keimling bestäuben.\n• **Umtopfen (am besten):** den Wurzelballen direkt bestäuben oder freie Wurzeln in eine Aufschlämmung tauchen. Eine Prise reicht — Hyphen regenerieren aus winzigen Fragmenten.\n• **Etablierte Pflanze:** mit Flüssigformulierung gießen oder Löcher entlang der Tropflinie stechen und Granulat einfüllen. Weniger wirksam als frühe Impfung, aber trotzdem lohnend.\n\n**Platzierungsregel:** Propagule müssen physisch Wurzeln oder Wurzelexsudate berühren. Auf den Mulch gestreut bringt nichts.\n\nIm Topf ist AMF meist innerhalb von **2 Monaten** vollständig kolonisiert. Sporenbildung startet, wenn der Topf dicht wird, oft schon im ersten Jahr.",
+    "en": "**As early as humanly possible.** The fungus has 7–10 days after germinating before it runs out of onboard carbon and dies, so it needs root contact fast.\n\n• **Seed stage:** roll seeds in granular inoculant or dust the germination plug.\n• **Transplant stage (best):** dust the root ball directly, or dip bare roots into a slurry. You only need a pinch — hyphae regenerate from tiny fragments.\n• **Established plant:** drench with liquid formulation or poke holes around the drip line and drop granules in. Less effective than early inoculation but still worthwhile.\n\n**Placement rule:** propagules must physically touch roots or root exudates. Sprinkling on top of mulch does nothing.\n\nIn a container, AMF usually finishes colonization within **2 months**. Sporulation starts when the pot gets crowded, often within the first year."
+   }
+  },
+  {
+   "id": "kills",
+   "title": {
+    "de": "Was Mykorrhiza tötet",
+    "en": "What kills mycorrhizae"
+   },
+   "body": {
+    "de": "**Phosphorüberschuss.** Studien zeigen, dass die Kolonisierung über ~80 ppm P im Boden zusammenbricht. Ziel **< 70 ppm**, ideal **< 30 ppm**. Das ist der Hauptgrund, warum gekaufte Mykorrhiza-Produkte „nicht funktionieren“ — der Grower kippt gleichzeitig Blütebooster drauf.\n\n**Synthetische Dünger.** Besonders lösliche P- und N-reiche Salze. Organische Zugaben (Kompost, Mehle, Tees) sind verträglich.\n\n**Fungizide.** Bodendrench ist schlimmer als Blattspray. Manche (z. B. Metalaxyl) *helfen* tatsächlich, weil sie konkurrierende Pilze töten, die meisten zerstören AMF. Etikett prüfen.\n\n**Umgraben.** Das Pilznetzwerk zu zerreißen zerstört das Myzel. Herbstumgrabung ist am schlimmsten — Sporen landen zu tief, um im Frühjahr wieder zu kolonisieren. Living-Soil-Regel: **zwischen Zyklen nicht umgraben.** Chop & drop; Top-Dress.\n\n**Hitze > 49 °C.** Verbrennt Propagule. Produkt und Topfoberfläche kühl halten.\n\n**Bodendesinfektion / Begasung.** Setzt dich auf null.\n\n**Verdichtung + Staunässe.** Pilze brauchen Sauerstoff. Anaerober Boden tötet AMF genauso schnell wie aerobe Bakterien.\n\n**Gechlortes/chloraminiertes Leitungswasser** — schadet dem gesamten Bodennahrungsnetz, auf das AMF angewiesen ist.",
+    "en": "**Phosphorus overload.** Studies find colonization collapses above ~80 ppm P in soil. Target **< 70 ppm**, ideally **< 30 ppm**. This is the single biggest reason store-bought mycorrhizal products \"don’t work\" — the grower is also dumping bloom booster on them.\n\n**Synthetic fertilizers.** Especially soluble high-P, high-N salts. Organic amendments (compost, meals, teas) are compatible.\n\n**Fungicides.** Drenching soil is worse than foliar spray. Some (e.g. metalaxyl) actually *help* by killing competing fungi, but most wreck AMF. Check the label.\n\n**Tillage.** Tearing up the fungal network destroys the mycelium. Fall tillage is worst — spores get buried too deep to recolonize in spring. Living-soil rule: **never till between cycles.** Chop & drop; top-dress.\n\n**Heat > 49 °C.** Burns propagules. Keep product and pot surfaces cool.\n\n**Soil sterilization / fumigation.** Starts you at zero.\n\n**Compaction + waterlogging.** Fungi need oxygen. Anaerobic soil kills AMF as fast as it kills bacterial aerobes.\n\n**Chlorinated/chloraminated tap water** — harms the broader soil food web that AMF depends on."
+   }
+  },
+  {
+   "id": "diy",
+   "title": {
+    "de": "Selbst ziehen (Rodale-Methode)",
+    "en": "Grow your own (Rodale method)"
+   },
+   "body": {
+    "de": "Das Rodale Institute hat 2010 ein DIY-System für arbuskuläres Inokulum veröffentlicht. Vereinfacht für den Homegrower:\n\n1. **Mit einer Wirtspflanze starten** — Bahiagras, Weidelgras, Mais, Zwiebel oder Erdbeere. Etwas anderes als Cannabis, damit keine cannabisspezifischen Pathogene mitwandern.\n2. Wirt in **Vermiculit** keimen lassen (steril, wenig P).\n3. Keimlinge in eine **1:4-Mischung Kompost zu Vermiculit** in 25-L-Grow-Bags umtopfen. Kompost verwenden, der ARM an Phosphor ist — Rasenschnittkompost ist ideal; Mistkomposte sind zu P-reich.\n4. Das Substrat entweder mit einer kleinen Menge eines gekauften AMF-Produkts ODER mit Bodenmaterial aus einer gesunden Dauergraslandstelle (Heckensaum, Waldrand) impfen.\n5. **Eine volle Saison wachsen lassen.** Nur mit Komposttee oder einer P-armen Bio-Gabe düngen (N-P ≤ 6). Frost tötet den Wirt; Sporen überwintern im Beutel.\n6. **Frühjahrsernte:** Substrat von den Wurzeln in einen Behälter schütteln, Wurzeln in ~1 cm Stücke hacken, wieder unterheben. Dieses Substrat IST dein Inokulum. **1 Teil Inokulum : 9 Teile Topfmischung** für Anzuchtschalen, **1:19 für größere Töpfe** verwenden.\n\nHaltbarkeit: ~1 Jahr, kühl und trocken. Eine Saison Beutel liefert genug Inokulum für hunderte Pflanzen.",
+    "en": "Rodale Institute published a DIY arbuscular inoculum system in 2010. Simplified for a home grower:\n\n1. **Start with a host plant** — bahiagrass, ryegrass, corn, onion, or strawberry. Something different from cannabis so you don’t carry over cannabis-specific pathogens.\n2. Germinate the host in **vermiculite** (sterile, low P).\n3. Transplant seedlings into a **1:4 compost-to-vermiculite** mix in 25 L grow bags. Use compost that is LOW in phosphorus — yard-clippings compost is ideal; manure-based composts are too P-rich.\n4. Inoculate the growing media with either a small amount of commercial AMF product OR field soil from a healthy perennial-grass area (fence row, woodland edge).\n5. **Grow for one full season.** Fertilize only with compost tea or a low-P organic feed (N-P ≤ 6). Frost kills the host; spores overwinter in the bag.\n6. **Spring harvest:** shake media off roots into a bin, chop roots into ~1 cm pieces, mix back in. That media IS your inoculum. Use **1 part inoculum : 9 parts potting mix** for flats, **1:19 for larger pots**.\n\nShelf life: ~1 year, cool and dry. A single season’s worth of bags produces enough inoculum for hundreds of plants."
+   }
+  },
+  {
+   "id": "myths",
+   "title": {
+    "de": "Mythen, die sterben müssen",
+    "en": "Myths worth killing"
+   },
+   "body": {
+    "de": "**„Mein Kompost hat schon Mykorrhiza.“** Hat er nicht. AMF sind **obligate Symbionten** — sie überleben ohne lebende Pflanzenwurzel nicht. Komposthaufen haben keine lebenden Wurzeln, und die Temperaturen töten Propagule sowieso. Guter Kompost ist notwendige *Stütze* für Mykorrhiza, keine Quelle.\n\n**„Sporen wehen mit dem Wind.“** Arbuskuläre Sporen nicht. Mit 50–250 µm sind sie für Pilze riesig und fallen nahe dem Entstehungsort ab. Ektomykorrhiza-Sporen (10 µm) wehen; AMF nicht. Du musst impfen.\n\n**„Mehr Produkt = besser.“** Überdosierung schadet nicht, aber entscheidend ist **früher Wurzelkontakt**, nicht Menge.\n\n**„Jedes Mykorrhiza-Produkt funktioniert bei jeder Pflanze.“** Endo ≠ Ekto. Cannabis braucht Endo (AMF). Ein Ekto-Produkt auf Cannabis ist verbranntes Geld.\n\n**„Einmal geimpft reicht.“** Nein. Bei jedem Umtopfen neu impfen. Das alte Netzwerk wandert nicht immer sauber in neue Wurzelzonen, und Propagule sind billige Versicherung.",
+    "en": "**\"My compost already has mycorrhizae.\"** It doesn’t. AMF are **obligate symbionts** — they cannot survive without a live plant root. Compost piles have no live roots, and the temperatures kill propagules anyway. Good compost is necessary *support* for mycorrhizae, not a source.\n\n**\"Spores blow in on the wind.\"** Not arbuscular spores. At 50–250 µm they are massive for fungi and drop close to where they’re produced. Ectomycorrhizal spores (10 µm) do blow; AMF does not. You must inoculate.\n\n**\"More product = better.\"** Overshooting the dose is harmless, but the key is **early root contact**, not quantity.\n\n**\"Any mycorrhizal product works on any plant.\"** Endo ≠ ecto. Cannabis needs endo (AMF). Using an ecto-only product on cannabis is burning money.\n\n**\"I applied it once — I’m covered.\"** No. Every time you transplant, re-inoculate. The old network doesn’t always carry cleanly to new root zones, and propagules are cheap insurance."
+   }
+  },
+  {
+   "id": "testing",
+   "title": {
+    "de": "Woran du merkst, dass es funktioniert",
+    "en": "How to tell it’s working"
+   },
+   "body": {
+    "de": "AMF ist mit bloßem Auge nicht zu sehen — anders als Ektomykorrhiza an Nadelbaumwurzeln gibt es keinen Mantel und keinen Pilzkörper. Anzeichen, dass es greift:\n\n• **Wurzeln verzweigen sich mehr**, wirken kürzer und dicker, mit dichterer Feinwurzelmasse.\n• **Pflanze steckt Trockenheit weg**, die sie im letzten Zyklus hätte welken lassen.\n• **P-Mangel tritt nicht mehr auf** — auch ohne Blütebooster.\n• Boden riecht **erdig, leicht süßlich** — nicht sauer oder muffig.\n• Mit einer Lupe siehst du dünne (2–10 µm) Hyphen, die vom Wurzelballen in den Boden fächern.\n\nZur Bestätigung kannst du eine Wurzelprobe im Labor färben lassen (Trypanblau ist der Klassiker). Wenige Homegrower brauchen das.",
+    "en": "You can’t see AMF with the naked eye — unlike ectomycorrhizae on conifer roots, there’s no mantle or mushroom. Signs it’s taking hold:\n\n• **Roots branch more**, look shorter and thicker, with denser fine root mass.\n• **Plant shrugs off drought** that would have wilted it last cycle.\n• **P deficiency stops happening** without bloom boosters.\n• Soil smells **earthy, slightly sweet** — not sour or musty.\n• A hand lens will reveal thin (2–10 µm) hyphae fanning out from the root ball into the soil.\n\nFor confirmation, you can send a root sample to a lab for staining (trypan blue is the classic stain). Few home growers need to."
+   }
+  }
+ ],
+ "chem": [
+  {
+   "id": "ions",
+   "title": {
+    "de": "Pflanzen fressen Ionen, keine Zugaben",
+    "en": "Plants eat ions, not amendments"
+   },
+   "body": {
+    "de": "Pflanzen können Kompost, Knochenmehl oder Wurmhumus nicht direkt aufnehmen. Sie nehmen **geladene Ionen auf, die in Wasser gelöst sind** — entweder Kationen (positiv: NH4+, K+, Ca2+, Mg2+, Fe2+) oder Anionen (negativ: NO3−, H2PO4−, SO4 2−).\n\nAlles, was wir „den Boden füttern“ nennen, ist in Wahrheit: Mikroben füttern, die organisches Material zu Enzymen und Säuren verdauen, die Ionen freisetzen, die an Ton- und Humusteilchen gebunden werden und von der Pflanze abgezogen werden.\n\n**Praktische Konsequenz:** Bodenchemie läuft in **Zeit**. Knochenmehl füttert die Pflanze nicht heute; Mikroben füttern sie in sechs Wochen mit dem, was du gerade vergraben hast. Bei einem Zyklus von 12–16 Wochen wirken Zugaben von HEUTE erst Wochen später.",
+    "en": "Plants cannot directly absorb compost, bone meal, or worm castings. They absorb **charged ions dissolved in water** — either cations (positive: NH4+, K+, Ca2+, Mg2+, Fe2+) or anions (negative: NO3−, H2PO4−, SO4 2−).\n\nEverything we call \"feeding the soil\" is really: feeding microbes, which digest organic matter into enzymes and acids, which release ions, which get held by clay and humus particles, which the plant then pulls off.\n\n**Practical consequence:** soil chemistry runs on **time**. Bone meal does not feed a plant today; microbes feed the plant in six weeks using what you just buried. If your cycle is 12–16 weeks, amendments made NOW will feed the plant weeks from now."
+   }
+  },
+  {
+   "id": "ph",
+   "title": {
+    "de": "pH — worauf es wirklich ankommt",
+    "en": "pH — what actually matters"
+   },
+   "body": {
+    "de": "pH ist die Konzentration der Wasserstoffionen (H+) im Bodenwasser. Sie ist **logarithmisch**: pH 6 hat 10× mehr H+ als pH 7.\n\n**Cannabis-Sweet-Spot im Boden: 6,3–6,8.** Alle Makro- und Mikronährstoffe sind hier einigermaßen verfügbar. Living Soil puffert sich selbst in diesen Bereich, sobald Kompost, Humus und Biologie etabliert sind.\n\n**Was an den Rändern schiefgeht:**\n• **Unter 6,0** — Eisen, Aluminium und Mangan werden übermäßig verfügbar (kann toxisch werden). Calcium, Magnesium, Phosphor und Molybdän beginnen zu blockieren. Sichtbar meist: Fe- und Ca-Mangel trotz guter Zugaben.\n• **Über 7,0** — Eisen, Mangan, Zink, Kupfer und Bor blockieren (unlöslich bei hohem pH). Sichtbar meist: interveinale Chlorose an neuen Blättern, die kein Eisenchelat behebt.\n\n**pH per Slurry-Test prüfen, nicht am Ablauf.** 1 Teil trockene Erde mit 2 Teilen destilliertem Wasser mischen, 30 min warten, messen. Ablauf-pH liegt meist 0,3–0,5 daneben.\n\n**Sanft korrigieren in Living Soil:**\n• Zu niedrig → Dolomitkalk (langsam, liefert auch Ca + Mg) oder Austernschale\n• Zu hoch → elementarer Schwefel (sehr langsam), Torfmoos oder saurer Kompost\n\nSynthetische pH-up/down-Lösungen wirken, schocken aber die Biologie. Nur als letzten Ausweg.",
+    "en": "pH is the concentration of hydrogen ions (H+) in soil water. It is **logarithmic**: pH 6 has 10× more H+ than pH 7.\n\n**Cannabis in soil sweet spot: 6.3–6.8.** All macro- and micronutrients are reasonably available here. Living-soil buffers itself toward this range once compost, humus, and biology are established.\n\n**What goes wrong at each end:**\n• **Below 6.0** — Iron, aluminum, and manganese become excessively available (can cause toxicity). Calcium, magnesium, phosphorus, and molybdenum start to lock. Most visibly: Fe and Ca deficiencies despite good amendments.\n• **Above 7.0** — Iron, manganese, zinc, copper, and boron lock out (insoluble at high pH). Most visibly: interveinal chlorosis on new leaves that no amount of iron chelate fixes.\n\n**Check pH by slurry test, not runoff.** Mix 1 part dry soil with 2 parts distilled water, wait 30 min, measure. Runoff pH is usually off by 0.3–0.5.\n\n**Adjust gently in living soil:**\n• Too low → dolomitic lime (slow, also adds Ca + Mg) or oyster shell\n• Too high → elemental sulfur (very slow), peat moss, or acidic compost\n\nSynthetic pH-up/down solutions work but shock the biology. Use only as a last resort."
+   }
+  },
+  {
+   "id": "cec",
+   "title": {
+    "de": "KAK — warum Ton und Humus zählen",
+    "en": "CEC — why clay and humus matter"
+   },
+   "body": {
+    "de": "Die Kationenaustauschkapazität (KAK / CEC) ist die Fähigkeit des Bodens, **positiv geladene Nährstoffe festzuhalten**, damit sie nicht weggewaschen werden. Gemessen in Milliäquivalenten pro 100 g (meq/100g).\n\n• Reiner Sand: ~1–3 (schlecht — alles wäscht aus)\n• Lehm: ~10–15\n• Ton: 20–40\n• Humus / Kompost: **100–250** (darum ist Kompost magisch)\n\nHohe KAK = mehr Nährstoffe in Reserve, mehr pH-Pufferung, mehr Fehlerverzeihung. Genau deshalb baut man in Living Soil organische Substanz auf. 20 % Kompost können die KAK einer billigen Topfmischung verdoppeln.\n\n**Reihenfolge der Kationenbindung (stärkstes zuerst):** Al3+ > Ca2+ > Mg2+ > K+ > Na+ > NH4+. Deshalb verdrängt starke Kaliumdüngung Calcium und Magnesium, und deshalb ist Natriumschaden so schwer auszuspülen — es ist längst durch Calcium von den KAK-Plätzen verdrängt worden.\n\n**AEC (Anionenaustauschkapazität)** existiert, ist aber schwach. Darum wäscht Nitrat (NO3−), Sulfat (SO4 2−) und einige P-Formen bei Regen schnell aus — es gibt kaum Haltestellen. Organische Substanz und Mykorrhiza lösen das teilweise.",
+    "en": "Cation Exchange Capacity (CEC) is the soil’s ability to **hold onto positively charged nutrients** so they don’t wash away. Measured in milliequivalents per 100 g (meq/100g).\n\n• Pure sand: ~1–3 (terrible — everything leaches)\n• Loam: ~10–15\n• Clay: 20–40\n• Humus / compost: **100–250** (why compost is magical)\n\nHigh CEC = more nutrients held in reserve, more pH buffering, more forgiveness. This is the entire point of building organic matter in living soil. A 20% compost amendment can double the CEC of a cheap potting mix.\n\n**Cation order of attraction (strongest first):** Al3+ > Ca2+ > Mg2+ > K+ > Na+ > NH4+. This is why heavy potassium feeding displaces calcium and magnesium, and why sodium (salt) damage is so hard to flush — it’s already been bumped off CEC sites by calcium.\n\n**AEC (anion exchange capacity)** exists but is weak. That’s why nitrate (NO3−), sulfate (SO4 2−), and some forms of phosphorus leach quickly in rain — there’s nothing to hold them. Organic matter and mycorrhizae partially solve this."
+   }
+  },
+  {
+   "id": "nutrient-interactions",
+   "title": {
+    "de": "Nährstoffantagonismus — der „Mangel“, den man nicht beheben kann",
+    "en": "Nutrient antagonism — the unfixable \"deficiency\""
+   },
+   "body": {
+    "de": "Pflanzen leiden nicht nur unter fehlenden Nährstoffen, sondern auch unter **zu viel eines Nachbarn**. Kationen konkurrieren um dieselben Transporterproteine an den Wurzeln. Eine kaliumgesättigte Pflanze kann Calcium schlicht nicht aufnehmen, auch wenn reichlich Ca im Boden ist.\n\n**Die großen Antagonismen:**\n• **K ↔ Ca ↔ Mg** — Überdüngung von einem hungert die anderen zwei aus. Der „Mg-Mangel“, der trotz Bittersalz bleibt, ist meist K-Überschuss aus einem K-reichen Blütebooster.\n• **NH4+ (Ammonium) ↔ Ca, Mg** — ammoniumstarke Gaben unterdrücken Ca und Mg.\n• **P ↔ Zn, Fe, Cu** — synthetisch-P-reicher Dünger blockiert Mikronährstoffe und wischt Mykorrhiza aus.\n• **Na+ ↔ alles** — Natrium ist ein Parasitkation. Regenwasser schlägt Leitungswasser.\n• **Cl− (Chlorid)** — Leitungswasser-Chlorid verdrängt Nitrat und stört den Wasserhaushalt.\n\n**Diagnostikregel:** Wenn ein Mangel nicht auf das Hinzufügen des fehlenden Nährstoffs reagiert, liegt Antagonismus vor. Mit niedrig-EC-Regenwasser spülen, starke Düngung pausieren, die Pflanze ausbalancieren lassen.",
+    "en": "Plants don’t just suffer from missing nutrients; they suffer from **too much of a neighbor**. Cations compete for the same transporter proteins on roots. A plant loaded with potassium genuinely cannot uptake calcium even if Ca is abundant in the soil.\n\n**The big antagonisms:**\n• **K ↔ Ca ↔ Mg** — over-fertilizing any one starves the other two. The \"Mg deficiency\" that won’t go away despite Epsom is usually excess K from a high-K bloom booster.\n• **NH4+ (ammonium) ↔ Ca, Mg** — ammonium-heavy feeds suppress Ca and Mg.\n• **P ↔ Zn, Fe, Cu** — synthetic high-P fertilizer locks micronutrients and wipes out mycorrhizae.\n• **Na+ ↔ everything** — sodium is a parasite cation. Rainwater beats tap.\n• **Cl− (chloride)** — tap water chloride displaces nitrate and messes with water balance.\n\n**Diagnostic rule:** if a deficiency won’t respond to adding the missing nutrient, suspect antagonism. Flush with low-EC rainwater, pause heavy feeding, let the plant rebalance."
+   }
+  },
+  {
+   "id": "redox",
+   "title": {
+    "de": "Aerob vs. anaerob (Redox)",
+    "en": "Aerobic vs anaerobic (redox)"
+   },
+   "body": {
+    "de": "Bodenbiologie läuft in zwei grundlegend unterschiedlichen Modi, abhängig vom Sauerstoff:\n\n**Aerob (mit O2)** — die gute Welt. Bakterien und Pilze zerlegen organisches Material sauber in CO2, Wasser und pflanzenverfügbare Nährstoffe. Stickstoff endet als Nitrat (NO3−) und Ammonium (NH4+). Eisen bleibt als bioverfügbares Fe3+/Fe2+.\n\n**Anaerob (ohne O2)** — die schlechte Welt. Andere Mikroben übernehmen. Organisches Material zerfällt zu Alkoholen, Sulfiden (faule-Eier-Geruch) und Methan. Stickstoff wird zurück zu N2-Gas denitrifiziert (verloren). Eisen wird Fe2+ in toxischer Konzentration. Wurzeln ersticken und faulen.\n\n**Symptome eines anaerob gewordenen Bodens:**\n• Saurer, schwefliger oder muffiger Geruch (nicht erdig)\n• Graue oder blaugraue Verfärbung in der Wurzelzone\n• Stehendes Wasser, das nicht abläuft\n• Vergilbung ohne Reaktion auf Zugaben\n• Trauermücken brüten an nasser Oberfläche\n\n**Fix:** Gießen stoppen. Mit Essstäbchen-Löchern lüften. Frischen Wurmhumus top-dressen. In schweren Fällen umtopfen mit 20–30 % Perlit oder Bims für dauerhafte Drainage. Vorbeugen: gute Drainage, Töpfe niemals in Wasserschalen stehen lassen, erst gießen, wenn die oberen 3 cm trocken anzufühlen sind.",
+    "en": "Soil biology runs in two fundamentally different modes depending on oxygen:\n\n**Aerobic (with O2)** — the good world. Bacteria and fungi break organic matter down cleanly into CO2, water, and bioavailable nutrients. Nitrogen ends up as nitrate (NO3−) and ammonium (NH4+). Iron stays as bioavailable Fe3+/Fe2+.\n\n**Anaerobic (no O2)** — the bad world. Different microbes take over. Organic matter decays into alcohols, sulfides (rotten-egg smell), and methane. Nitrogen is denitrified back into N2 gas (lost). Iron becomes Fe2+ at toxic levels. Roots suffocate and rot.\n\n**Symptoms of a soil that’s gone anaerobic:**\n• Sour, sulfurous, or musty smell (not earthy)\n• Gray or blue-gray coloration in the root zone\n• Standing water that doesn’t drain\n• Yellowing with no response to amendments\n• Fungus gnats breeding in wet surface\n\n**Fix:** stop watering. Aerate by poking chopstick holes. Top-dress fresh castings. In severe cases, repot with 20–30% perlite or pumice for permanent drainage. Prevent by: good drainage, never letting pots sit in saucers of water, and watering only when the top 3 cm of soil is dry to the touch."
+   }
+  },
+  {
+   "id": "mineralization",
+   "title": {
+    "de": "Mineralisierung & Immobilisierung",
+    "en": "Mineralization & immobilization"
+   },
+   "body": {
+    "de": "Wenn Mikroben organisches Material fressen, können zwei Dinge mit Nährstoffen passieren:\n\n• **Mineralisierung** — organische Formen werden in anorganische Ionen zerlegt, die Pflanzen nutzen können. Das willst du. Braucht warmen, feuchten, belüfteten Boden. Stoppt unter ~10 °C — ein großer Grund, warum kalte Frühjahrsgewächshäuser „N-Mangel“ trotz voller Zugaben haben.\n\n• **Immobilisierung** — Mikroben binden Nährstoffe in ihren eigenen Körpern und beim Verdauen kohlenstoffreicher Materialien. Passiert, wenn du etwas mit sehr hohem **C:N-Verhältnis** zuführst: frisches Stroh (~80:1), Holzhäcksel (~400:1), Sägespäne (~500:1). Mikroben klauen dafür Stickstoff aus dem Boden und hungern die Pflanze kurzfristig aus.\n\n**Living-Soil-Konsequenz:** Stroh- und Holzhäcksel-Mulch senkt den Boden-N an der Oberfläche vorübergehend. Bei Cannabis meist unproblematisch, weil die Wurzeln tiefer liegen, und wenn der Mulch halb kompostiert ist, kehrt es sich um und gibt den N zurück. Aber keine Holzhäcksel mitten im Zyklus IN die Wurzelzone einarbeiten. Nur top-dressen.\n\n**Ideales C:N für Zugabe / Kompost:** 20:1 bis 30:1. Das sind Luzerne, Küchenkompost, Klee, gereifter Mist. Wurmhumus liegt bei ~15:1 — sofort pflanzenverfügbar.",
+    "en": "When microbes eat organic matter, two things can happen to nutrients:\n\n• **Mineralization** — organic forms are broken down into inorganic ions that plants can use. This is what you want. Requires warm, moist, aerated soil. Stops below ~10 °C — one big reason cold spring greenhouses have \"N deficiency\" even with full amendments.\n\n• **Immobilization** — microbes tie up nutrients in their own bodies and digestion of high-C material. Happens when you add something with a very high **carbon-to-nitrogen (C:N) ratio**: fresh straw (~80:1), wood chips (~400:1), sawdust (~500:1). Microbes scavenge nitrogen from the soil to digest the carbon, starving the plant short-term.\n\n**Living-soil consequence:** straw and woodchip mulches temporarily depress soil N at the surface. For cannabis this is usually fine because roots are deeper, and by the time the mulch is half-composted it reverses and releases that N back. But don’t till wood chips INTO the root zone mid-cycle. Top-dress only.\n\n**Ideal C:N for an amendment / compost:** 20:1 to 30:1. That’s alfalfa, kitchen compost, clover, aged manure. Worm castings are around 15:1 — immediately plant-available."
+   }
+  },
+  {
+   "id": "water",
+   "title": {
+    "de": "Wasserchemie",
+    "en": "Water chemistry"
+   },
+   "body": {
+    "de": "Wasser ist das Lösungsmittel, in dem jeder Nährstofftransport stattfindet. Seine Chemie entscheidet, ob deine Zugaben wirken.\n\n**EC (elektrische Leitfähigkeit)** — die Gesamtkonzentration gelöster Ionen. Regenwasser: **0,0–0,05 mS/cm**. Leitungswasser in Teilen Deutschlands: **0,4–1,0 mS/cm** (vor allem Calciumcarbonat). Bewässerungswasser unter **0,5 mS/cm** ist das Ziel — darüber sammeln sich Nährstoffe schneller an, als die Pflanze sie aufnimmt, und Salze besetzen KAK-Plätze.\n\n**Chlor / Chloramin** — wird dem Leitungswasser zugesetzt, um Mikroben zu töten. Unterscheidet nicht. Chlor entweicht, wenn Wasser 24 h offen steht; Chloramin nicht und muss neutralisiert werden (Vitamin C, Ascorbinsäure oder ein Dechlorator). In Deutschland verwendet die meiste kommunale Versorgung Chlor — ein offen stehender Eimer über Nacht reicht meist.\n\n**Härte** — gelöstes Ca und Mg. Mäßig hartes Wasser ist eigentlich *in Ordnung* und liefert beides als Nährstoff. Sehr hartes Wasser (>15 °dH) drückt den Boden-pH langsam nach oben.\n\n**Best Practice:** Regenwasser für alles, oder Leitungswasser mindestens 24 h entchloren lassen, bevor es in Boden oder Tee kommt.",
+    "en": "Water is the solvent all nutrient movement happens in. Its chemistry decides whether your amendments work.\n\n**EC (Electrical Conductivity)** — the total concentration of dissolved ions. Rainwater: **0.0–0.05 mS/cm**. Tap water in parts of Germany: **0.4–1.0 mS/cm** (mostly calcium carbonate). You want irrigation water below **0.5 mS/cm** — above that, nutrient build-up is faster than plant uptake and salts accumulate on CEC sites.\n\n**Chlorine / chloramine** — added to tap water to kill microbes. It doesn’t discriminate. Chlorine gasses off if you leave water standing 24 h; chloramine doesn’t and must be neutralized (vitamin C, ascorbic acid, or a dechlorinator). In Germany, most municipal water uses chlorine — leaving a bucket uncovered overnight usually suffices.\n\n**Hardness** — dissolved Ca and Mg. Moderately hard water is actually *fine* and supplies both nutrients. Very hard water (>15 °dH) gradually pushes soil pH up.\n\n**Best practice:** rainwater for everything, or tap water left to de-chlorinate for at least 24 h before use in soil or tea."
+   }
+  }
+ ]
+}
