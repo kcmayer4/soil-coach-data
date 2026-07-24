@@ -1,0 +1,126 @@
+{
+  "version": 2,
+  "updated": "2026-07-24",
+  "learnings": [
+    {
+      "id": "pickup-beats-shipping-bulk",
+      "topic": "sourcing",
+      "text": {
+        "de": "Für schwere Schüttgüter (Kompost, Wurmhumus, Aeration) schlägt Abholung + Anhänger fast immer den Versand — selbst 2 h Fahrt sparten ~300 €. Big-Bag-Versand nur, wenn keine Abholquelle existiert.",
+        "en": "For heavy bulk (compost, worm humus, aeration) pickup + trailer almost always beats shipping — even a 2 h drive saved ~€300."
+      }
+    },
+    {
+      "id": "pickup-freight-lava",
+      "topic": "sourcing",
+      "text": {
+        "de": "Vulkanisches Aeration-Material (Lava/Bims) kommt aus der Eifel → Fracht killt den Preis (daensk Lava 238 € geliefert). Regionale Lösung: RC-Ziegelsplitt vom Ziegel-Recycler (FLL-Substratqualität), Abholung. Fracht ist gewichtsbasiert → Bims (leichter) liefert billiger als Lava.",
+        "en": "Volcanic aeration (lava/pumice) ships from the Eifel → freight kills the price. Regional fix: recycled brick grit (FLL substrate grade), pickup. Freight is weight-based → pumice ships cheaper than lava."
+      }
+    },
+    {
+      "id": "trailer-towing",
+      "topic": "sourcing",
+      "text": {
+        "de": "Anhänger für Schüttgut-Abholung (Volvo V60 CC Diesel AWD): Auto zieht 2 t gebremst (Feld O.1) — kein Problem. ENGPASS ist der Führerschein: Klasse B = zGG Auto (F.2, ~2450 kg) + zGG Anhänger ≤ 3500 kg → Anhänger max. ~1000 kg zGG (Nutzlast ~750-800 kg). Einen 1000-kg-Anhänger mieten (750er zu klein für 600 kg Wurmhumus, 1300er braucht B96/BE). Stützlast ~90 kg beachten.",
+        "en": "Trailer for bulk pickup (Volvo V60 CC diesel AWD): car tows 2 t braked — fine. The limit is the licence: class B = car zGG (~2450 kg) + trailer zGG ≤ 3500 kg → trailer max ~1000 kg zGG. Rent a 1000 kg trailer."
+      }
+    },
+    {
+      "id": "pickup-beats-shipping",
+      "topic": "sourcing",
+      "text": {
+        "de": "Abholen schlägt Liefern: Spedition kostet bei Kleinmengen 34–95 €. Anhänger mieten ist bei Kompost/Schüttgut fast immer günstiger.",
+        "en": "Pickup beats delivery: freight costs €34–95 for small loads. Renting a trailer is almost always cheaper."
+      }
+    },
+    {
+      "id": "ral-covers",
+      "topic": "quality",
+      "text": {
+        "de": "RAL/BGK-Güteüberwachung prüft Rottegrad, Salzgehalt, pH, Schwermetalle, Fremdstoffe — das ist der beste Qualitätsnachweis bei Kompost. Immer das Prüfzeugnis anfordern, die Werte stehen nicht auf der Website.",
+        "en": "RAL/BGK monitoring covers maturity, salt, pH, heavy metals, foreign matter — the best compost quality proof. Always request the certificate; values are not on the website."
+      }
+    },
+    {
+      "id": "herbicide-risk",
+      "topic": "quality",
+      "text": {
+        "de": "WICHTIG: RAL prüft NICHT auf Herbizide (Clopyralid/Aminopyralid aus Rasenschnitt). Die überstehen die Kompostierung. Vor jeder Großbestellung Kressetest mit einer Probe machen — 7–10 Tage, verkrüppelte Blätter = Finger weg.",
+        "en": "IMPORTANT: RAL does NOT test for herbicides (clopyralid/aminopyralid from lawn clippings). They survive composting. Always run a cress test before bulk buying."
+      }
+    },
+    {
+      "id": "compost-salt-ph",
+      "topic": "quality",
+      "text": {
+        "de": "Bei Kompost sind Salzgehalt und pH die kritischen Zahlen: Grünschnittkompost liegt oft bei pH 7,5–8,5 und ist salzig. Bei 1/6 des Mixvolumens hebt das den Mix spürbar an.",
+        "en": "For compost, salt and pH are the critical numbers: green-waste compost is often pH 7.5–8.5 and salty."
+      }
+    },
+    {
+      "id": "lava-not-regional",
+      "topic": "material",
+      "text": {
+        "de": "Lava und Bims sind vulkanisch und kommen aus der Eifel — es gibt sie in Brandenburg NICHT. Der Transport steckt immer im Preis. Regionale Alternative: Ziegelsplitt.",
+        "en": "Lava and pumice are volcanic (Eifel) — not available regionally in Brandenburg. Regional alternative: crushed brick."
+      }
+    },
+    {
+      "id": "ziegelsplitt",
+      "topic": "material",
+      "text": {
+        "de": "Ziegelsplitt ist ein vollwertiger Bims/Lava-Ersatz: mineralisch, permanent, porös, Standard in Dachsubstraten — und regional. ABER: nur mörtelfreie Substratqualität, Körnung 2/8. Bauschutt mit Zementresten hat pH 9–12 und ruiniert den Mix. Kein hart gebrannter Klinker (speichert kein Wasser).",
+        "en": "Crushed brick fully substitutes pumice/lava: mineral, permanent, porous, standard in green-roof substrates — and regional. But only mortar-free substrate grade, 2/8. Rubble with cement is pH 9–12."
+      }
+    },
+    {
+      "id": "no-sand",
+      "topic": "material",
+      "text": {
+        "de": "Sand/Kies ist KEIN Aeration-Ersatz: keine Innenporosität, verdichtet, schwer. Der naheliegendste lokale Stoff ist der falsche.",
+        "en": "Sand/gravel is NOT an aeration substitute: no internal porosity, compacts, heavy."
+      }
+    },
+    {
+      "id": "bulk-densities",
+      "topic": "material",
+      "text": {
+        "de": "Schüttdichten für die L↔kg-Umrechnung: Bims ~0,5–0,6 kg/L · Lava ~0,7–0,9 kg/L · Ziegelsplitt ~1,0–1,2 kg/L · Kompost 1,1 t/m³. Nasses Material wiegt deutlich mehr.",
+        "en": "Bulk densities for L↔kg: pumice ~0.5–0.6 · lava ~0.7–0.9 · brick grit ~1.0–1.2 kg/L · compost 1.1 t/m³."
+      }
+    },
+    {
+      "id": "weight-vs-volume",
+      "topic": "sourcing",
+      "text": {
+        "de": "Big Bags werden nach GEWICHT verkauft, das Rezept rechnet in LITERN. Immer umrechnen: 1000 kg Bims ≈ 1800 L, aber 1000 kg Lava nur ≈ 1250 L — bei leichtem Material kriegst du fürs gleiche Geld viel mehr Volumen.",
+        "en": "Big bags are sold by WEIGHT, the recipe works in LITRES. 1000 kg pumice ≈ 1800 L but 1000 kg lava only ≈ 1250 L."
+      }
+    },
+    {
+      "id": "check-pack-size",
+      "topic": "sourcing",
+      "text": {
+        "de": "Gebindegrößen immer am Produkttitel prüfen, nicht an der URL: regenwurmer.de-Link sagt „60-liter\", das Produkt ist aber ca. 45 L.",
+        "en": "Check pack size on the product title, not the URL: the regenwurmer link says \"60-liter\" but the product is ~45 L."
+      }
+    },
+    {
+      "id": "ac-sensor-mapping",
+      "topic": "tech",
+      "text": {
+        "de": "AC Infinity AI+: Sensorwerte sind Hundertstel (÷100), NICHT ÷10^sensorPrecision. sensorType 1/2/3 = Innensonde (Grow-Raum), 5/6/7 = Controller-Gehäuse (außen). Für VPD im Beet immer die Innensonde nehmen.",
+        "en": "AC Infinity AI+: sensor values are hundredths (÷100), not ÷10^precision. Types 1/2/3 = inside probe, 5/6/7 = controller body (ambient)."
+      }
+    },
+    {
+      "id": "ios-rebuild",
+      "topic": "tech",
+      "text": {
+        "de": "Nach Code-Änderungen: npm run build → npx cap sync ios → in Xcode Run. Ohne Xcode-Run zeigt das iPhone den alten Stand.",
+        "en": "After code changes: npm run build → npx cap sync ios → Run in Xcode. Without the Xcode run the phone shows the old build."
+      }
+    }
+  ]
+}
