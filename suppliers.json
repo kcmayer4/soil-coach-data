@@ -1,53 +1,36 @@
 {
   "version": 2,
-  "updated": "2026-07-24",
+  "updated": "2026-08-02",
   "suppliers": [
     {
-      "id": "proflor",
-      "name": "proFlor (Telker GmbH)",
-      "category": "compost",
-      "location": "Münchehofe (LDS)",
-      "distance": "~15 km",
-      "url": "https://www.telker-proflor.de/proflor/index.php",
-      "pickup": true,
+      "id": "alpenwurm",
+      "name": "Alpenwurm Wurmhumus (AT)",
+      "category": "wormcast",
+      "location": "Raasdorf (AT, bei Wien)",
+      "distance": "Versand (AT)",
+      "url": "https://alpenwurm.at/en/products/wurmhumus1000l",
+      "phone": "+43 699 14075770",
+      "price": "299 € + Fracht",
+      "pricePerL": 0.3,
+      "pickup": false,
       "delivery": true,
-      "cert": "RAL (Protokoll kommt) · Gartenabfälle ohne Bioabfall",
+      "cert": null,
       "note": {
-        "de": "ERREICHT ✓ Kompost-Hauptquelle. 23 €/m³, RAL-geprüft, reine Gartenabfälle (kein Bioabfall), Protokoll wird geschickt. Abholung ~15 km.",
-        "en": "REACHED ✓ Main compost source. €23/m³, RAL-tested, pure garden waste (no bio-waste), certificate on the way. Pickup ~15 km."
-      },
-      "price": "23 €/m³",
-      "pricePerL": 0.023
-    },
-    {
-      "id": "friedersdorf",
-      "name": "Kompostieranlage Friedersdorf",
-      "category": "compost",
-      "location": "Friedersdorf (LDS)",
-      "distance": "~20 km",
-      "url": "https://www.kompostieranlage-friedersdorf.de/",
-      "price": null,
-      "pricePerL": null,
-      "pickup": true,
-      "delivery": false,
-      "note": {
-        "de": "HINGEFAHREN: nur Mutterboden erhalten, KEIN Kompost. Nicht als Kompostquelle nutzen.",
-        "en": "VISITED: only topsoil available, NO compost. Do not use as compost source."
+        "de": "1 m³ 299 €, aber Fracht extra (AT → teuer) und KEINE Analyse. Rückfall hinter Havelwurm.",
+        "en": "€299/m³ but freight extra (AT) and no analysis. Fallback behind Havelwurm."
       }
     },
     {
-      "id": "hafen-kw",
-      "name": "Kompostierwerk Hafen KW (GML)",
-      "category": "compost",
-      "location": "Nordhafen 11, 15711 Königs Wusterhausen",
-      "distance": "~20 km",
-      "url": "https://www.clsr.de/Hafen/",
-      "phone": "03375 4955818",
-      "pickup": true,
-      "delivery": false,
+      "id": "baustofftaxi24",
+      "name": "Baustofftaxi24",
+      "category": "aeration",
+      "location": "Berlin / Brandenburg",
+      "url": "https://www.baustofftaxi24.de/materialien.html",
+      "pickup": false,
+      "delivery": true,
       "note": {
-        "de": "Abholung Mo–Fr 8:30–17, Sa 9–14. Nach RAL/Analyse fragen.",
-        "en": "Pickup Mon–Fri 8:30–17, Sat 9–14. Ask about RAL/analysis."
+        "de": "Schüttgut Berlin/Brandenburg — Ziegelsplitt anfragen.",
+        "en": "Bulk materials Berlin/Brandenburg — ask for brick grit."
       }
     },
     {
@@ -68,116 +51,6 @@
       }
     },
     {
-      "id": "guetegemeinschaft",
-      "name": "Gütegemeinschaft Kompost BB-SA e.V.",
-      "category": "info",
-      "location": "Zossener Str. 6a, 15806 Nächst Neuendorf",
-      "distance": "~25 km",
-      "phone": "03377 332573",
-      "pickup": false,
-      "delivery": false,
-      "note": {
-        "de": "~43 RAL-geprüfte Mitgliedsanlagen. Hier die Liste der Anlagen in der Nähe erfragen.",
-        "en": "~43 RAL-certified member plants. Ask here for nearby plants."
-      }
-    },
-    {
-      "id": "sbazv",
-      "name": "SBAZV — Kompostanlagen Dahme-Spreewald",
-      "category": "info",
-      "location": "Landkreis LDS",
-      "url": "https://www.sbazv.de/verband/adressen/kompostierungsanlagen-dahme-spreewald/",
-      "pickup": false,
-      "delivery": false,
-      "note": {
-        "de": "Offizielle Liste aller Kompostierungsanlagen im Landkreis.",
-        "en": "Official list of all composting plants in the district."
-      }
-    },
-    {
-      "id": "regenwurmer",
-      "name": "regenwurmer.de Wurmhumus",
-      "category": "wormcast",
-      "location": "Versand",
-      "distance": "Versand",
-      "url": "https://regenwurmer.de/product/wurmhumus-pro-beutel-60-liter/",
-      "price": "Beutel ca. 45 L",
-      "pickup": false,
-      "delivery": true,
-      "note": {
-        "de": "ACHTUNG: URL sagt 60 L, Produkt ist ca. 45 L. Keine Analyse veröffentlicht. Für 324 L nach Big Bag / loser Ware fragen.",
-        "en": "NOTE: URL says 60 L, product is ~45 L. No analysis published. Ask for big bag / bulk."
-      }
-    },
-    {
-      "id": "natursache",
-      "name": "Natursache (TERRAGOLD Wurmhumus)",
-      "category": "wormcast",
-      "location": "Brandenburg an der Havel",
-      "distance": "~90 km",
-      "url": "https://natursache.de/products/wurmhumus-terragold-1-25l",
-      "phone": "03381 347247",
-      "pickup": true,
-      "delivery": true,
-      "note": {
-        "de": "E-MAIL unbeantwortet, keine Telefonnummer. Nicht erreichbar.",
-        "en": "E-mail unanswered, no phone. Not reachable."
-      }
-    },
-    {
-      "id": "ziegelsplitt-blh",
-      "name": "BLH Berlin — Ziegelsplitt / Schüttgut",
-      "category": "aeration",
-      "location": "Berlin",
-      "distance": "~50 km",
-      "url": "https://www.blh-berlin.de/",
-      "pickup": true,
-      "delivery": true,
-      "note": {
-        "de": "Lagerware, Selbstabholung + Teilmengen. Ziegelsplitt 2/8 MÖRTELFREI + Substratqualität verlangen.",
-        "en": "Stock, self-pickup + part loads. Demand mortar-free substrate-grade 2/8."
-      }
-    },
-    {
-      "id": "tietz",
-      "name": "Tietz Baustoffe GmbH",
-      "category": "aeration",
-      "location": "bedient Teupitz / Bestensee / Halbe / Märkisch Buchholz",
-      "distance": "lokal",
-      "pickup": true,
-      "delivery": true,
-      "note": {
-        "de": "Regionaler Baustoffhändler — erster Anruf für Lava/Bims/Ziegelsplitt als Schüttgut ab Lager (Preis pro Tonne).",
-        "en": "Regional builders merchant — first call for lava/pumice/brick grit bulk (price per tonne)."
-      }
-    },
-    {
-      "id": "baustofftaxi24",
-      "name": "Baustofftaxi24",
-      "category": "aeration",
-      "location": "Berlin / Brandenburg",
-      "url": "https://www.baustofftaxi24.de/materialien.html",
-      "pickup": false,
-      "delivery": true,
-      "note": {
-        "de": "Schüttgut Berlin/Brandenburg — Ziegelsplitt anfragen.",
-        "en": "Bulk materials Berlin/Brandenburg — ask for brick grit."
-      }
-    },
-    {
-      "id": "dunkel-berlin",
-      "name": "Dunkel Bauunternehmen — Ziegel-Schotter",
-      "category": "aeration",
-      "location": "Berlin / Brandenburg",
-      "url": "https://dunkel.berlin/produkt/ziegel-schotter-10-45/",
-      "pickup": false,
-      "delivery": true,
-      "note": {
-        "de": "Big Bag oder lose. ABER: 10/45 ist zu grob — nach 2/8 fragen.",
-        "en": "Big bag or loose. BUT 10/45 is too coarse — ask for 2/8."
-      }
-    },
-    {
       "id": "daensk-lava",
       "name": "daensk Lava 2-8 mm (Big Bag)",
       "category": "aeration",
@@ -194,6 +67,64 @@
       }
     },
     {
+      "id": "dunkel-berlin",
+      "name": "Dunkel Bauunternehmen — Ziegel-Schotter",
+      "category": "aeration",
+      "location": "Berlin / Brandenburg",
+      "url": "https://dunkel.berlin/produkt/ziegel-schotter-10-45/",
+      "pickup": false,
+      "delivery": true,
+      "note": {
+        "de": "Big Bag oder lose. ABER: 10/45 ist zu grob — nach 2/8 fragen.",
+        "en": "Big bag or loose. BUT 10/45 is too coarse — ask for 2/8."
+      }
+    },
+    {
+      "id": "friedersdorf",
+      "name": "Kompostieranlage Friedersdorf",
+      "category": "compost",
+      "location": "Friedersdorf (LDS)",
+      "distance": "~20 km",
+      "url": "https://www.kompostieranlage-friedersdorf.de/",
+      "price": null,
+      "pricePerL": null,
+      "pickup": true,
+      "delivery": false,
+      "note": {
+        "de": "HINGEFAHREN: nur Mutterboden erhalten, KEIN Kompost. Nicht als Kompostquelle nutzen.",
+        "en": "VISITED: only topsoil available, NO compost. Do not use as compost source."
+      }
+    },
+    {
+      "id": "guetegemeinschaft",
+      "name": "Gütegemeinschaft Kompost BB-SA e.V.",
+      "category": "info",
+      "location": "Zossener Str. 6a, 15806 Nächst Neuendorf",
+      "distance": "~25 km",
+      "phone": "03377 332573",
+      "pickup": false,
+      "delivery": false,
+      "note": {
+        "de": "~43 RAL-geprüfte Mitgliedsanlagen. Hier die Liste der Anlagen in der Nähe erfragen.",
+        "en": "~43 RAL-certified member plants. Ask here for nearby plants."
+      }
+    },
+    {
+      "id": "hafen-kw",
+      "name": "Kompostierwerk Hafen KW (GML)",
+      "category": "compost",
+      "location": "Nordhafen 11, 15711 Königs Wusterhausen",
+      "distance": "~20 km",
+      "url": "https://www.clsr.de/Hafen/",
+      "phone": "03375 4955818",
+      "pickup": true,
+      "delivery": false,
+      "note": {
+        "de": "Abholung Mo–Fr 8:30–17, Sa 9–14. Nach RAL/Analyse fragen.",
+        "en": "Pickup Mon–Fri 8:30–17, Sat 9–14. Ask about RAL/analysis."
+      }
+    },
+    {
       "id": "hamann-lava",
       "name": "Hamann Lava-Mulch Rot 2-8 mm (20 L Säcke)",
       "category": "aeration",
@@ -206,35 +137,6 @@
       "note": {
         "de": "Exakt passende Menge (400 L), handliche Säcke ~16 kg. Teuerster Liter, aber kein Rest und kein Big-Bag-Handling.",
         "en": "Exact quantity (400 L), handy ~16 kg bags. Priciest per litre but no surplus/handling."
-      }
-    },
-    {
-      "id": "kiesundco",
-      "name": "kiesundco.de — Edelbims 4-8 mm",
-      "category": "aeration",
-      "location": "Versand",
-      "distance": "Versand",
-      "url": "https://www.kiesundco.de",
-      "price": "7,69 € / 20 L",
-      "pricePerL": 0.48,
-      "pickup": false,
-      "delivery": true,
-      "note": {
-        "de": "Ursprüngliche Bims-Quelle. Ab 600 kg gratis Versand. Bims ist leichter + wasserhaltender als Lava.",
-        "en": "Original pumice source. Free shipping above 600 kg. Pumice is lighter + holds more water than lava."
-      }
-    },
-    {
-      "id": "zincolit",
-      "name": "Zincolit — Ziegelsplitt (Qualitätsreferenz)",
-      "category": "info",
-      "location": "Referenz",
-      "url": "https://zincolit.de/substratkomponenten/mineralisch/ziegelsplitt.php",
-      "pickup": false,
-      "delivery": false,
-      "note": {
-        "de": "Referenz für Substratqualität. Wichtig: KEIN hart gebrannter Klinker (speichert kein Wasser).",
-        "en": "Reference for substrate grade. Important: no hard-fired clinker (stores no water)."
       }
     },
     {
@@ -256,39 +158,80 @@
       }
     },
     {
-      "id": "wurmwelten",
-      "name": "Wurmwelten.de Wurmhumus",
-      "category": "wormcast",
+      "id": "kiesundco",
+      "name": "kiesundco.de — Edelbims 4-8 mm",
+      "category": "aeration",
       "location": "Versand",
       "distance": "Versand",
-      "url": "https://www.wurmwelten.de/",
-      "phone": "+49 178 6944457",
-      "price": "255 € + 220 € Fracht = 470 €",
-      "pricePerL": 0.47,
+      "url": "https://www.kiesundco.de",
+      "price": "7,69 € / 20 L",
+      "pricePerL": 0.48,
       "pickup": false,
       "delivery": true,
-      "cert": "Analyse: pH 6,5",
       "note": {
-        "de": "GUTE Analyse (pH 6,5!), aber +220 € Fracht → 470 €/m³ zu teuer. WhatsApp erreichbar. Nur falls Havelwurm ausfällt.",
-        "en": "GOOD analysis (pH 6.5!) but +€220 freight → €470/m³ too expensive. Fallback only."
+        "de": "Ursprüngliche Bims-Quelle. Ab 600 kg gratis Versand. Bims ist leichter + wasserhaltender als Lava.",
+        "en": "Original pumice source. Free shipping above 600 kg. Pumice is lighter + holds more water than lava."
       }
     },
     {
-      "id": "alpenwurm",
-      "name": "Alpenwurm Wurmhumus (AT)",
+      "id": "natursache",
+      "name": "Natursache (TERRAGOLD Wurmhumus)",
       "category": "wormcast",
-      "location": "Raasdorf (AT, bei Wien)",
-      "distance": "Versand (AT)",
-      "url": "https://alpenwurm.at/en/products/wurmhumus1000l",
-      "phone": "+43 699 14075770",
-      "price": "299 € + Fracht",
-      "pricePerL": 0.3,
+      "location": "Brandenburg an der Havel",
+      "distance": "~90 km",
+      "url": "https://natursache.de/products/wurmhumus-terragold-1-25l",
+      "phone": "03381 347247",
+      "pickup": true,
+      "delivery": true,
+      "note": {
+        "de": "E-MAIL unbeantwortet, keine Telefonnummer. Nicht erreichbar.",
+        "en": "E-mail unanswered, no phone. Not reachable."
+      }
+    },
+    {
+      "id": "proflor",
+      "name": "proFlor (Telker GmbH)",
+      "category": "compost",
+      "location": "Münchehofe (LDS)",
+      "distance": "~15 km",
+      "url": "https://www.telker-proflor.de/proflor/index.php",
+      "pickup": true,
+      "delivery": true,
+      "cert": "RAL-GZ 251 + EU-Öko (FiBL 125563) · 100 % Gartenabfälle",
+      "note": {
+        "de": "ERREICHT ✓ Kompost-Hauptquelle. 23 €/m³, Abholung ~15 km. Prüfzeugnis liegt vor (Charge 2025-07 K4a): RAL + bio, Rottegrad 5, Schwermetalle unter strenger BioAbfV-Grenze. Achtung: pH 7,6 + sehr K-/kalkreich → im Mix kein Extra-Kalk, K sparen.",
+        "en": "REACHED ✓ Main compost source. €23/m³, pickup ~15 km. Test report on file (batch 2025-07 K4a): RAL + organic, maturity grade 5, heavy metals below the strict BioAbfV limit. Note: pH 7.6 + very K/lime-rich → no extra lime in the mix, go easy on K."
+      },
+      "price": "23 €/m³",
+      "pricePerL": 0.023,
+      "docUrl": "https://github.com/kcmayer4/soil-coach-data/blob/main/docs/proflor-pruefzeugnis-2025-07-K4a.pdf"
+    },
+    {
+      "id": "regenwurmer",
+      "name": "regenwurmer.de Wurmhumus",
+      "category": "wormcast",
+      "location": "Versand",
+      "distance": "Versand",
+      "url": "https://regenwurmer.de/product/wurmhumus-pro-beutel-60-liter/",
+      "price": "Beutel ca. 45 L",
       "pickup": false,
       "delivery": true,
-      "cert": null,
       "note": {
-        "de": "1 m³ 299 €, aber Fracht extra (AT → teuer) und KEINE Analyse. Rückfall hinter Havelwurm.",
-        "en": "€299/m³ but freight extra (AT) and no analysis. Fallback behind Havelwurm."
+        "de": "ACHTUNG: URL sagt 60 L, Produkt ist ca. 45 L. Keine Analyse veröffentlicht. Für 324 L nach Big Bag / loser Ware fragen.",
+        "en": "NOTE: URL says 60 L, product is ~45 L. No analysis published. Ask for big bag / bulk."
+      }
+    },
+    {
+      "id": "sbazv",
+      "name": "SBAZV — Kompostanlagen Dahme-Spreewald",
+      "category": "info",
+      "location": "Landkreis LDS",
+      "url": "https://www.sbazv.de/verband/adressen/kompostierungsanlagen-dahme-spreewald/",
+      "pickup": false,
+      "delivery": false,
+      "note": {
+        "de": "Offizielle Liste aller Kompostierungsanlagen im Landkreis.",
+        "en": "Official list of all composting plants in the district."
       }
     },
     {
@@ -307,6 +250,64 @@
       "note": {
         "de": "AERATION-HAUPTQUELLE 🎯 Erdenwerk, macht FLL-Dachsubstrat auf Ziegelbasis für ZinCo → sauberer Ziegelsplitt in Substratqualität. Reinen Ziegelsplitt 2-8 mm verlangen (NICHT das fertige Dachsubstrat mit Kompost). Anlage Teltow: 03328 301968. Kein Kressetest nötig (rein mineralisch), nur pH bestätigen.",
         "en": "MAIN AERATION 🎯 Erdenwerk making FLL green-roof substrate on brick for ZinCo → clean substrate-grade brick grit. Ask for raw Ziegelsplitt 2-8 mm (not the finished substrate). No cress test needed (mineral)."
+      }
+    },
+    {
+      "id": "tietz",
+      "name": "Tietz Baustoffe GmbH",
+      "category": "aeration",
+      "location": "bedient Teupitz / Bestensee / Halbe / Märkisch Buchholz",
+      "distance": "lokal",
+      "pickup": true,
+      "delivery": true,
+      "note": {
+        "de": "Regionaler Baustoffhändler — erster Anruf für Lava/Bims/Ziegelsplitt als Schüttgut ab Lager (Preis pro Tonne).",
+        "en": "Regional builders merchant — first call for lava/pumice/brick grit bulk (price per tonne)."
+      }
+    },
+    {
+      "id": "wurmwelten",
+      "name": "Wurmwelten.de Wurmhumus",
+      "category": "wormcast",
+      "location": "Versand",
+      "distance": "Versand",
+      "url": "https://www.wurmwelten.de/",
+      "phone": "+49 178 6944457",
+      "price": "255 € + 220 € Fracht = 470 €",
+      "pricePerL": 0.47,
+      "pickup": false,
+      "delivery": true,
+      "cert": "Analyse: pH 6,5",
+      "note": {
+        "de": "GUTE Analyse (pH 6,5!), aber +220 € Fracht → 470 €/m³ zu teuer. WhatsApp erreichbar. Nur falls Havelwurm ausfällt.",
+        "en": "GOOD analysis (pH 6.5!) but +€220 freight → €470/m³ too expensive. Fallback only."
+      }
+    },
+    {
+      "id": "ziegelsplitt-blh",
+      "name": "BLH Berlin — Ziegelsplitt / Schüttgut",
+      "category": "aeration",
+      "location": "Berlin",
+      "distance": "~50 km",
+      "url": "https://www.blh-berlin.de/",
+      "pickup": true,
+      "delivery": true,
+      "note": {
+        "de": "Lagerware, Selbstabholung + Teilmengen. Ziegelsplitt 2/8 MÖRTELFREI + Substratqualität verlangen.",
+        "en": "Stock, self-pickup + part loads. Demand mortar-free substrate-grade 2/8."
+      }
+    },
+    {
+      "id": "zincolit",
+      "name": "Zincolit — Ziegelsplitt (Qualitätsreferenz)",
+      "category": "info",
+      "location": "Referenz",
+      "url": "https://zincolit.de/substratkomponenten/mineralisch/ziegelsplitt.php",
+      "pickup": false,
+      "delivery": false,
+      "note": {
+        "de": "Referenz für Substratqualität. Wichtig: KEIN hart gebrannter Klinker (speichert kein Wasser).",
+        "en": "Reference for substrate grade. Important: no hard-fired clinker (stores no water)."
       }
     }
   ]

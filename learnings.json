@@ -1,7 +1,15 @@
 {
   "version": 2,
-  "updated": "2026-07-24",
+  "updated": "2026-08-02",
   "learnings": [
+    {
+      "id": "proflor-pruefzeugnis-2025-07",
+      "topic": "quality",
+      "text": {
+        "de": "proFlor-Prüfzeugnis (Charge 2025-07 K4a, RAL-GZ 251 + EU-Öko): 100 % Grünschnitt, ausgereift (Rottegrad 5, C/N 20), Pflanzenverträglichkeit 114 %, keine keimf. Samen, Salmonellen negativ. Schwermetalle alle unter der STRENGEN BioAbfV-Klasse (Pb 49<100, Cd 0,53<1,0, Hg 0,17<0,7, Zn 200<300) → für Cannabis (Akkumulator) unbedenklich. ABER: pH 7,6 alkalisch + löslich K₂O 2.300 mg/l + CaO-reich. Konsequenz im Living-Soil-Mix: finalen pH auf ~6,5 prüfen, kein zusätzlicher Kalk, Kali-Amendments reduzieren. Kompost liefert Biologie+Mineralien, Humus/N kommt aus Wurmhumus. Prüfzeugnis verlinkt bei der Bezugsquelle.",
+        "en": "proFlor test report (batch 2025-07 K4a, RAL-GZ 251 + EU-organic): 100 % green waste, mature (grade 5, C/N 20), plant tolerance 114 %, no viable weed seeds, salmonella negative. All heavy metals below the STRICT BioAbfV class (Pb 49<100, Cd 0.53<1.0, Hg 0.17<0.7, Zn 200<300) → safe for cannabis (an accumulator). BUT: pH 7.6 alkaline + soluble K₂O 2,300 mg/l + lime-rich. In the living-soil mix: check final pH ~6.5, add no extra lime, cut potassium amendments. Compost gives biology+minerals; humus/N comes from worm castings. Report linked on the supplier."
+      }
+    },
     {
       "id": "pickup-beats-shipping-bulk",
       "topic": "sourcing",
