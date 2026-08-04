@@ -178,7 +178,8 @@
       "product": "Wurmhumus 7:1 (u.a. MiniBigBag 220 L) + Kompostwürmer (Eisenia)",
       "pickup": true,
       "shipping": true,
-      "note": "Wurmfarm Brielower Landstr. 32b, Brandenburg a.d. Havel; verkauft Wurmhumus UND lebende Kompostwürmer; Abholung zu Öffnungszeiten, arrangiert Transport; Bestellung meist per WhatsApp/Facebook"
+      "note": "Wurmfarm Brielower Landstr. 32b, Brandenburg a.d. Havel; verkauft Wurmhumus UND lebende Kompostwürmer; ~140 €/500 L, Abholung spart die Spedition; Bestellung meist per WhatsApp/Facebook",
+      "price": "ca. 140 € / 500 L + Spedition bei Lieferung"
     },
     {
       "id": "wurmkontor",
@@ -244,7 +245,7 @@
       "product": "Regenwurmhumus 0,5 L bis 15 L; Grossmengen/lose",
       "pickup": true,
       "shipping": true,
-      "note": "Eigene Regenwurmfarm; Abholung zu Oeffnungszeiten; Versand GLS, Grossmengen per Spedition"
+      "note": "Eigene Regenwurmfarm; Abholung zu Öffnungszeiten; Klein per GLS; Big-Bag/Großmengen-Lieferung nach DE ~300 € Spedition zzgl. Wurmhumus"
     },
     {
       "id": "alpenwurm",
@@ -258,7 +259,7 @@
       "product": "Bio Wurmhumus Sack bis Big Bag 1.000 L (1 m3)",
       "pickup": false,
       "shipping": true,
-      "note": "Wurmfarm; Big Bag XXL mit Mengenrabatt; Gratisversand ab 120 EUR DE/AT"
+      "note": "Wurmfarm; Big Bag XXL mit Mengenrabatt (1.000 L = 299,99 €); Lieferung nach DE ~300 € Spedition zzgl. Wurmhumus"
     },
     {
       "id": "wurmpower",
