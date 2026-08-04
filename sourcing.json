@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-02",
+  "updated": "2026-08-04",
   "materials": [
     {
       "id": "wormcast",
@@ -84,6 +84,26 @@
         "wienerwald-kompost",
         "donauland-kompost"
       ]
+    },
+    {
+      "id": "worms",
+      "name": {
+        "de": "Würmer (Kompostwürmer)",
+        "en": "Worms (composting worms)"
+      },
+      "summary": {
+        "de": "Lebende Kompostwürmer (meist Eisenia fetida/andrei) zum Ansetzen einer Wurmkiste/Wurmfarm oder zum Beleben von Living Soil. Meist nach Gewicht (250 g – 1 kg) bestellbar.",
+        "en": "Live composting worms (usually Eisenia fetida/andrei) to start a worm bin/farm or inoculate living soil. Usually sold by weight (250 g – 1 kg)."
+      },
+      "sourceIds": [
+        "havelwurm-wurmkultur",
+        "wurmwelten-de",
+        "superwurm",
+        "vermigrand-naturprodukte",
+        "wurmpower",
+        "wurmpalast",
+        "biohelp-garten-bienen"
+      ]
     }
   ],
   "sources": [
@@ -155,10 +175,10 @@
       "city": "Brandenburg an der Havel",
       "url": "https://www.facebook.com/wurmkultur24/",
       "phone": "+49 162 2325577",
-      "product": "Wurmhumus 7:1, u.a. MiniBigBag 220 Liter",
+      "product": "Wurmhumus 7:1 (u.a. MiniBigBag 220 L) + Kompostwürmer (Eisenia)",
       "pickup": true,
       "shipping": true,
-      "note": "Wurmfarm Brielower Landstrasse 32b; Abholung zu Oeffnungszeiten, arrangiert Transport; Bestellung meist per WhatsApp/Facebook"
+      "note": "Wurmfarm Brielower Landstr. 32b, Brandenburg a.d. Havel; verkauft Wurmhumus UND lebende Kompostwürmer; Abholung zu Öffnungszeiten, arrangiert Transport; Bestellung meist per WhatsApp/Facebook"
     },
     {
       "id": "wurmkontor",
