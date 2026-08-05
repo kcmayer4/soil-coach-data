@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated": "2026-08-04",
+  "version": 2,
+  "updated": "2026-08-05",
   "materials": [
     {
       "id": "wormcast",
@@ -26,38 +26,186 @@
         "alpenwurm",
         "wurmpower",
         "stielreich-pflanzen",
-        "biohelp-garten-bienen"
-      ]
+        "biohelp-garten-bienen",
+        "bm-obi-wormcast",
+        "bm-dehner-wormcast",
+        "ls-superwurm",
+        "ls-bio-gartenwelt",
+        "ls-living-soil-hamburg",
+        "ls-grundstoff"
+      ],
+      "options": null
     },
     {
       "id": "aeration",
       "name": {
-        "de": "Aeration (Bims & Alternativen)",
-        "en": "Aeration (pumice & alternatives)"
+        "de": "Aeration (Belüftung)",
+        "en": "Aeration"
       },
       "summary": {
         "de": "Hält Luft & Drainage im Boden. Alternativen zu Bims: Lava, Blähton, Perlite, Reisspelzen, Blähschiefer, Zeolith, Ziegelsplitt, Blähglas. Substratgrad wählen (gewaschen, wenig Feinanteil).",
         "en": "Keeps air & drainage in the soil. Alternatives to pumice: lava, expanded clay, perlite, rice hulls, expanded slate, zeolite, crushed brick, foamed glass. Choose substrate grade (washed, low fines)."
       },
-      "sourceIds": [
-        "daensk",
-        "rudolf-klaghofer-gmbh",
-        "paligo",
-        "growland",
-        "grundstoff",
-        "liapor",
-        "kies-direkt",
-        "re-natur-gmbh",
-        "schicker-mineral",
-        "garten-juenger",
-        "t-b-r",
-        "huemer-kompost",
-        "deutsche-zincolit",
-        "abw-oikoartec",
-        "interbims",
-        "lassliefern",
-        "vulkan-substrate",
-        "proflor-basalt"
+      "sourceIds": null,
+      "options": [
+        {
+          "id": "bims",
+          "name": {
+            "de": "Bims",
+            "en": "Pumice"
+          },
+          "summary": {
+            "de": "Der Klassiker: sehr porös, leicht, hält Luft und etwas Wasser. Erste Wahl fürs Belüften.",
+            "en": "The classic: very porous, light, holds air and some water. First choice for aeration."
+          },
+          "sourceIds": [
+            "interbims",
+            "lassliefern",
+            "vulkan-substrate",
+            "bm-toom-aeration",
+            "ls-vulkatec-riebensahm"
+          ]
+        },
+        {
+          "id": "lava",
+          "name": {
+            "de": "Lava / Lavagranulat",
+            "en": "Lava granulate"
+          },
+          "summary": {
+            "de": "Wie Bims vulkanisch und porös, etwas schwerer und kantiger. Sehr gute, dauerhafte Struktur.",
+            "en": "Volcanic and porous like pumice, a bit heavier and more angular. Very good lasting structure."
+          },
+          "sourceIds": [
+            "daensk",
+            "rudolf-klaghofer-gmbh",
+            "vulkan-substrate"
+          ]
+        },
+        {
+          "id": "blaehton",
+          "name": {
+            "de": "Blähton",
+            "en": "Expanded clay"
+          },
+          "summary": {
+            "de": "Überall im Baumarkt verfügbar, sauber und leicht. Etwas weniger Wasserpuffer als Bims.",
+            "en": "Available in every DIY store, clean and light. Slightly less water buffer than pumice."
+          },
+          "sourceIds": [
+            "paligo",
+            "bm-obi-aeration",
+            "bm-bauhaus-aeration",
+            "bm-hagebaumarkt-aeration",
+            "bm-raiffeisen-markt-aeration",
+            "bm-globus-baumarkt-aeration"
+          ]
+        },
+        {
+          "id": "ziegelsplitt",
+          "name": {
+            "de": "Ziegelsplitt",
+            "en": "Crushed brick"
+          },
+          "summary": {
+            "de": "Porös und günstig als Schüttgut, oft regional abholbar. Substratgrad (FLL) wählen, kein Bauschutt.",
+            "en": "Porous and cheap as bulk, often available regionally for pickup. Pick substrate grade (FLL), not rubble."
+          },
+          "sourceIds": [
+            "t-b-r",
+            "huemer-kompost",
+            "deutsche-zincolit"
+          ]
+        },
+        {
+          "id": "perlite",
+          "name": {
+            "de": "Perlite",
+            "en": "Perlite"
+          },
+          "summary": {
+            "de": "Sehr leicht und billig in kleinen Mengen, staubt und schwimmt aber gern auf.",
+            "en": "Very light and cheap in small amounts, but dusty and tends to float up."
+          },
+          "sourceIds": [
+            "growland",
+            "bm-hornbach-aeration",
+            "bm-toom-aeration-2"
+          ]
+        },
+        {
+          "id": "reisspelzen",
+          "name": {
+            "de": "Reisspelzen",
+            "en": "Rice hulls"
+          },
+          "summary": {
+            "de": "Organisch, nachhaltig, sehr leicht — zersetzt sich aber über 1–2 Jahre und muss ersetzt werden.",
+            "en": "Organic, sustainable, very light — but breaks down over 1–2 years and must be replaced."
+          },
+          "sourceIds": [
+            "grundstoff"
+          ]
+        },
+        {
+          "id": "zeolith",
+          "name": {
+            "de": "Zeolith",
+            "en": "Zeolite"
+          },
+          "summary": {
+            "de": "Speichert zusätzlich Nährstoffe (CEC) und puffert Ammonium. Teurer, meist als Beimischung.",
+            "en": "Additionally stores nutrients (CEC) and buffers ammonium. Pricier, usually as an additive."
+          },
+          "sourceIds": [
+            "re-natur-gmbh",
+            "schicker-mineral",
+            "garten-juenger"
+          ]
+        },
+        {
+          "id": "blaehschiefer",
+          "name": {
+            "de": "Blähschiefer",
+            "en": "Expanded slate"
+          },
+          "summary": {
+            "de": "Wie Blähton, etwas fester. Gut verfügbar über Baustoffhandel.",
+            "en": "Like expanded clay, a bit tougher. Widely available via builders' merchants."
+          },
+          "sourceIds": [
+            "liapor",
+            "kies-direkt"
+          ]
+        },
+        {
+          "id": "blaehglas",
+          "name": {
+            "de": "Blähglas",
+            "en": "Foamed glass"
+          },
+          "summary": {
+            "de": "Extrem leicht aus Recyclingglas. Gut für Kübel/Hochbeete, chemisch inert.",
+            "en": "Extremely light, from recycled glass. Good for pots/raised beds, chemically inert."
+          },
+          "sourceIds": [
+            "abw-oikoartec"
+          ]
+        },
+        {
+          "id": "basalt",
+          "name": {
+            "de": "Basaltsplitt",
+            "en": "Basalt grit"
+          },
+          "summary": {
+            "de": "ACHTUNG: dicht und schwer, nicht porös — nur als Teil-Struktur, nicht als Haupt-Aeration.",
+            "en": "NOTE: dense and heavy, not porous — only as partial structure, not as main aeration."
+          },
+          "sourceIds": [
+            "proflor-basalt"
+          ]
+        }
       ]
     },
     {
@@ -83,8 +231,16 @@
         "gartenerde-hoedl",
         "derkompost",
         "wienerwald-kompost",
-        "donauland-kompost"
-      ]
+        "donauland-kompost",
+        "bm-obi-compost",
+        "bm-hornbach-compost",
+        "bm-toom-compost",
+        "bm-raiffeisen-markt-compost",
+        "bm-globus-baumarkt-compost",
+        "ls-klimafarmer",
+        "ls-pflanzenkohle24"
+      ],
+      "options": null
     },
     {
       "id": "worms",
@@ -104,7 +260,41 @@
         "wurmpower",
         "wurmpalast",
         "biohelp-garten-bienen"
-      ]
+      ],
+      "options": null
+    },
+    {
+      "id": "steinmehl",
+      "name": {
+        "de": "Steinmehl (Remineralisierung)",
+        "en": "Rock dust (remineralization)"
+      },
+      "summary": {
+        "de": "Liefert Silizium + Spurenelemente. WICHTIG: nur mehlfein wirkt — grober Splitt (2–5 mm) verwittert zu langsam und bringt im Grow nichts.",
+        "en": "Supplies silicon + trace elements. IMPORTANT: only flour-fine works — coarse grit (2–5 mm) weathers far too slowly to matter in a grow."
+      },
+      "sourceIds": [
+        "sm-raiffeisen-friedersdorf-eg",
+        "sm-raiffeisenmarkt",
+        "sm-baustoffe-liefern-de",
+        "sm-rpbl-bolsdorfer-basalt",
+        "sm-schicker-mineral-diabas",
+        "sm-chiligrow-califarm-basalt",
+        "sm-emiko",
+        "sm-zierkiese-de-bolsdorfer",
+        "sm-hartsteinwerke-vogtland-diabas",
+        "sm-selbstversorgerladen-diabas",
+        "sm-raiffeisen-duengershop",
+        "sm-basalt-union",
+        "bm-obi-steinmehl",
+        "bm-hornbach-steinmehl",
+        "bm-bauhaus-steinmehl",
+        "bm-raiffeisen-markt-steinmehl",
+        "bm-dehner-steinmehl",
+        "ls-chiligrow",
+        "ls-em-kaufhaus"
+      ],
+      "options": null
     }
   ],
   "sources": [
@@ -121,7 +311,19 @@
       "product": "Wurmhumus lose / Big Bag, 1 kg bis 10 Tonnen",
       "pickup": false,
       "shipping": true,
-      "note": "Eigene Wurmfarm; liefert Big Bags und organisiert Spedition; keine offene Abholung am Hof (nur E-Mail/Telefon)"
+      "note": "Eigene Wurmfarm; liefert Big Bags und organisiert Spedition; keine offene Abholung am Hof (nur E-Mail/Telefon)",
+      "lat": 51.88,
+      "lon": 9.63,
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.25,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "20-L-Säcke / m³ 254,99 €"
+      }
     },
     {
       "id": "nordwurm-gmbh-co",
@@ -137,7 +339,10 @@
       "product": "Bio Wurmhumus torffrei 4,5 kg / 9,5 kg",
       "pickup": false,
       "shipping": true,
-      "note": "Eigene Wurmfarm; DHL-Versand ca. 3 Werktage; kleinere Gebinde, keine Big-Bag-Mengen gelistet"
+      "note": "Eigene Wurmfarm; DHL-Versand ca. 3 Werktage; kleinere Gebinde, keine Big-Bag-Mengen gelistet",
+      "lat": 53.43,
+      "lon": 10.38,
+      "channel": "producer"
     },
     {
       "id": "superwurm",
@@ -150,7 +355,17 @@
       "product": "TerraVerm Bio Wurmhumus 10/20/30/40 Liter",
       "pickup": true,
       "shipping": true,
-      "note": "Laut Eigenangabe Deutschlands groesste Wurmfarm; Abholung als Versandoption; Beratung per WhatsApp +4915225432222"
+      "note": "Laut Eigenangabe Deutschlands groesste Wurmfarm; Abholung als Versandoption; Beratung per WhatsApp +4915225432222",
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.6,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 200,
+        "packaging": "Sack 10–40 L"
+      }
     },
     {
       "id": "natursache",
@@ -166,7 +381,10 @@
       "product": "TERRAGOLD Wurmkompost/Wurmhumus 1-25 Liter",
       "pickup": false,
       "shipping": true,
-      "note": "Strasse zum Gut 8, 14776 Brandenburg a.d. Havel; DHL versichert, Gratisversand ab 39 EUR; eher Kleingebinde"
+      "note": "Strasse zum Gut 8, 14776 Brandenburg a.d. Havel; DHL versichert, Gratisversand ab 39 EUR; eher Kleingebinde",
+      "lat": 52.41,
+      "lon": 12.55,
+      "channel": "producer"
     },
     {
       "id": "havelwurm-wurmkultur",
@@ -180,7 +398,19 @@
       "pickup": true,
       "shipping": true,
       "note": "Wurmfarm Brielower Landstr. 32b, Brandenburg a.d. Havel; verkauft Wurmhumus UND lebende Kompostwürmer; ~140 €/500 L, Abholung spart die Spedition; Bestellung meist per WhatsApp/Facebook",
-      "price": "ca. 140 € / 500 L + Spedition bei Lieferung"
+      "price": "ca. 140 € / 500 L + Spedition bei Lieferung",
+      "lat": 52.41,
+      "lon": 12.55,
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.28,
+        "shipPerUnit": null,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "MiniBigBag 220 L / lose"
+      }
     },
     {
       "id": "wurmkontor",
@@ -192,7 +422,8 @@
       "product": "Wurmhumus aus Pferdemist 5 L / 10 L / lose, optional mit Pflanzenkohle (Terra-Preta)",
       "pickup": false,
       "shipping": true,
-      "note": "Kleiner Direktvermarkter Lueneburger Heide/Nordheide; Wurmhumus und Wurmtee"
+      "note": "Kleiner Direktvermarkter Lueneburger Heide/Nordheide; Wurmhumus und Wurmtee",
+      "channel": "producer"
     },
     {
       "id": "regenwurmer-de",
@@ -205,7 +436,8 @@
       "product": "Wurmhumus 10 L / 60 L; Big Bag und lose auf Anfrage",
       "pickup": false,
       "shipping": true,
-      "note": "Deutschsprachiger Shop, versendet aus NL (Markelo); Gratisversand ab 50 EUR; Grossmengen telefonisch/per Mail"
+      "note": "Deutschsprachiger Shop, versendet aus NL (Markelo); Gratisversand ab 50 EUR; Grossmengen telefonisch/per Mail",
+      "channel": "producer"
     },
     {
       "id": "chiligrow-living-soil",
@@ -217,7 +449,8 @@
       "product": "Bio Wurmhumus (TerraVerm) 10 Liter",
       "pickup": false,
       "shipping": true,
-      "note": "Living-Soil/Growshop, FiBL-zertifizierter Wurmhumus (Wiederverkauf TerraVerm); nur Kleingebinde"
+      "note": "Living-Soil/Growshop, FiBL-zertifizierter Wurmhumus (Wiederverkauf TerraVerm); nur Kleingebinde",
+      "channel": "producer"
     },
     {
       "id": "wurmpalast",
@@ -230,7 +463,10 @@
       "product": "Wurmhumus / Wurmkompost, Kompostwuermer",
       "pickup": false,
       "shipping": true,
-      "note": "Gemeinnuetziges Projekt, kleiner Anbieter; Abwicklung teils ueber doktor-kalle.de"
+      "note": "Gemeinnuetziges Projekt, kleiner Anbieter; Abwicklung teils ueber doktor-kalle.de",
+      "lat": 52.2,
+      "lon": 8.34,
+      "channel": "producer"
     },
     {
       "id": "vermigrand-naturprodukte",
@@ -246,7 +482,10 @@
       "product": "Regenwurmhumus 0,5–15 L (versch. Siebungen); Big Bag/lose auf Anfrage",
       "pickup": true,
       "shipping": true,
-      "note": "Eigene Regenwurmfarm (Wagram); veröffentlichte Größen bis 15 L (günstigste 1,53 €/L), Big Bag/lose nur auf Anfrage; Abholung zu Öffnungszeiten; Großmengen-Lieferung nach DE ~300 € Spedition zzgl. Wurmhumus"
+      "note": "Eigene Regenwurmfarm (Wagram); veröffentlichte Größen bis 15 L (günstigste 1,53 €/L), Big Bag/lose nur auf Anfrage; Abholung zu Öffnungszeiten; Großmengen-Lieferung nach DE ~300 € Spedition zzgl. Wurmhumus",
+      "lat": 48.4,
+      "lon": 15.98,
+      "channel": "producer"
     },
     {
       "id": "alpenwurm",
@@ -260,7 +499,17 @@
       "product": "Bio Wurmhumus: Sack 10/20 L bis Big Bag 1.000 L (1 m³)",
       "pickup": false,
       "shipping": true,
-      "note": "Wurmfarm; einziger Big Bag = 1.000 L (1 m³), ab 5 Big Bags günstiger auf Anfrage; Lieferung nach DE ~300 € Spedition zzgl. Wurmhumus. Big Bag ist mit 0,30 €/L klar am günstigsten."
+      "note": "Wurmfarm; einziger Big Bag = 1.000 L (1 m³), ab 5 Big Bags günstiger auf Anfrage; Lieferung nach DE ~300 € Spedition zzgl. Wurmhumus. Big Bag ist mit 0,30 €/L klar am günstigsten.",
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.3,
+        "shipFlat": 300,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "Big Bag 1.000 L"
+      }
     },
     {
       "id": "wurmpower",
@@ -274,7 +523,10 @@
       "product": "Wurmhumus, Wurmtee, Kompostwuermer",
       "pickup": false,
       "shipping": true,
-      "note": "Kleine Wiener Wurmfarm (1220 Wien); Kontakt per Formular/SMS; eher Kleinmengen"
+      "note": "Kleine Wiener Wurmfarm (1220 Wien); Kontakt per Formular/SMS; eher Kleinmengen",
+      "lat": 48.21,
+      "lon": 16.37,
+      "channel": "producer"
     },
     {
       "id": "stielreich-pflanzen",
@@ -286,7 +538,8 @@
       "product": "Bio Wurmhumus 1 L / 3 L",
       "pickup": false,
       "shipping": true,
-      "note": "Oesterreichischer Pflanzen-Onlineshop; nur Kleingebinde"
+      "note": "Oesterreichischer Pflanzen-Onlineshop; nur Kleingebinde",
+      "channel": "producer"
     },
     {
       "id": "biohelp-garten-bienen",
@@ -302,7 +555,10 @@
       "product": "VermiGrand Regenwurmhumus 5 L, Wurmtee, Kompostwuermer",
       "pickup": true,
       "shipping": true,
-      "note": "Fachhandel (1110 Wien); Click & Collect; Gratisversand ab 85 EUR; Wiederverkauf VermiGrand"
+      "note": "Fachhandel (1110 Wien); Click & Collect; Gratisversand ab 85 EUR; Wiederverkauf VermiGrand",
+      "lat": 48.21,
+      "lon": 16.37,
+      "channel": "producer"
     },
     {
       "id": "daensk",
@@ -318,7 +574,19 @@
       "material": "lava",
       "pickup": false,
       "shipping": true,
-      "note": "Gratis Versand auf alle Artikel; Raum Hamburg"
+      "note": "Gratis Versand auf alle Artikel; Raum Hamburg",
+      "lat": 53.55,
+      "lon": 9.99,
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.12,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "Big Bag 500 L"
+      }
     },
     {
       "id": "rudolf-klaghofer-gmbh",
@@ -334,7 +602,10 @@
       "material": "lava",
       "pickup": true,
       "shipping": true,
-      "note": "Gratis Lieferung Raum Wien bei voller Fuhre (8 Big Bags, inkl. Kranentladung)"
+      "note": "Gratis Lieferung Raum Wien bei voller Fuhre (8 Big Bags, inkl. Kranentladung)",
+      "lat": 48.21,
+      "lon": 16.37,
+      "channel": "producer"
     },
     {
       "id": "paligo",
@@ -348,7 +619,8 @@
       "material": "blaehton",
       "pickup": false,
       "shipping": true,
-      "note": "Direkte Palettenlieferung nach Hause; Preise regionsabhängig"
+      "note": "Direkte Palettenlieferung nach Hause; Preise regionsabhängig",
+      "channel": "producer"
     },
     {
       "id": "growland",
@@ -361,7 +633,8 @@
       "material": "perlite",
       "pickup": false,
       "shipping": true,
-      "note": "Gartenbau-Perlite (RHP-Qualität); versandkostenfrei ab 99 €"
+      "note": "Gartenbau-Perlite (RHP-Qualität); versandkostenfrei ab 99 €",
+      "channel": "producer"
     },
     {
       "id": "grundstoff",
@@ -377,7 +650,19 @@
       "material": "reisspelzen",
       "pickup": false,
       "shipping": true,
-      "note": "Living-Soil-Belüftung; Hersteller Borstelmann, 90613 Großhabersdorf; frei ab 129 €"
+      "note": "Living-Soil-Belüftung; Hersteller Borstelmann, 90613 Großhabersdorf; frei ab 129 €",
+      "lat": 49.42,
+      "lon": 10.79,
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 1.15,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 100,
+        "packaging": "10-L-Sack"
+      }
     },
     {
       "id": "liapor",
@@ -391,7 +676,10 @@
       "material": "blaehschiefer",
       "pickup": false,
       "shipping": true,
-      "note": "Hersteller; lose/Big Bag/Foliensack, auch Silowagen; Bezug über Baustoff-/Gartenhandel"
+      "note": "Hersteller; lose/Big Bag/Foliensack, auch Silowagen; Bezug über Baustoff-/Gartenhandel",
+      "lat": 49.75,
+      "lon": 11.0,
+      "channel": "producer"
     },
     {
       "id": "kies-direkt",
@@ -405,7 +693,8 @@
       "material": "blaehschiefer",
       "pickup": false,
       "shipping": true,
-      "note": "Kipper, Big Bag mit Kran, Big Bag auf Palette oder Paket; Preise per PLZ"
+      "note": "Kipper, Big Bag mit Kran, Big Bag auf Palette oder Paket; Preise per PLZ",
+      "channel": "producer"
     },
     {
       "id": "re-natur-gmbh",
@@ -421,7 +710,10 @@
       "material": "zeolith",
       "pickup": true,
       "shipping": true,
-      "note": "Auch Bims/Lava/Dachsubstrate; Frachtkosten per Angebot"
+      "note": "Auch Bims/Lava/Dachsubstrate; Frachtkosten per Angebot",
+      "lat": 54.15,
+      "lon": 10.2,
+      "channel": "producer"
     },
     {
       "id": "schicker-mineral",
@@ -438,7 +730,10 @@
       "material": "zeolith",
       "pickup": false,
       "shipping": true,
-      "note": "Auch Sack-/Palettengebinde; kostenlose Lieferung innerhalb DE"
+      "note": "Auch Sack-/Palettengebinde; kostenlose Lieferung innerhalb DE",
+      "lat": 50.04,
+      "lon": 11.67,
+      "channel": "producer"
     },
     {
       "id": "garten-juenger",
@@ -451,7 +746,8 @@
       "material": "zeolith",
       "pickup": false,
       "shipping": true,
-      "note": "Österreichischer Onlineshop; staubarme Pellets; frei AT & DE ab 59,90 €"
+      "note": "Österreichischer Onlineshop; staubarme Pellets; frei AT & DE ab 59,90 €",
+      "channel": "producer"
     },
     {
       "id": "t-b-r",
@@ -467,7 +763,10 @@
       "material": "ziegelsplitt",
       "pickup": true,
       "shipping": true,
-      "note": "Werk Stahnsdorfer Str. 30, 14513 Teltow; eigene Fahrzeuge + Transportpartner"
+      "note": "Werk Stahnsdorfer Str. 30, 14513 Teltow; eigene Fahrzeuge + Transportpartner",
+      "lat": 52.4,
+      "lon": 13.27,
+      "channel": "producer"
     },
     {
       "id": "huemer-kompost",
@@ -484,7 +783,10 @@
       "material": "ziegelsplitt",
       "pickup": true,
       "shipping": true,
-      "note": "Zustellung oder Selbstabholung; Erdenweg 1, 4211 Alberndorf"
+      "note": "Zustellung oder Selbstabholung; Erdenweg 1, 4211 Alberndorf",
+      "lat": 48.42,
+      "lon": 14.38,
+      "channel": "producer"
     },
     {
       "id": "deutsche-zincolit",
@@ -496,7 +798,8 @@
       "material": "ziegelsplitt",
       "pickup": false,
       "shipping": true,
-      "note": "Hersteller mineralischer Ziegelsplitt; Körnungen/Preise auf Anfrage"
+      "note": "Hersteller mineralischer Ziegelsplitt; Körnungen/Preise auf Anfrage",
+      "channel": "producer"
     },
     {
       "id": "abw-oikoartec",
@@ -513,7 +816,10 @@
       "material": "blaehglas",
       "pickup": true,
       "shipping": true,
-      "note": "Abholung/Lieferung Berlin-Neukölln (Kiefholzstr. 79-85); Big-Bag-Fracht auf Anfrage"
+      "note": "Abholung/Lieferung Berlin-Neukölln (Kiefholzstr. 79-85); Big-Bag-Fracht auf Anfrage",
+      "lat": 52.52,
+      "lon": 13.4,
+      "channel": "producer"
     },
     {
       "id": "interbims",
@@ -529,7 +835,10 @@
       "material": "bims",
       "pickup": true,
       "shipping": true,
-      "note": "Eifel-Bims direkt vom Abbau; Lkw lose, Big Bag 1,0/1,5 m³, Säcke; 56642 Kruft"
+      "note": "Eifel-Bims direkt vom Abbau; Lkw lose, Big Bag 1,0/1,5 m³, Säcke; 56642 Kruft",
+      "lat": 50.39,
+      "lon": 7.32,
+      "channel": "producer"
     },
     {
       "id": "lassliefern",
@@ -545,7 +854,17 @@
       "material": "bims",
       "pickup": false,
       "shipping": true,
-      "note": "Gewaschen, staubfrei, für Substratmischungen; 2-5 Tage"
+      "note": "Gewaschen, staubfrei, für Substratmischungen; 2-5 Tage",
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.4,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "½ Big Bag ~0,5 t"
+      }
     },
     {
       "id": "vulkan-substrate",
@@ -562,7 +881,19 @@
       "material": "bims",
       "pickup": true,
       "shipping": true,
-      "note": "Führt auch Lava & Zeolith; Paketversand + Spedition bundesweit; 56630 Kretz"
+      "note": "Führt auch Lava & Zeolith; Paketversand + Spedition bundesweit; 56630 Kretz",
+      "lat": 50.4,
+      "lon": 7.3,
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.58,
+        "shipPerUnit": 0.58,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "25 L Sack; Big Bag"
+      }
     },
     {
       "id": "proflor",
@@ -577,7 +908,19 @@
       "product": "RAL-güteüberwachter Grünschnittkompost, Schüttgut",
       "pickup": true,
       "shipping": true,
-      "note": "Güteüberwacht (BGK); reine Gartenabfälle ohne Bioabfall; Abholung ~15 km; Prüfzeugnis liegt vor"
+      "note": "Güteüberwacht (BGK); reine Gartenabfälle ohne Bioabfall; Abholung ~15 km; Prüfzeugnis liegt vor",
+      "lat": 52.51,
+      "lon": 13.72,
+      "channel": "producer",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.023,
+        "shipPerUnit": null,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "Schüttgut ab Werk"
+      }
     },
     {
       "id": "daensk-2",
@@ -592,7 +935,10 @@
       "product": "Laubkompost / Edelkompost 0-25 mm, Big Bag",
       "pickup": false,
       "shipping": true,
-      "note": "RAL-güteüberwacht (BGK); bundesweiter Big-Bag-Versand frei Bordsteinkante; 500 L bis 2 m³"
+      "note": "RAL-güteüberwacht (BGK); bundesweiter Big-Bag-Versand frei Bordsteinkante; 500 L bis 2 m³",
+      "lat": 53.55,
+      "lon": 9.99,
+      "channel": "producer"
     },
     {
       "id": "biowork-kompost-schmergow",
@@ -608,7 +954,10 @@
       "product": "RAL-Grüngutkompost (Grünschnitt, Heckenschnitt, Laub)",
       "pickup": true,
       "shipping": true,
-      "note": "RAL; Grüngutkompost getrennt von Biogutkompost (16 €/m³); lose, Big Bag 500-1000 L oder Sack"
+      "note": "RAL; Grüngutkompost getrennt von Biogutkompost (16 €/m³); lose, Big Bag 500-1000 L oder Sack",
+      "lat": 52.4,
+      "lon": 12.78,
+      "channel": "producer"
     },
     {
       "id": "gbab-kompostwerk-aschaffenburg",
@@ -624,7 +973,10 @@
       "product": "Aschaffenburger Kompost (RAL), Hecken-/Baumschnitt",
       "pickup": true,
       "shipping": false,
-      "note": "RAL; lose zur Selbstabholung/-verladung; Verwiegung 6 € je Fahrzeug"
+      "note": "RAL; lose zur Selbstabholung/-verladung; Verwiegung 6 € je Fahrzeug",
+      "lat": 49.98,
+      "lon": 9.15,
+      "channel": "producer"
     },
     {
       "id": "kilb-vetter-entsorgung",
@@ -638,7 +990,10 @@
       "product": "RAL-Grüngutkompost 0-10 mm",
       "pickup": true,
       "shipping": true,
-      "note": "RAL; reines Grüngut; Abholung Bad Nauheim/Kelkheim, Lieferung im Container oder lose"
+      "note": "RAL; reines Grüngut; Abholung Bad Nauheim/Kelkheim, Lieferung im Container oder lose",
+      "lat": 50.37,
+      "lon": 8.74,
+      "channel": "producer"
     },
     {
       "id": "gerach-gruppe",
@@ -652,7 +1007,10 @@
       "product": "RAL-Kompost / Gartenkompost (holzige Garten-/Parkabfälle)",
       "pickup": true,
       "shipping": true,
-      "note": "RAL; frei von Klärschlamm/Industrieabfall; Abkippen, Big Bag 1 m³ per Kran oder Selbstabholung"
+      "note": "RAL; frei von Klärschlamm/Industrieabfall; Abkippen, Big Bag 1 m³ per Kran oder Selbstabholung",
+      "lat": 49.2,
+      "lon": 8.12,
+      "channel": "producer"
     },
     {
       "id": "kompotec",
@@ -666,7 +1024,10 @@
       "product": "Qualitätskompost mit RAL-Gütezeichen (Grüngutkompost)",
       "pickup": true,
       "shipping": true,
-      "note": "RAL; drei Kompostwerke in NRW; Standort Gütersloh 05241 9229-0"
+      "note": "RAL; drei Kompostwerke in NRW; Standort Gütersloh 05241 9229-0",
+      "lat": 51.9,
+      "lon": 8.38,
+      "channel": "producer"
     },
     {
       "id": "buhck-gruppe",
@@ -680,7 +1041,10 @@
       "product": "Grüngutkompost, Schüttgut / Big Bag",
       "pickup": false,
       "shipping": true,
-      "note": "RAL (BGK); ab 1 m³, lose gekippt oder Big Bag 1000 L; Preis per PLZ im Shop"
+      "note": "RAL (BGK); ab 1 m³, lose gekippt oder Big Bag 1000 L; Preis per PLZ im Shop",
+      "lat": 53.45,
+      "lon": 10.45,
+      "channel": "producer"
     },
     {
       "id": "sonnenerde",
@@ -695,7 +1059,10 @@
       "product": "Bio-Kompost (Güteklasse A+)",
       "pickup": true,
       "shipping": true,
-      "note": "Güteklasse A+ (österr. Kompostverordnung); ab Werk lose per Radlader, Big Bag ~1 m³, 20/30 L Sack"
+      "note": "Güteklasse A+ (österr. Kompostverordnung); ab Werk lose per Radlader, Big Bag ~1 m³, 20/30 L Sack",
+      "lat": 47.3,
+      "lon": 16.2,
+      "channel": "producer"
     },
     {
       "id": "gartenerde-hoedl",
@@ -709,7 +1076,10 @@
       "product": "Zertifizierter Bio-Kompost A+",
       "pickup": true,
       "shipping": true,
-      "note": "Güteklasse A+; lose ab ½ m³ oder Big Bag 1 m³; Abholung + Lieferung Wien/NÖ"
+      "note": "Güteklasse A+; lose ab ½ m³ oder Big Bag 1 m³; Abholung + Lieferung Wien/NÖ",
+      "lat": 48.2,
+      "lon": 16.6,
+      "channel": "producer"
     },
     {
       "id": "derkompost",
@@ -721,7 +1091,10 @@
       "product": "BIO-ReifKOMPOST (Strauch-/Rasenschnitt & biogene Abfälle)",
       "pickup": true,
       "shipping": true,
-      "note": "Bio-Qualitätskompost; SB-Abholung tgl. 8-19 Uhr, Lieferung ab 1 m³ (März-Nov)"
+      "note": "Bio-Qualitätskompost; SB-Abholung tgl. 8-19 Uhr, Lieferung ab 1 m³ (März-Nov)",
+      "lat": 48.21,
+      "lon": 14.47,
+      "channel": "producer"
     },
     {
       "id": "wienerwald-kompost",
@@ -734,7 +1107,10 @@
       "product": "Qualitätskompost (Güteklasse A+)",
       "pickup": true,
       "shipping": false,
-      "note": "Staatlich geprüft A+, biotauglich; Preislisten (Standard + Schüttgut ab 6 t) als Download"
+      "note": "Staatlich geprüft A+, biotauglich; Preislisten (Standard + Schüttgut ab 6 t) als Download",
+      "lat": 48.28,
+      "lon": 16.05,
+      "channel": "producer"
     },
     {
       "id": "donauland-kompost",
@@ -746,7 +1122,10 @@
       "product": "Reifkompost / Agrarkompost, Schüttgut",
       "pickup": true,
       "shipping": true,
-      "note": "Gartenerde, Reif- und Agrarkompost, Sondermischungen; Schüttgut ab Anlage"
+      "note": "Gartenerde, Reif- und Agrarkompost, Sondermischungen; Schüttgut ab Anlage",
+      "lat": 48.33,
+      "lon": 16.06,
+      "channel": "producer"
     },
     {
       "id": "proflor-basalt",
@@ -763,7 +1142,1324 @@
       "price": "Schüttgut – Preis tel. erfragen",
       "pickup": true,
       "shipping": true,
-      "note": "Lokale Abholoption (~15 km). ACHTUNG: dichter Basaltsplitt, schwer und nicht porös → nur als TEIL-Struktur, nicht als Haupt-Aeration (Bims/Lava/Ziegelsplitt sind besser). Für Remineralisierung ZU GROB – dafür feines Basalt-Steinmehl nehmen."
+      "note": "Lokale Abholoption (~15 km). ACHTUNG: dichter Basaltsplitt, schwer und nicht porös → nur als TEIL-Struktur, nicht als Haupt-Aeration (Bims/Lava/Ziegelsplitt sind besser). Für Remineralisierung ZU GROB – dafür feines Basalt-Steinmehl nehmen.",
+      "lat": 52.51,
+      "lon": 13.72,
+      "channel": "producer"
+    },
+    {
+      "id": "bm-obi-steinmehl",
+      "name": "OBI · Neudorff Urgesteins-Mehl 10 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.obi.de",
+      "orderUrl": "https://www.obi.de/p/9631888/neudorff-urgesteins-mehl-10-kg",
+      "product": "Neudorff Urgesteins-Mehl 10 kg (Diabas, 0,2 mm)",
+      "price": "11.39 € (1.14 €/kg)",
+      "material": "steinmehl",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 1.14,
+        "shipPerUnit": 1.14,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Neudorff Urgesteins-Mehl 10 kg (Diabas, 0,2 mm)"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "1,14 €/kg; OBI bundesweit, Click&Collect in jedem Markt"
+    },
+    {
+      "id": "bm-obi-biochar",
+      "name": "OBI · Neudorff Terra Preta Bodenaktivator 10 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.obi.de",
+      "orderUrl": "https://www.obi.de/p/4615183/neudorff-terra-preta-boden-verbesserer-10-kg",
+      "product": "Terra Preta Bodenaktivator 10 kg (mit Pflanzenkohle)",
+      "price": "21.49 € (2.15 €/kg)",
+      "material": "biochar",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 2.15,
+        "shipPerUnit": 2.15,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Terra Preta Bodenaktivator 10 kg (mit Pflanzenkohle)"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "2,15 €/kg; Bodenaktivator, keine reine Pflanzenkohle; auch 2/5/20 kg"
+    },
+    {
+      "id": "bm-obi-wormcast",
+      "name": "OBI · Dr.Soil Wurmkompost 1 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.obi.de",
+      "orderUrl": "https://www.obi.de/p/2191093741425/dr-soil-biohumus-1l-beutel",
+      "product": "Dr.Soil Biohumus / Wurmkompost 1 L",
+      "price": "8.99 € (8.99 €/L)",
+      "material": "wormcast",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 8.99,
+        "shipPerUnit": 8.99,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Dr.Soil Biohumus / Wurmkompost 1 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "8,99 €/L — sehr teuer, nur als Starter-Menge; einziger echter Wurmhumus bei OBI"
+    },
+    {
+      "id": "bm-obi-compost",
+      "name": "OBI · Compo Bio Gärtner-Kompost torffrei 40 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.obi.de",
+      "orderUrl": "https://www.obi.de/p/7365158/compo-bio-gaertner-kompost-torffrei-40-l",
+      "product": "Compo Bio Pflanzerde/Kompost torffrei 40 L",
+      "price": "14.99 € (0.37 €/L)",
+      "material": "compost",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.37,
+        "shipPerUnit": 0.37,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Compo Bio Pflanzerde/Kompost torffrei 40 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,37 €/L"
+    },
+    {
+      "id": "bm-obi-aeration",
+      "name": "OBI · Floragard Blähton 50 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.obi.de",
+      "orderUrl": "https://www.obi.de/p/2637148/floragard-blaehton-tongranulat-1-x-50-l",
+      "product": "Floragard Blähton / Tongranulat 50 L",
+      "price": "19.99 € (0.40 €/L)",
+      "material": "blaehton",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.4,
+        "shipPerUnit": 0.4,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Floragard Blähton / Tongranulat 50 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,40 €/L — günstigste Belüftung bei OBI; auch 25 L 12,99 €"
+    },
+    {
+      "id": "bm-hornbach-aeration",
+      "name": "HORNBACH · Floragard Perlite 5 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.hornbach.de",
+      "orderUrl": "https://www.hornbach.de/p/bodenhilfsstoff-floragard-perlite-poroeses-vulkan-gestein-zur-untermischung-mit-anderen-substraten-unterstuetzt-drainageverhalten-luftkapazitaet-wurzelbildung-5-l/12064131/",
+      "product": "Floragard Perlite 5 L",
+      "price": "4.99 € (1.00 €/L)",
+      "material": "perlite",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 1.0,
+        "shipPerUnit": 1.0,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Floragard Perlite 5 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "1,00 €/L; ab 12 Stück 4,29 €/Stk; Abholung ca. 1,5 h"
+    },
+    {
+      "id": "bm-hornbach-steinmehl",
+      "name": "HORNBACH · Urgesteinsmehl FloraSelf Nature 15 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.hornbach.de",
+      "orderUrl": "https://www.hornbach.de/p/urgesteinsmehl-floraself-nature-15-kg-grobe-koernung/10407346/",
+      "product": "Urgesteinsmehl FloraSelf Nature 15 kg, grobe Körnung",
+      "price": "12.99 € (0.87 €/kg)",
+      "material": "steinmehl",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 0.87,
+        "shipPerUnit": 0.87,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Urgesteinsmehl FloraSelf Nature 15 kg, grobe Körnung"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,87 €/kg — bestes P/L aller Steinmehle; ACHTUNG grobe Körnung, für Remineralisierung feiner besser"
+    },
+    {
+      "id": "bm-hornbach-biochar",
+      "name": "HORNBACH · Pflanzenkohle Organifer 10 kg / 35 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.hornbach.de",
+      "orderUrl": "https://www.hornbach.de/p/pflanzenkohle-bodenverbesserer-10-kg-35-l-organischer-bodenhilfsstoff-organifer/12585733/",
+      "product": "Pflanzenkohle Organifer 10 kg / 35 L",
+      "price": "39.99 € (1.14 €/L)",
+      "material": "biochar",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 1.14,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Pflanzenkohle Organifer 10 kg / 35 L"
+      },
+      "pickup": false,
+      "shipping": true,
+      "note": "1,14 €/L — einzige reine Pflanzenkohle in Grow-Menge im Baumarkt; oft nur Versand"
+    },
+    {
+      "id": "bm-hornbach-compost",
+      "name": "HORNBACH · Pflanzerde FloraSelf Nature torffrei mit Pflanzenkohle 40 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.hornbach.de",
+      "orderUrl": "https://www.hornbach.de/p/pflanzerde-floraself-nature-torffrei-mit-pflanzenkohle-40-l/12081003/",
+      "product": "Pflanzerde torffrei mit Pflanzenkohle 40 L",
+      "price": "9.99 € (0.25 €/L)",
+      "material": "compost",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.25,
+        "shipPerUnit": 0.25,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Pflanzerde torffrei mit Pflanzenkohle 40 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,25 €/L; torffrei + Pflanzenkohle — guter Basis-Bulk"
+    },
+    {
+      "id": "bm-bauhaus-aeration",
+      "name": "BAUHAUS · Floragard Pflanzgranulat (Blähton) 50 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.bauhaus.info",
+      "orderUrl": "https://www.bauhaus.info/blaehton-tongranulat/floragard-pflanzgranulat/p/16692065",
+      "product": "Floragard Pflanzgranulat / Blähton 50 L",
+      "price": "19.99 € (0.40 €/L)",
+      "material": "blaehton",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.4,
+        "shipPerUnit": 0.4,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Floragard Pflanzgranulat / Blähton 50 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,40 €/L; Reservieren & Abholen kostenfrei, Paketversand +5,70 €; Varianten 5/10/25/50 L"
+    },
+    {
+      "id": "bm-bauhaus-steinmehl",
+      "name": "BAUHAUS · Gardol Pure Nature Urgesteinsmehl 10 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.bauhaus.info",
+      "orderUrl": "https://www.bauhaus.info/bioduenger/gardol-pure-nature-urgesteinsmehl/p/23843798",
+      "product": "Gardol Pure Nature Urgesteinsmehl 10 kg",
+      "price": "11.99 € (1.20 €/kg)",
+      "material": "steinmehl",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 1.2,
+        "shipPerUnit": null,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Gardol Pure Nature Urgesteinsmehl 10 kg"
+      },
+      "pickup": true,
+      "shipping": false,
+      "note": "1,20 €/kg; online nicht verfügbar → nur Marktkauf/Reservierung"
+    },
+    {
+      "id": "bm-toom-aeration",
+      "name": "toom · Pflanzgranulat Lava-Bims 5-16 mm 40 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://toom.de",
+      "orderUrl": "https://toom.de/p/pflanzgranulat-5-16-mm-lava-bims-gemisch-40-l/10461977",
+      "product": "toom Pflanzgranulat Lava-Bims-Gemisch 5-16 mm 40 L",
+      "price": "19.99 € (0.50 €/L)",
+      "material": "bims",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.5,
+        "shipPerUnit": 0.5,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "toom Pflanzgranulat Lava-Bims-Gemisch 5-16 mm 40 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,50 €/L — BESTES echtes Bims/Lava im Baumarkt, genau das Living-Soil-Material; auch 25 L 14,99 €, 15 L 9,99 €"
+    },
+    {
+      "id": "bm-toom-aeration-2",
+      "name": "toom · Perligran Premium Perlite 10 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://toom.de",
+      "orderUrl": "https://toom.de/p/perligran-premium-10-l/10461803",
+      "product": "Perligran Premium 10 L (Knauf Perlite)",
+      "price": "9.99 € (1.00 €/L)",
+      "material": "perlite",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 1.0,
+        "shipPerUnit": 1.0,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Perligran Premium 10 L (Knauf Perlite)"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "1,00 €/L; Markenperlite in kleinem Gebinde"
+    },
+    {
+      "id": "bm-toom-compost",
+      "name": "toom · Bio Kompost 40 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://toom.de",
+      "orderUrl": "https://toom.de/p/bio-kompost-40-l/4520419",
+      "product": "toom Bio Kompost 40 L",
+      "price": "9.99 € (0.25 €/L)",
+      "material": "compost",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.25,
+        "shipPerUnit": 0.25,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "toom Bio Kompost 40 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,25 €/L — günstigster gelisteter Bio-Kompost der Ketten"
+    },
+    {
+      "id": "bm-toom-biochar",
+      "name": "toom · Boden-Verbesserer TerraPreta 10 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://toom.de",
+      "orderUrl": "https://toom.de/p/boden-verbesserer-terrapreta-10-kg/4500333",
+      "product": "toom Boden-Verbesserer TerraPreta 10 kg",
+      "price": "21.99 € (2.20 €/kg)",
+      "material": "biochar",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 2.2,
+        "shipPerUnit": 2.2,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "toom Boden-Verbesserer TerraPreta 10 kg"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "2,20 €/kg; pflanzenkohlehaltig, keine reine Kohle"
+    },
+    {
+      "id": "bm-hagebaumarkt-aeration",
+      "name": "Hagebaumarkt · Floragard Tongranulat Braun 50 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.hagebau.de",
+      "orderUrl": "https://www.hagebau.de/p/floragard-floragard-tongranulat-braun-50-l-anP7000095526/",
+      "product": "FLORAGARD Tongranulat Braun 50 L",
+      "price": "19.99 € (0.40 €/L)",
+      "material": "blaehton",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.4,
+        "shipPerUnit": null,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "FLORAGARD Tongranulat Braun 50 L"
+      },
+      "pickup": true,
+      "shipping": false,
+      "note": "0,40 €/L; nur Marktabholung (InStoreOnly); auch 25 L 15,99 €"
+    },
+    {
+      "id": "bm-raiffeisen-markt-steinmehl",
+      "name": "Raiffeisen-Markt · Neudorff UrgesteinsMehl 10 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.raiffeisenmarkt.de",
+      "orderUrl": "https://www.raiffeisenmarkt.de/Neudorff-Urgesteinsmehl-4523",
+      "product": "NEUDORFF UrgesteinsMehl 10 kg (Diabas)",
+      "price": "12.99 € (1.30 €/kg)",
+      "material": "steinmehl",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 1.3,
+        "shipPerUnit": 1.3,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "NEUDORFF UrgesteinsMehl 10 kg (Diabas)"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "1,30 €/kg; auch 20 kg; Lieferung 2-5 Werktage + Abholung im Markt"
+    },
+    {
+      "id": "bm-raiffeisen-markt-compost",
+      "name": "Raiffeisen-Markt · COMPO BIO Gärtnerkompost torffrei 40 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.raiffeisenmarkt.de",
+      "orderUrl": "https://www.raiffeisenmarkt.de/compo-bio-gaertner-kompost-torffrei-21462",
+      "product": "COMPO BIO Gärtnerkompost torffrei 40 L",
+      "price": "12.99 € (0.32 €/L)",
+      "material": "compost",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.32,
+        "shipPerUnit": 0.32,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "COMPO BIO Gärtnerkompost torffrei 40 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,32 €/L, torffrei"
+    },
+    {
+      "id": "bm-raiffeisen-markt-aeration",
+      "name": "Raiffeisen-Markt · CUXIN Blähton 8-16 mm 10 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.raiffeisenmarkt.de",
+      "orderUrl": "https://www.raiffeisenmarkt.de/cuxin-dcm-blaehton-4376",
+      "product": "CUXIN DCM Blähton 8-16 mm 10 L",
+      "price": "9.99 € (1.00 €/L)",
+      "material": "blaehton",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 1.0,
+        "shipPerUnit": 1.0,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "CUXIN DCM Blähton 8-16 mm 10 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "1,00 €/L; teuer pro Liter, aber flächendeckend abholbar; 1/10/20/40 L"
+    },
+    {
+      "id": "bm-dehner-wormcast",
+      "name": "Dehner · Dehner Bio Regenwurm-Humus 1,5 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.dehner.de",
+      "orderUrl": "https://www.dehner.de/product/dehner-bio-regenwurm-humus-15-kg-X006640494",
+      "product": "Dehner Bio Regenwurm-Humus 1,5 kg",
+      "price": "8.99 € (5.99 €/kg)",
+      "material": "wormcast",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 5.99,
+        "shipPerUnit": 5.99,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Dehner Bio Regenwurm-Humus 1,5 kg"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "5,99 €/kg; als Booster gedacht, nicht als Bulk-Komponente"
+    },
+    {
+      "id": "bm-dehner-steinmehl",
+      "name": "Dehner · Dehner Urgesteinsmehl 10 kg",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.dehner.de",
+      "orderUrl": "https://www.dehner.de/product/dehner-urgesteinsmehl-M200015082?sku=6640221",
+      "product": "Dehner Urgesteinsmehl 10 kg",
+      "price": "11.99 € (1.20 €/kg)",
+      "material": "steinmehl",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 1.2,
+        "shipPerUnit": 1.2,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Dehner Urgesteinsmehl 10 kg"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "1,20 €/kg; auch 5 und 20 kg"
+    },
+    {
+      "id": "bm-globus-baumarkt-aeration",
+      "name": "Globus Baumarkt · Agricon Hydro Blähton 40 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.globus-baumarkt.de",
+      "orderUrl": "https://www.globus-baumarkt.de/p/agricon-hydro-blaehton-40-l-0688100936/",
+      "product": "Agricon Hydro Blähton 40 L",
+      "price": "19.99 € (0.50 €/L)",
+      "material": "blaehton",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.5,
+        "shipPerUnit": 0.5,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Agricon Hydro Blähton 40 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,50 €/L; Globus nicht ganz bundesweit (West/Südwest/Ost)"
+    },
+    {
+      "id": "bm-globus-baumarkt-compost",
+      "name": "Globus Baumarkt · Greenworld Premium Pflanzerde torffrei 60 L",
+      "country": "DE",
+      "region": "bundesweit",
+      "city": null,
+      "url": "https://www.globus-baumarkt.de",
+      "orderUrl": "https://www.globus-baumarkt.de/p/greenworld-premium-pflanzerde-torffrei-60-l-0688100900/",
+      "product": "Greenworld Premium Pflanzerde torffrei 60 L",
+      "price": "9.99 € (0.17 €/L)",
+      "material": "compost",
+      "channel": "baumarkt",
+      "nationwide": true,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.17,
+        "shipPerUnit": 0.17,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "Greenworld Premium Pflanzerde torffrei 60 L"
+      },
+      "pickup": true,
+      "shipping": true,
+      "note": "0,17 €/L — günstigste torffreie Erde aller Ketten"
+    },
+    {
+      "id": "ls-chiligrow",
+      "name": "Chiligrow",
+      "country": "DE",
+      "region": null,
+      "city": null,
+      "url": "https://chiligrow.de/",
+      "orderUrl": "https://chiligrow.de/living-soil/gesteinsmehle-und-mineralien/",
+      "phone": null,
+      "email": null,
+      "product": "Living-Soil-Growshop: Gesteinsmehle, Mineralien, Komposte, Fermente, Living-Soil-Baukästen",
+      "price": "Urgesteinsmehl 1 kg = 4,50 €; Diabas 1 kg = 4,80 €; Zeolith Pulver 1 kg = 5,50 €; AZOMIT 0,5–20 kg = 9,70–199,00 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen (1-kg-Gebinde); keine Kontaktdaten im Impressum auffindbar"
+    },
+    {
+      "id": "ls-420growshop",
+      "name": "420growshop",
+      "country": "DE",
+      "region": null,
+      "city": null,
+      "url": "https://420growshop.de/",
+      "orderUrl": "https://420growshop.de/living-soil/",
+      "phone": null,
+      "email": null,
+      "product": "Growshop mit Living-Soil-Sortiment: Wurmhumus, Guano, Gesteinsmehle, Kokos, Fertigmischungen",
+      "price": "BIO Wurmhumus 2–10 L = 5,95–11,90 €; Bat Guano 13,90 €; Kokos-Quellziegel 70 L = 19,80 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "Gut für kleine Mengen (2-L-Wurmhumus)"
+    },
+    {
+      "id": "ls-grundstoff",
+      "name": "Grundstoff",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Großhabersdorf",
+      "url": "https://grundstoff-shop.de/",
+      "orderUrl": "https://grundstoff-shop.de/products/wurmhumus-10-liter-bodenaktivator",
+      "phone": "+49 151 41357472",
+      "email": "kontakt@grundstoff-shop.de",
+      "product": "Reiner Living-Soil-Amendment-Shop: Dünger, Aktivatoren, Mineralien, Bodenverbesserer",
+      "price": "Wurmhumus 10 L = 11,49 € (1,15 €/L); Senfpresskuchen 1 kg = 5,49 €; Gips ab 5,49 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen; versandkostenfrei ab 129 €; Artikel öfter ausverkauft",
+      "lat": 49.42,
+      "lon": 10.79
+    },
+    {
+      "id": "ls-simply-soil",
+      "name": "simply soil.",
+      "country": "DE",
+      "region": null,
+      "city": null,
+      "url": "https://simplysoil.de/",
+      "orderUrl": "https://simplysoil.de/zutaten/",
+      "phone": "+49 155 600 915 19",
+      "email": "ask@simplysoilshop.de",
+      "product": "Living-Soil-Manufaktur (No-Till): Amendment-Blends, Wurmkompost, Zutaten-Guide",
+      "price": "SIMPLY WURMKOMPOST ab 12,00 €; All-Blend ab 18,00 €; THRIVE ab 45,00 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "Gut für kleine Mengen; zum Prüfzeitpunkt alle Produkte ausverkauft; sehr guter Wissensteil"
+    },
+    {
+      "id": "ls-bio-gartenwelt",
+      "name": "Bio-Gartenwelt",
+      "country": "DE",
+      "region": null,
+      "city": null,
+      "url": "https://bio-gartenwelt.de/",
+      "orderUrl": "https://bio-gartenwelt.de/produkt-kategorie/zusaetze/living-soil-mineralien-co-basic-mischungen/",
+      "phone": "0157 36829681",
+      "email": "info@bio-gartenwelt.de",
+      "product": "Bio-Dünger, Living-Soil-Zusätze, Substrate, Mineralienmischungen",
+      "price": "Wormcast Preta (Wurmhumus+Pflanzenkohle) 1/5/10/50 L = 3,80–49,80 €; MineralienPLUS 5,90–21,90 €",
+      "channel": "shop",
+      "pickup": true,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen (ab 1 L / 3,80 €); Abholung nur nach Vereinbarung; frei ab 69 €",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 1.0,
+        "shipPerUnit": 1.0,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 100,
+        "packaging": "1–50 L"
+      }
+    },
+    {
+      "id": "ls-living-soilgrow",
+      "name": "Living Soilgrow",
+      "country": "DE",
+      "region": null,
+      "city": null,
+      "url": "https://shop.livingsoilgrow.de/",
+      "orderUrl": "https://shop.livingsoilgrow.de/",
+      "phone": "+49 157 72854285",
+      "email": "info@livingsoilgrow.de",
+      "product": "Fermentierte Pflanzenauszüge (FPJ/Jauchen) und No-Till-Cover-Crop-Saatgut",
+      "price": "No Till Cover Crop ab 2,90 €; Brennnessel verjaucht 11,90 €; Ackerschachtelhalm ab 24,90 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "GUT für kleine Mengen; Nische Fermente/Extrakte; frei ab 150 €"
+    },
+    {
+      "id": "ls-living-soil-hamburg",
+      "name": "Living Soil Hamburg",
+      "country": "DE",
+      "region": "Hamburg",
+      "city": "Hamburg",
+      "url": "https://www.livingsoilhamburg.com/",
+      "orderUrl": "https://www.livingsoilhamburg.com/shop",
+      "phone": null,
+      "email": "livingsoilhamburg@gmail.com",
+      "product": "Amendment-Mixe, regionaler Wurmhumus, Hanfmulch, Cover-Crop",
+      "price": "Universal Amendments 50 L = 24,90 € (100 L 44,90 €); Cover Crop 100 g = 9,90 €; Hanfmulch 20 L = 14,90 €; Wurmhumus 6 L = 14,90 €",
+      "channel": "shop",
+      "pickup": true,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen; Abholung Lämmersieth 13, 22305 Hamburg nur mit Termin",
+      "lat": 53.55,
+      "lon": 9.99,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": 0.5,
+        "shipPerUnit": 0.5,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 200,
+        "packaging": "50/100 L Mixe"
+      }
+    },
+    {
+      "id": "ls-living-soil-berlin",
+      "name": "Living Soil Berlin",
+      "country": "DE",
+      "region": "Berlin",
+      "city": "Berlin",
+      "url": "https://www.livingsoil.berlin/",
+      "orderUrl": "https://www.livingsoil.berlin/product-page/kelpmehl",
+      "phone": null,
+      "email": "steffen@livingsoil.berlin",
+      "product": "Berliner Living-Soil-Shop, Almicanna-Partner; zertifizierte Bio-Amendments in Kleinstgebinden",
+      "price": "Kelpmehl (Ascophyllum) 250 g = 12,99 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen (250-g-Gebinde); Herscheider Weg 23, 13507 Berlin",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "id": "ls-couple-of-plants",
+      "name": "Couple of Plants",
+      "country": "DE",
+      "region": "Niedersachsen",
+      "city": "Hessisch Oldendorf",
+      "url": "https://www.couple-of-plants.de/",
+      "orderUrl": "https://www.couple-of-plants.de/product-page/living-soil-ready-to-grow-mix",
+      "phone": null,
+      "email": "Info@couple-of-plants.de",
+      "product": "Vorfermentierte Living-Soil-Fertigmischung, Fermente, Grow-Kits",
+      "price": "Living Soil Fertigmischung 25 L = 43,90 €; 50 L = 79,90 €; 100 L = 149,90 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "Für Einsteiger, die fertige Erde wollen; kleinste Einheit 25 L",
+      "lat": 52.17,
+      "lon": 9.25
+    },
+    {
+      "id": "ls-growandstyle",
+      "name": "GrowAndStyle",
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "city": "Overath",
+      "url": "https://www.growandstyle.de/",
+      "orderUrl": "https://www.growandstyle.de/whiteashbotanic-living-soil-food-1-2-liter.html",
+      "phone": "+49 2204 4756511",
+      "email": "kontakt@growandstyle.de",
+      "product": "Growshop mit Ladenlokal, Living-Soil-Food/Amendments, Erde-Komplettsets",
+      "price": "WhiteAshBotanic Living Soil Food 1,2 L = 27,50 €",
+      "channel": "shop",
+      "pickup": true,
+      "shipping": true,
+      "note": "Abholung im Laden (51491 Overath); frei ab 75 €",
+      "lat": 50.93,
+      "lon": 7.29
+    },
+    {
+      "id": "ls-superwurm",
+      "name": "Superwurm",
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "city": "Vettweiß",
+      "url": "https://www.superwurm.de/",
+      "orderUrl": "https://www.superwurm.de/garten-kompost/terraverm-wurmhumus",
+      "phone": "+49 1522 5432222",
+      "email": null,
+      "product": "Wurm-Spezialist: Kompostwürmer, Wurmfarmen, TerraVerm BIO-Wurmhumus",
+      "price": "TerraVerm 10 L = 9,99 €; 20 L = 14,50 €; 30 L = 19,00 €; 40 L = 23,99 € (0,60 €/L)",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen (ab 10 L); Kontakt per WhatsApp/Telefon",
+      "lat": 50.73,
+      "lon": 6.6,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.6,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 200,
+        "packaging": "Sack 10–40 L"
+      }
+    },
+    {
+      "id": "ls-em-kaufhaus",
+      "name": "EM-Kaufhaus",
+      "country": "DE",
+      "region": "Berlin",
+      "city": "Berlin",
+      "url": "https://www.em-kaufhaus.de/",
+      "orderUrl": "https://www.em-kaufhaus.de/Bodenverbesserung",
+      "phone": "030 62640199",
+      "email": "info@dimikro.de",
+      "product": "Effektive Mikroorganismen, Bokashi/Fermente, Pflanzenkohle, Urgesteinsmehle",
+      "price": "Pflanzenkohle (EMa) 5 L = 8,35 € (1,67 €/L); Diabas Urgesteinsmehl 1 kg = 4,90 €; Biolit 6 kg = 12,90 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen; frei ab 69 €; Seelenbinderstr. 147, 12555 Berlin",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "id": "ls-pflanzenkohle24",
+      "name": "Pflanzenkohle24",
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "city": "Bottrop",
+      "url": "https://www.pflanzenkohle24.de/",
+      "orderUrl": "https://www.pflanzenkohle24.de/Terra-Preta/",
+      "phone": "+49 2045 469846",
+      "email": "kundenservice@egosgroup.de",
+      "product": "Pflanzenkohle- und Terra-Preta-Spezialist vom 20-L-Sack bis BigBag",
+      "price": "Terra Preta 20 L = 19,90 € (1,00 €/L); 40 L = 25,90 € (0,65 €/L); 1000 L BigBag = 439,00 € (0,44 €/L)",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "GUT ab 20 L; versandkostenfrei DE; Betriebsferien 01.–14.08.2026",
+      "lat": 51.52,
+      "lon": 6.93,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.65,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "20 L bis 1000 L BigBag"
+      }
+    },
+    {
+      "id": "ls-klimafarmer",
+      "name": "Klimafarmer",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": null,
+      "url": "https://klimafarmer.de/",
+      "orderUrl": "https://klimafarmer.de/collections/terra-preta",
+      "phone": "+49 6133 3859785",
+      "email": "service@klimafarmer.de",
+      "product": "Bio-/torffreie Terra-Preta- und Pflanzenkohle-Erden, regional produziert",
+      "price": "Beet&Garten 40 L = 22,90 €; Hochbeeterde 40 L = 18,90 €; 500 L BigBag = 229,00 € (0,46 €/L)",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "Kleinste Einheit 40 L; Telefon Mo–Fr 10–16 Uhr",
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.46,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "40 L Sack, 500 L BigBag"
+      }
+    },
+    {
+      "id": "ls-vulkatec-riebensahm",
+      "name": "Vulkatec Riebensahm",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Kretz",
+      "url": "https://www.vulkatec.de/",
+      "orderUrl": "https://www.vulkatec.de/produktshop/einzelkomponenten/",
+      "phone": null,
+      "email": "info@vulkatec.de",
+      "product": "Vulkanische Einzelkomponenten: Lava, Bims, Zeolith, Basalt — Aeration für Living Soil",
+      "price": "Vulkaflor 25 L = 22,90 € (0,92 €/L); Bims Premium 1-5 ab 12,90 €; Lava 1-5 ab 11,90 €; Zeolith 2-5 ab 19,90 €",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "SEHR GUT für kleine Mengen — 6/10/25 L, daneben 0,5 und 1 m³ BigBag; Im Pommerfeld 2, 56630 Kretz",
+      "lat": 50.4,
+      "lon": 7.3,
+      "pricing": {
+        "unit": "L",
+        "pickupPerUnit": null,
+        "shipPerUnit": 0.92,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 300,
+        "packaging": "6/10/25 L, BigBag 0,5–1 m³"
+      }
+    },
+    {
+      "id": "ls-sonnenerde",
+      "name": "Sonnenerde (Pflanzenkohle)",
+      "country": "AT",
+      "region": "Burgenland",
+      "city": "Riedlingsdorf",
+      "url": "https://www.sonnenerde.at/",
+      "orderUrl": "https://www.sonnenerde.at/de/produkt/bio-pflanzenkohle",
+      "phone": "+43 3357 42198",
+      "email": "office@sonnenerde.at",
+      "product": "Bio-Erden und Pflanzenkohle (EBC-Premium)",
+      "price": "Bio Pflanzenkohle 12 L lose (nur Abholung) = 6,00 € (0,50 €/L); 30 L Sack = 34,90 €; BigBag 1,2 m³ = 500,00 €",
+      "channel": "shop",
+      "pickup": true,
+      "shipping": true,
+      "note": "Abholung ab Werk 7422 Riedlingsdorf; BigBags nur auf Bestellung",
+      "lat": 47.3,
+      "lon": 16.2
+    },
+    {
+      "id": "sm-raiffeisen-friedersdorf-eg",
+      "name": "Raiffeisen Friedersdorf eG",
+      "country": "DE",
+      "region": "Brandenburg",
+      "city": "Heidesee (OT Friedersdorf)",
+      "url": "https://www.raiffeisen-friedersdorf.de/",
+      "orderUrl": null,
+      "phone": "033767 77590",
+      "email": null,
+      "product": "Urgesteinsmehl (Sackware) im Raiffeisen-Garten-/Baustoffmarkt",
+      "price": null,
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": false,
+      "note": "Nächste Abholquelle – Heidesee grenzt an Teupitz; Filiale auch Gräbendorf; Urgesteinsmehl-Bestand tel. bestätigen · Feinheit: vor Ort erfragen",
+      "lat": 52.23,
+      "lon": 13.72
+    },
+    {
+      "id": "sm-raiffeisenmarkt",
+      "name": "Raiffeisenmarkt (Kette)",
+      "country": "DE",
+      "region": "Brandenburg",
+      "city": "Lübben (Spreewald)",
+      "url": "https://www.raiffeisenmarkt.de/marktsuche",
+      "orderUrl": "https://www.raiffeisenmarkt.de/cuxin-dcm-urgesteinsmehl-4425",
+      "phone": null,
+      "email": null,
+      "product": "CUXIN DCM Urgesteinsmehl (Lava) 10 kg; auch Neudorff/Substral",
+      "price": "Cuxin 11,99 €/10 kg",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": true,
+      "note": "500+ Märkte; Abholung Markt Lübben & Raum Königs Wusterhausen, Versand als Sperrgut möglich · Feinheit: feines Gesteinsmehl",
+      "lat": 51.94,
+      "lon": 13.89
+    },
+    {
+      "id": "sm-baustoffe-liefern-de",
+      "name": "Baustoffe-liefern.de (Spreewald)",
+      "country": "DE",
+      "region": "Brandenburg",
+      "city": "Burg (Spreewald)",
+      "url": "https://www.baustoffe-liefern.de/",
+      "orderUrl": null,
+      "phone": null,
+      "email": null,
+      "product": "Urgesteinsmehl/Basaltmehl Bodenverbesserer (regionale Lieferung/Abholung über Partner)",
+      "price": null,
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": false,
+      "shipping": true,
+      "note": "Vermittlungs-/Lieferportal Region Spree-Neiße; Feinheit vor Bestellung prüfen · Feinheit: nicht ausgewiesen",
+      "lat": 51.84,
+      "lon": 14.14
+    },
+    {
+      "id": "sm-rpbl-bolsdorfer-basalt",
+      "name": "RPBL – Bolsdorfer Basalt",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Sinzig",
+      "url": "https://www.rpbl.de/",
+      "orderUrl": "https://www.agrarshop-online.com/de/bodenverbesserung/gesteinsmehle/bolsdorfer-basalt-urgesteinsmehl/index.php",
+      "phone": "02642 4010",
+      "email": "info@rpbl.de",
+      "product": "Bolsdorfer Basalt Urgesteinsmehl, 20-kg-Sack, Palette, Big Bag 1000 kg",
+      "price": "19,95 €/20 kg (1,00 €/kg); Big Bag 1000 kg",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": true,
+      "note": "Original-Hersteller; kostenloser Versand DE, Abholung ab Werk Sinzig · Feinheit: feines Basaltmehl",
+      "lat": 50.54,
+      "lon": 7.25,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 1.0,
+        "shipPerUnit": 1.0,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "Sack/Palette/Big Bag"
+      }
+    },
+    {
+      "id": "sm-schicker-mineral-diabas",
+      "name": "Schicker Mineral – Diabas fein",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Bad Berneck",
+      "url": "https://www.schicker-mineral.de/",
+      "orderUrl": "https://www.schicker-mineral.de/diabas-urgesteinsmehl-fein",
+      "phone": "09273 99735",
+      "email": "service@schicker-mineral.de",
+      "product": "Diabas Urgesteinsmehl fein; 2,5/10/25 kg, Paletten, Big Bag 500/1000 kg",
+      "price": "9,99 €/2,5 kg; Big Bags auf Anfrage",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": true,
+      "note": "Klar mehlfein deklariert; kostenlose Lieferung DE, Abholung möglich; gute Big-Bag-Option · Feinheit: mehlfein, max. 0,063 mm",
+      "lat": 50.04,
+      "lon": 11.67,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 4.0,
+        "shipPerUnit": 4.0,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": 100,
+        "packaging": "Sack/Palette/Big Bag"
+      }
+    },
+    {
+      "id": "sm-chiligrow-califarm-basalt",
+      "name": "chiligrow – CALIFARM Basalt",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Bolsdorf",
+      "url": "https://chiligrow.de/",
+      "orderUrl": "https://chiligrow.de/basalt-urgesteinsmehl-fuer-gesunde-boeden-und-kraeftige-pflanzen-wirksames-silikat-gesteinsmehl/",
+      "phone": null,
+      "email": null,
+      "product": "Basalt Urgesteinsmehl (Silikat), 1/5/10/20 kg",
+      "price": "5,80–58,00 € (1–20 kg)",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": false,
+      "shipping": true,
+      "note": "Sehr hoher Feinheitsgrad, ideal für Living Soil; Versandshop · Feinheit: ultrafein: 75-80% <0,063 mm, 40-50% <0,025 mm",
+      "lat": 50.3,
+      "lon": 6.75
+    },
+    {
+      "id": "sm-emiko",
+      "name": "EMIKO",
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "city": "Meckenheim",
+      "url": "https://www.emiko.de/",
+      "orderUrl": "https://www.emiko.de/shop/agrar/em-produkte/urgesteinsmehl-1000-kg-bigbag.html",
+      "phone": "+49 2225 955950",
+      "email": null,
+      "product": "Urgesteinsmehl 1000-kg-BigBag (Agrar)",
+      "price": "auf Anfrage, Mindestabnahme 3×1000 kg",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": false,
+      "shipping": true,
+      "note": "Nur Großgebinde/Big Bag; Speditionsversand · Feinheit: sehr feine Vermahlung",
+      "lat": 50.63,
+      "lon": 7.03
+    },
+    {
+      "id": "sm-zierkiese-de-bolsdorfer",
+      "name": "Zierkiese.de – Bolsdorfer Basalt",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Boppard-Buchholz",
+      "url": "https://zierkiese.de/",
+      "orderUrl": "https://zierkiese.de/products/gesteinsmehl-bolsdorfer-basalt",
+      "phone": null,
+      "email": "service@zierkiese.de",
+      "product": "Gesteinsmehl Bolsdorfer Basalt, 20-kg-Sack, Palette, Big Bag, lose",
+      "price": "17,99 €/20 kg; Palette 960 kg 599 €",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": true,
+      "note": "Lose Abholung ab Lager Boppard; Sack/Palette/Big Bag Versand bundesweit · Feinheit: feines Basalt-Gesteinsmehl",
+      "lat": 50.23,
+      "lon": 7.59,
+      "pricing": {
+        "unit": "kg",
+        "pickupPerUnit": 0.9,
+        "shipPerUnit": 0.9,
+        "shipFlat": null,
+        "minQty": null,
+        "maxQty": null,
+        "packaging": "Sack/Palette/Big Bag"
+      }
+    },
+    {
+      "id": "sm-hartsteinwerke-vogtland-diabas",
+      "name": "Hartsteinwerke Vogtland – Diabas",
+      "country": "DE",
+      "region": "Sachsen",
+      "city": "Oelsnitz (Vogtland)",
+      "url": "https://www.hartsteinwerke-vogtland.de/leistungsspektrum/gartenbauprodukte/urgesteinsmehl",
+      "orderUrl": null,
+      "phone": "+49 37421 7010",
+      "email": "info@hartsteinwerke-vogtland.de",
+      "product": "Diabas-Urgesteinsmehl; 25-kg-Säcke sowie 25 t lose",
+      "price": "Sack + Lose auf Anfrage",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": true,
+      "note": "Nächster ostdeutscher Produzent (~2,5 h von Teupitz); nur die mehlfeine Variante nehmen, nicht 0/2 mm · Feinheit: mehlfein (Achtung: 0/2-mm-Variante ist grober Splitt)",
+      "lat": 50.41,
+      "lon": 12.17
+    },
+    {
+      "id": "sm-selbstversorgerladen-diabas",
+      "name": "Selbstversorgerladen – Diabas",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Lichtenberg",
+      "url": "https://www.selbstversorgerladen.de/",
+      "orderUrl": "https://selbstversorgerladen.myshopify.com/products/urgesteinsmehl",
+      "phone": null,
+      "email": "service@selbstversorgerladen.de",
+      "product": "Urgesteinsmehl aus Franken (Diabas); 5/10/20 kg",
+      "price": "11,95 €/5 kg; 20 kg 0,90 €/kg",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": false,
+      "shipping": true,
+      "note": "Günstig im 20-kg-Sack; Körnung nicht deklariert · Feinheit: nicht ausgewiesen – Feinheit vor Kauf erfragen",
+      "lat": 50.38,
+      "lon": 11.63
+    },
+    {
+      "id": "sm-raiffeisen-duengershop",
+      "name": "Raiffeisen-Düngershop",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Ormont",
+      "url": "https://www.raiffeisen-duengershop.de/",
+      "orderUrl": "https://www.raiffeisen-duengershop.de/produkt/garten/urgesteinsmehl/",
+      "phone": "06557 920330",
+      "email": "Andreas.Eichten@Raiffeisenservice.de",
+      "product": "Urgesteinsmehl; 1/5/10/20 kg",
+      "price": "13,99 €/10 kg",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": false,
+      "shipping": true,
+      "note": "Solider Versandshop für Klein-/Mittelgebinde · Feinheit: gemahlen, ca. 41% Kieselsäure",
+      "lat": 50.29,
+      "lon": 6.42
+    },
+    {
+      "id": "sm-basalt-union",
+      "name": "Basalt-Union",
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Linz am Rhein",
+      "url": "https://www.basalt-union.de/produkte/gesteinsmehle/",
+      "orderUrl": null,
+      "phone": null,
+      "email": null,
+      "product": "Naturgesteinsmehle Basalt/Diabas/Grauwacke; lose im Silo oder Sackware",
+      "price": "auf Anfrage",
+      "material": "steinmehl",
+      "channel": "producer",
+      "pickup": true,
+      "shipping": true,
+      "note": "Großproduzent für Großmengen (Silo/Sackware), kein Endkunden-Webshop; garantiert mehlfein · Feinheit: mehlfein, <0,063 mm",
+      "lat": 50.57,
+      "lon": 7.28
     }
-  ]
+  ],
+  "trailers": [
+    {
+      "id": "tr-freetrailer",
+      "name": "Freetrailer",
+      "type": "plattform",
+      "url": "https://freetrailer.com/de/preise/",
+      "coverage": "Bundesweit an Handelsstandorten (IKEA, Dehner, JYSK u.a.), 100 % Self-Service per App",
+      "price": "4 € Reservierung, erste 3 Std. GRATIS, danach 5 €/Std., max. 29 €/Tag",
+      "payload": "Offene und geschlossene Anhänger, typisch 750 kg zGG",
+      "note": "Billigste Option, wenn die Fuhre in 3 Std. erledigt ist → nur 4 €. Für Erde/Kompost offenen Anhänger wählen und besenrein zurückgeben (Reinigung 60 €)."
+    },
+    {
+      "id": "tr-rentmytrailer",
+      "name": "RentMyTrailer",
+      "type": "plattform",
+      "url": "https://www.rentmytrailer.de/Pricing",
+      "coverage": "App-basiertes Sharing in vielen Großstädten, keine Kaution, kontaktlos",
+      "price": "Offener Kastenanhänger: ab 6 € (2 Std.), 1. Tag max. 18 €, Wochenende 32,40 €",
+      "payload": "Offener Kasten: 750 kg zGG, 583 kg Zuladung, 251×137×36 cm",
+      "note": "Preis-Leistungs-Sieger für Substrat-Fuhren: 18 € für den ganzen Tag. Offene Bauform ideal (schaufelbar), Netz mitnehmen."
+    },
+    {
+      "id": "tr-obi-mietgeraete",
+      "name": "OBI Mietgeräte",
+      "type": "baumarkt",
+      "url": "https://www.obi.de/markt/mietgeraete/anhaenger",
+      "coverage": "Bundesweit in teilnehmenden OBI-Märkten, Online-Reservierung (über Boels)",
+      "price": "Einachser <750 kg: 27,20 €/4 Std., 34 €/24 Std., Kaution 70 €. Doppelachser: 31,20 €/4 Std., 39 €/24 Std., Kaution 80 €",
+      "payload": "Einachser 750 kg zGG (450 kg netto) = max. 0,5 m³. Doppelachser 2000 kg (1540 kg netto) = bis 1,5 m³",
+      "note": "Beste bundesweit nachprüfbare Preisliste. ACHTUNG: Doppelachser braucht Führerschein BE."
+    },
+    {
+      "id": "tr-toom-anhaengerverleih",
+      "name": "toom Anhängerverleih",
+      "type": "baumarkt",
+      "url": "https://toom.de/service/miet-verleihservice/anhaenger-mieten/",
+      "coverage": "Über 275 toom Baumärkte bundesweit, Online-Buchung (über Boels)",
+      "price": "Einachser mit Plane: 31,20 €/4 Std., 39 €/24 Std., Kaution 80 €. Mit toom Karte 10–20 % Rabatt",
+      "payload": "Einachser bis 750 kg zGG (~450 kg netto), Zweiachser bis 2000 kg zGG (~1540 kg)",
+      "note": "Preise identisch zu OBI (beide über Boels). Ausweis + EU-Führerschein bei Abholung nötig."
+    },
+    {
+      "id": "tr-bauhaus-anhaengerverleih",
+      "name": "BAUHAUS Anhängerverleih",
+      "type": "baumarkt",
+      "url": "https://www.bauhaus.info/s/service/services/anhaengerverleih",
+      "coverage": "Bundesweit in Fachcentren mit Mietpark, Reservierung vor Ort",
+      "price": "4 Std. 24 €, 24 Std. 37 €, Wochenende 56 €, ab 7 Tagen 15 €/Tag, Kaution 200 €",
+      "payload": "Typisch Einachser 750 kg zGG (~500 kg Nutzlast), teils bis 1000 kg zGG",
+      "note": "Regional teils kostenlose Kurzausleihe (~2 Std.) beim Großeinkauf. Preise vor Ort bestätigen lassen."
+    },
+    {
+      "id": "tr-hagebau-anhaengervermietung",
+      "name": "hagebau Anhängervermietung",
+      "type": "baumarkt",
+      "url": "https://www.hagebau.de/service-anhaengervermietung/",
+      "coverage": "Nur teilnehmende hagebaumärkte (stark regional)",
+      "price": "Regional unterschiedlich; Beispiel: halber Tag 24,99 €, ganzer Tag 34,80 €. Einzelne Standorte bis 3 Std. gratis",
+      "payload": "Beispiel: 1000 kg zGG, 740 kg Nutzlast, 2,50×1,25 m → ca. 1 m³",
+      "note": "Der 1000-kg-Anhänger ist der interessante Zwischenschritt — mehr Nutzlast, evtl. noch in der B-Grenze. Vorher Führerschein-Rechnung machen."
+    },
+    {
+      "id": "tr-hornbach-anhaengervermietung",
+      "name": "HORNBACH Anhängervermietung",
+      "type": "baumarkt",
+      "url": "https://www.hornbach.de/services/anhaenger-und-transportervermietung/",
+      "coverage": "Nicht in jedem Markt; Konditionen marktabhängig",
+      "price": "Auf Anfrage — HORNBACH veröffentlicht keine bundesweite Preisliste",
+      "payload": "Marktabhängig, typisch 750 kg bis Tandem 2000 kg zGG",
+      "note": "Preis und Verfügbarkeit vorher telefonisch im Wunschmarkt klären."
+    },
+    {
+      "id": "tr-trailer2go",
+      "name": "trailer2go",
+      "type": "plattform",
+      "url": "https://www.trailer2go.com/",
+      "coverage": "~50 unabhängige Mietstationen in DE (auch AT/CH/NL), viele 24/7 Selfservice",
+      "price": "Je Station unterschiedlich — Preis bei Buchung prüfen",
+      "payload": "Von 750-kg-Einachser über 1.300 kg bis Tandem und Kipper",
+      "note": "Gut wenn kein Baumarkt-Verleih in der Nähe ist — und wenn ein KIPPER gebraucht wird (spart enorm Schaufelarbeit bei 1 m³)."
+    },
+    {
+      "id": "tr-gebraucht-kaufen",
+      "name": "Gebraucht kaufen (750 kg)",
+      "type": "kauf",
+      "url": "https://www.kleinanzeigen.de/s-auto-rad-boot/anbieter:privat/anhaenger-750-kg-gebraucht/k0c210",
+      "coverage": "Bundesweit über Kleinanzeigen / mobile.de / Händler",
+      "price": "Gebraucht ca. 250–800 € (mit Plane bis ~1.500 €); neu ab ca. 670–1.200 €",
+      "payload": "750 kg zGG → ca. 550–620 kg Nutzlast ≈ 0,5–0,8 m³ Schüttgut",
+      "note": "Rechnet sich nach ~10–15 Baumarkt-Tagesmieten. Auf HU, Papiere, Reifenalter achten; Kipp-Ausführung lohnt für Schüttgut."
+    },
+    {
+      "id": "rules",
+      "name": "Führerschein & Zuladung",
+      "type": "info",
+      "url": null,
+      "coverage": null,
+      "price": null,
+      "payload": null,
+      "note": "Klasse B: Zugfahrzeug bis 3.500 kg zGG + Anhänger bis 750 kg zGG — oder schwererer Anhänger, solange Auto zGG + Anhänger zGG zusammen 3.500 kg nicht überschreiten. Darüber braucht es B96 (bis 4.250 kg, nur Schulung) oder BE. Praktisch: ein 750-kg-Anhänger trägt nur ~450–600 kg ≈ 0,5 m³ pro Fahrt, ein 1.000er ~740 kg ≈ 1 m³, ein gebremster Tandem (2.000 kg) die vollen 1,5 m³. Wer 1–1,5 m³ in einem Zug will, sprengt mit einem üblichen Kombi/SUV die 3.500-kg-Grenze und braucht BE/B96 — sonst zwei Fahrten mit dem 750er planen oder liefern lassen."
+    }
+  ],
+  "trailerDayCost": 30
 }
