@@ -56,7 +56,8 @@
         "abw-oikoartec",
         "interbims",
         "lassliefern",
-        "vulkan-substrate"
+        "vulkan-substrate",
+        "proflor-basalt"
       ]
     },
     {
@@ -746,6 +747,23 @@
       "pickup": true,
       "shipping": true,
       "note": "Gartenerde, Reif- und Agrarkompost, Sondermischungen; Schüttgut ab Anlage"
+    },
+    {
+      "id": "proflor-basalt",
+      "name": "proFlor (Telker) – Basalt 2–5",
+      "country": "DE",
+      "region": "Brandenburg",
+      "city": "Hoppegarten OT Münchehofe",
+      "url": "https://www.telker-proflor.de/proflor/index.php",
+      "orderUrl": "",
+      "phone": "03342 300124",
+      "email": "info@telker-proflor.de",
+      "material": "basalt",
+      "product": "Basalt-Splitt 2–5 mm, Schüttgut (Abholung ~15 km)",
+      "price": "Schüttgut – Preis tel. erfragen",
+      "pickup": true,
+      "shipping": true,
+      "note": "Lokale Abholoption (~15 km). ACHTUNG: dichter Basaltsplitt, schwer und nicht porös → nur als TEIL-Struktur, nicht als Haupt-Aeration (Bims/Lava/Ziegelsplitt sind besser). Für Remineralisierung ZU GROB – dafür feines Basalt-Steinmehl nehmen."
     }
   ]
 }
