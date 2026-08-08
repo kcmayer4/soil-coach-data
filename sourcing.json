@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "materials": [
     {
       "id": "wormcast",
@@ -295,6 +295,116 @@
         "ls-em-kaufhaus"
       ],
       "options": null
+    },
+    {
+      "id": "phosphor",
+      "name": {
+        "de": "Phosphor",
+        "en": "Phosphorus"
+      },
+      "summary": {
+        "de": "Erst prüfen, ob du überhaupt welchen brauchst: Kompost + Wurmhumus liefern in einem Living Soil oft mehr P als ein Sack Knochenmehl, und die Mykorrhiza schließt gebundenes P auf (~80 % der Aufnahme). Viel schnell verfügbares P unterdrückt genau diese Mykorrhiza. Im Zweifel auf Mangelzeichen warten und gezielt nachlegen.",
+        "en": "First check whether you need any: in a living soil, compost + worm castings often deliver more P than a bag of bone meal, and mycorrhiza unlocks bound P (~80 % of uptake). Lots of fast P suppresses exactly that mycorrhiza. When unsure, wait for deficiency signs and top-dress deliberately."
+      },
+      "sourceIds": null,
+      "options": [
+        {
+          "id": "krabbenschalen",
+          "name": {
+            "de": "Krabben-/Garnelenschalenmehl",
+            "en": "Crab/shrimp shell meal"
+          },
+          "summary": {
+            "de": "Living-Soil-Favorit: P + Calcium + Chitin. Das Chitin füttert Mikroben, die Pilzzellwände und Schädlingspanzer knacken — doppelter Nutzen statt reinem Nährstoff.",
+            "en": "Living-soil favourite: P + calcium + chitin. Chitin feeds microbes that break down fungal cell walls and pest exoskeletons — double duty, not just a nutrient."
+          },
+          "sourceIds": [
+            "ph-microbe-gladiators",
+            "ph-vibrantground"
+          ]
+        },
+        {
+          "id": "weichphosphat",
+          "name": {
+            "de": "Weichphosphat (Rohphosphat)",
+            "en": "Soft rock phosphate"
+          },
+          "summary": {
+            "de": "Gemahlenes Naturgestein, 0-26-0. Kleiner Anteil sofort, großer Anteil als Reservoir über Jahre — die Biologie schließt es nach und nach auf. Längste Wirkdauer. Cd-/Uranwerte beim Anbieter erfragen.",
+            "en": "Ground natural rock, 0-26-0. Small share available now, large share a reservoir for years, unlocked by biology. Longest duration. Ask the supplier for Cd/uranium values."
+          },
+          "sourceIds": [
+            "ph-bio-gartenwelt",
+            "ph-emiko",
+            "ph-beckmann-brehm",
+            "ph-dueka",
+            "ph-truesoil",
+            "ph-humus-bewegung"
+          ]
+        },
+        {
+          "id": "fischmehl",
+          "name": {
+            "de": "Fischgräten-/Fischmehl",
+            "en": "Fish bone / fish meal"
+          },
+          "summary": {
+            "de": "Der direkte Knochenmehl-Ersatz — Fischgrätenmehl hat mit ~22 % sogar mehr P als Knochenmehl (15 %), plus Calcium. Riecht kräftig, gut einarbeiten.",
+            "en": "The direct bone-meal swap — fish bone meal has ~22 % P, even more than bone meal (15 %), plus calcium. Strong smell, work it in well."
+          },
+          "sourceIds": [
+            "ph-grundstoff",
+            "ph-flow-inc"
+          ]
+        },
+        {
+          "id": "knochenmehl",
+          "name": {
+            "de": "Knochenmehl",
+            "en": "Bone meal"
+          },
+          "summary": {
+            "de": "Klassiker 3-15-0, langsam über Monate. Dampfsterilisiert kaufen, grobe Körnung hält länger, immer einarbeiten (lockt Tiere). Braucht pH unter 7.",
+            "en": "Classic 3-15-0, slow over months. Buy steamed, coarser grade lasts longer, always work it in (attracts animals). Needs pH below 7."
+          },
+          "sourceIds": [
+            "ph-agrarhandel-koenig",
+            "ph-ludwig-engelhart",
+            "ph-living-soil"
+          ]
+        },
+        {
+          "id": "guano",
+          "name": {
+            "de": "Guano (P-reich)",
+            "en": "Guano (high-P)"
+          },
+          "summary": {
+            "de": "Schnell verfügbar, ideal als Blüte-Topdress statt im Grundmix. Vorsicht: viel schnelles P unterdrückt die Mykorrhiza — sparsam dosieren.",
+            "en": "Fast acting, best as a flowering top-dress rather than in the base mix. Careful: lots of fast P suppresses mycorrhiza — dose sparingly."
+          },
+          "sourceIds": [
+            "ph-hubey",
+            "ph-pflanzenkohle24",
+            "ph-grow-shop24"
+          ]
+        },
+        {
+          "id": "reiskleie",
+          "name": {
+            "de": "Reiskleie (Rice Bran)",
+            "en": "Rice bran"
+          },
+          "summary": {
+            "de": "Vor allem Mikrobenfutter, P nur ~4 % und in Wochen verbraucht — kein Speicher. NICHT verwechseln mit Reisspelzen (die sind Belüftung, ohne Nährstoffe).",
+            "en": "Mainly microbe food; only ~4 % P and consumed within weeks — not a reservoir. Do NOT confuse with rice hulls (those are aeration, no nutrients)."
+          },
+          "sourceIds": [
+            "ph-pferdefutter-de",
+            "ph-hafen-muehlen"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -2357,6 +2467,366 @@
       "note": "Großproduzent für Großmengen (Silo/Sackware), kein Endkunden-Webshop; garantiert mehlfein · Feinheit: mehlfein, <0,063 mm",
       "lat": 50.57,
       "lon": 7.28
+    },
+    {
+      "id": "ph-grundstoff",
+      "name": "Grundstoff — Fischgrätenmehl",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Großhabersdorf",
+      "url": "https://grundstoff-shop.de/",
+      "orderUrl": "https://grundstoff-shop.de/products/fischgraetenmehl-phosphorduenger-garten",
+      "phone": "+49 151 41357472",
+      "email": "kontakt@grundstoff-shop.de",
+      "product": "Fischgrätenmehl 6-22-0, 1/2,5/5/10 kg",
+      "price": "ab 8,99 €/kg",
+      "material": "fischmehl",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "6 % N, 22,4 % P2O5, 18,5 % CaO — Kat. 3 · Mehr P als Knochenmehl (22 % statt 15 %). Führt auch weicherdiges Rohphosphat 0-26-0 ab 6,49 €/kg und Krustentiermehl. Frei ab 129 €.",
+      "lat": 49.42,
+      "lon": 10.79
+    },
+    {
+      "id": "ph-bio-gartenwelt",
+      "name": "bio-gartenwelt — Rohphosphat",
+      "country": "DE",
+      "region": "Baden-Württemberg",
+      "city": "Fellbach",
+      "url": "https://bio-gartenwelt.de/",
+      "orderUrl": "https://bio-gartenwelt.de/shop/weicherdiges-rohphosphat/",
+      "phone": null,
+      "email": "info@bio-gartenwelt.de",
+      "product": "Weicherdiges Rohphosphat granuliert 0-26-0, 0,5–20 kg",
+      "price": "4,90 € (0,5 kg) bis 27,60 € (20 kg)",
+      "material": "weichphosphat",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "26 % P2O5, 31 % CaO, Spuren Fe/Mn/Zn · Zugelassen nach Bioland, Demeter, Ecovin. Frei ab 69 €. Cd-/Uranwerte nicht ausgewiesen — bei Bedarf erfragen.",
+      "lat": 48.81,
+      "lon": 9.28
+    },
+    {
+      "id": "ph-emiko",
+      "name": "EMIKO — Rohphosphat",
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "city": "Meckenheim",
+      "url": "https://www.emiko.de/",
+      "orderUrl": "https://www.emiko.de/shop/garten/rohphosphat.html",
+      "phone": "+49 2225 95595-0",
+      "email": "info@emiko.de",
+      "product": "EMIKO Rohphosphat 1 kg",
+      "price": "12,90 € / 1 kg",
+      "material": "weichphosphat",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "26 % P2O5 · Für ökologischen Landbau zugelassen; nur Kleingebinde.",
+      "lat": 50.63,
+      "lon": 7.03
+    },
+    {
+      "id": "ph-beckmann-brehm",
+      "name": "Beckmann & Brehm — Phosphat 26",
+      "country": "DE",
+      "region": "Niedersachsen",
+      "city": "Beckeln",
+      "url": "https://beckhorn.de/",
+      "orderUrl": "https://beckhorn.de/produkt/phosphat-26/",
+      "phone": "+49 4244 9274-0",
+      "email": "info@beckhorn.de",
+      "product": "Phosphat 26 — weicherdiges Rohphosphat, 20-kg-Sack",
+      "price": "auf Anfrage",
+      "material": "weichphosphat",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "26 % P2O5, Granulat · FiBL-Betriebsmittelliste als P26; Bioland/Naturland/Gäa/Demeter anerkannt. Landwirtschaftlicher Anbieter für größere Mengen.",
+      "lat": 52.9,
+      "lon": 8.55
+    },
+    {
+      "id": "ph-dueka",
+      "name": "DüKa — DOLOPHOS 16",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Wörth a.d. Donau",
+      "url": "https://www.dueka.de/",
+      "orderUrl": "https://www.dueka.de/produkte/dolophos-16/",
+      "phone": "+49 9482 64397-0",
+      "email": "dueka@dueka.de",
+      "product": "DOLOPHOS 16 (Rohphosphat + Dolomit), Sack/Big Bag/lose",
+      "price": "auf Anfrage",
+      "material": "weichphosphat",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "16 % P2O5, 65 % CaCO3, 15 % MgCO3 · ACHTUNG: stark kalkhaltig — hebt den pH deutlich. Für kalkarme Böden, nicht für einen ohnehin alkalischen Mix. Bulk-Lieferant.",
+      "lat": 49.0,
+      "lon": 12.4
+    },
+    {
+      "id": "ph-truesoil",
+      "name": "TRUESOIL — Rohphosphat",
+      "country": "AT",
+      "region": "Wien",
+      "city": "Wien",
+      "url": "https://truesoil.at/",
+      "orderUrl": "https://truesoil.at/products/rohphosphat-granuliert",
+      "phone": "+43 660 6451285",
+      "email": "office@truesoil.at",
+      "product": "Weicherdiges Rohphosphat granuliert, 0,25–5 kg",
+      "price": "ab 2,50 €",
+      "material": "weichphosphat",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "26 % Gesamt-P2O5, davon 14,3 % ameisensäurelöslich · Österreichischer Living-Soil-Shop; EU-Öko 2018/848, FiBL P26. Führt auch Bone Meal 7-15-0 und Seevogel-Guano. Verfügbarkeit vorab erfragen.",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "id": "ph-humus-bewegung",
+      "name": "HUMUS Bewegung — Hyperkorn",
+      "country": "AT",
+      "region": "Niederösterreich",
+      "city": "Litschau",
+      "url": "https://humusbewegung.at/",
+      "orderUrl": "https://humusbewegung.at/product/hyperkorn-weicherdiges-rohphosphat/",
+      "phone": "+43 2863 58109",
+      "email": "office@humusbewegung.at",
+      "product": "Hyperkorn — weicherdiges Rohphosphat",
+      "price": "auf Anfrage",
+      "material": "weichphosphat",
+      "channel": "shop",
+      "pickup": true,
+      "shipping": true,
+      "note": "Standard-Rohphosphat im österreichischen Bio-Landbau; Lagerabholung über Beiselen Ennsdorf (+43 7223 840880).",
+      "lat": 48.94,
+      "lon": 15.04
+    },
+    {
+      "id": "ph-hubey",
+      "name": "hubey — Bat Guano",
+      "country": "DE",
+      "region": "Niedersachsen",
+      "city": "Stuhr",
+      "url": "https://hubey.com/",
+      "orderUrl": "https://hubey.com/product/hubey-bat-guano-pulver-100-fledermausduenger-fledermauskot/",
+      "phone": "+49 421 95805380",
+      "email": "mail@hubey.com",
+      "product": "Bat-Guano Pulver 100 %, 1/2/5 kg",
+      "price": "11,95 € (1 kg) / 39,95 € (5 kg)",
+      "material": "guano",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "NPK 0-19-1; ~19,5 % Phosphat, ~20 % Calcium · Sehr P-reich und stickstofffrei — reine Phosphorquelle, gut als Blüte-Topdress. Sparsam dosieren.",
+      "lat": 53.03,
+      "lon": 8.75
+    },
+    {
+      "id": "ph-pflanzenkohle24",
+      "name": "Pflanzenkohle24 — Guano",
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "city": "Bottrop",
+      "url": "https://www.pflanzenkohle24.de/",
+      "orderUrl": "https://www.pflanzenkohle24.de/Guanoduenger-kaufen/",
+      "phone": "+49 2045 469846",
+      "email": "kundenservice@egosgroup.de",
+      "product": "Guano Pulver / Pellets, 500 g bis 25 kg",
+      "price": "12,90 € (500 g) / 90,93 € (25 kg)",
+      "material": "guano",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "N-P-K plus Ca, Fe, Mn, S, Zn, Mg · Gute Wahl für größere Gebinde, versandkostenfrei.",
+      "lat": 51.52,
+      "lon": 6.93
+    },
+    {
+      "id": "ph-grow-shop24",
+      "name": "grow-shop24 — Guanokalong",
+      "country": "AT",
+      "region": "Wien",
+      "city": "Wien",
+      "url": "https://grow-shop24.at/",
+      "orderUrl": "https://grow-shop24.at/duenger/guanokalong/",
+      "phone": "+43 681 81175673",
+      "email": "office@grow-shop24.at",
+      "product": "Guanokalong Bat Guano Pulver 1 kg",
+      "price": "16,50 € / 1 kg",
+      "material": "guano",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "Österreichischer Growshop, sofort lieferbar.",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "id": "ph-flow-inc",
+      "name": "Flow Inc. — Almicanna Fish Meal",
+      "country": "DE",
+      "region": "Hessen",
+      "city": "Dreieich",
+      "url": "https://flowinc-grow.de/",
+      "orderUrl": "https://flowinc-grow.de/produkt/fish-meal/",
+      "phone": "+49 176 10799433",
+      "email": "info@flowinc-grow.de",
+      "product": "Almicanna Fish Meal (hydrolysiert), 300 g / 1 kg",
+      "price": "6,90 € (300 g) / 16,90 € (1 kg)",
+      "material": "fischmehl",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "NPK 9,5-8,5-2 · ECOCERT-zertifiziert; Shop führt die komplette Living-Soil-Reihe inkl. Bio Bone Meal.",
+      "lat": 50.02,
+      "lon": 8.7
+    },
+    {
+      "id": "ph-agrarhandel-koenig",
+      "name": "Agrarhandel König — Fleischknochenmehl",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Immenreuth",
+      "url": "https://www.koenig-agrar.de/",
+      "orderUrl": "https://www.koenig-agrar.de/fleischknochenmehl-organischer-npduenger-715-p-824.html",
+      "phone": "+49 9642 488",
+      "email": "info@koenig-agrar.de",
+      "product": "Fleischknochenmehl 7-15-0; 5-kg-Beutel oder lose",
+      "price": "auf Anfrage",
+      "material": "knochenmehl",
+      "channel": "shop",
+      "pickup": true,
+      "shipping": true,
+      "note": "7 % N, 15 % P2O5 · Landhandel mit Bulk-Option (lose per Hinterkipper) — bester Weg für größere Mengen. Öko-Zulassung vorher prüfen.",
+      "lat": 49.88,
+      "lon": 11.88
+    },
+    {
+      "id": "ph-ludwig-engelhart",
+      "name": "Ludwig Engelhart — Horn-Knochen-Blutmehl",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Hallbergmoos",
+      "url": "https://www.ludwig-engelhart.de/",
+      "orderUrl": "https://www.ludwig-engelhart.de/index.php/shop/engelharts-horn-knochen-blutmehl-25-kg-detail.html",
+      "phone": "+49 811 1737",
+      "email": null,
+      "product": "Horn-Knochen-Blutmehl 25 kg (auch 5 kg)",
+      "price": "59,90 € / 25 kg (2,40 €/kg)",
+      "material": "knochenmehl",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "7 % N, 8 % P2O5 · Günstigster kg-Preis im Großgebinde. Mischprodukt — liefert zusätzlich viel Stickstoff.",
+      "lat": 48.33,
+      "lon": 11.75
+    },
+    {
+      "id": "ph-living-soil",
+      "name": "Living Soil Hamburg — Bio Knochenmehl",
+      "country": "DE",
+      "region": "Hamburg",
+      "city": "Hamburg",
+      "url": "https://www.livingsoilhamburg.com/",
+      "orderUrl": "https://www.livingsoilhamburg.com/product/14726491/bio-knochenmehl-bone-meal",
+      "phone": null,
+      "email": null,
+      "product": "Bio Knochenmehl 200 g / 500 g",
+      "price": "9,90 € (200 g) / 16,90 € (500 g)",
+      "material": "knochenmehl",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "Regionaler Living-Soil-Spezialist; beim Check ausverkauft, Benachrichtigung möglich.",
+      "lat": 53.55,
+      "lon": 9.99
+    },
+    {
+      "id": "ph-microbe-gladiators",
+      "name": "MICROBE GLADIATORS — Shrimpschalen",
+      "country": "DE",
+      "region": "Hessen",
+      "city": "Söhrewald",
+      "url": "https://microbe-gladiators.com/",
+      "orderUrl": "https://microbe-gladiators.com/products/krabbenschalen",
+      "phone": "+49 173 4256655",
+      "email": "info@broganics.eu",
+      "product": "Shrimpschalen 5-8-0, 1 / 2,5 kg",
+      "price": "25,95 €",
+      "material": "krabbenschalen",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "NP 5-8-0, Chitin + Calcium, arktischer Wildfang · Deutscher Direkthersteller für Krustentierschalenmehl; beim Check ausverkauft, direkt anfragen.",
+      "lat": 51.25,
+      "lon": 9.6
+    },
+    {
+      "id": "ph-vibrantground",
+      "name": "Vibrantground — Crabshell Meal",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Krumbach",
+      "url": "https://vibrantgroundsoil.com/",
+      "orderUrl": "https://vibrantgroundsoil.com/products/krebsmehl-crabshell-crustacean-meal",
+      "phone": "+49 176 28603407",
+      "email": "vibrantgroundsoil@gmail.com",
+      "product": "Life Base Crabshell Meal 1000 g",
+      "price": "22,90 €",
+      "material": "krabbenschalen",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "NPK 4-2-0, CaO 23, Mg 1 · Führt auch Rohphosphat 0-26-0 (14,90 €/kg). Gebinde beim Check teils ausverkauft.",
+      "lat": 48.24,
+      "lon": 10.36
+    },
+    {
+      "id": "ph-pferdefutter-de",
+      "name": "pferdefutter.de — Reiskleie",
+      "country": "DE",
+      "region": "Niedersachsen",
+      "city": "Vechta-Langförden",
+      "url": "https://www.pferdefutter.de/",
+      "orderUrl": "https://www.pferdefutter.de/de/muehldorfer-pferdefutter-reiskleie-20kg-p1723/",
+      "phone": "+49 8171 9084330",
+      "email": "customerservice@pavo.net",
+      "product": "Mühldorfer Reiskleie stabilisiert, 20 kg",
+      "price": "39,20 € / 20 kg (1,96 €/kg)",
+      "material": "reiskleie",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "100 % stabilisierte Reiskleie (Futtermittelqualität) · Praxisüblich für Bokashi, JLF und Living-Soil-Toplayer. Versand ab 4,49 €.",
+      "lat": 52.79,
+      "lon": 8.29
+    },
+    {
+      "id": "ph-hafen-muehlen",
+      "name": "Hafen-Mühlen-Werke — Reiskleie",
+      "country": "DE",
+      "region": "Niedersachsen",
+      "city": "Gnarrenburg",
+      "url": "https://hafenmuehle.de/",
+      "orderUrl": "https://hafenmuehle.de/reiskleie/",
+      "phone": "+49 4763 94584-10",
+      "email": "hmw@hafenmuehle.de",
+      "product": "Reiskleie stabilisiert (gedämpft), 800-kg-BigBag",
+      "price": "auf Anfrage",
+      "material": "reiskleie",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "100 % reine Reiskleie, Futtermittel-/Lebensmittelqualität · Mühle mit echter Bulk-Ware — nur per Anfrage/Telefon. Haltbarkeit 12 Monate bei max. 20 °C.",
+      "lat": 53.38,
+      "lon": 9.0
     }
   ],
   "trailers": [
