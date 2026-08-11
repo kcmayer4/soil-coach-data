@@ -1,0 +1,376 @@
+{
+  "version": 1,
+  "updated": "2026-08-09",
+  "totalDaysHint": {
+    "de": "ca. 18–25 Tage bis bezugsfertig",
+    "en": "approx. 18–25 days until ready"
+  },
+  "phases": [
+    {
+      "id": "prep",
+      "color": "yellow",
+      "days": 1,
+      "title": {
+        "de": "Vorbereitung",
+        "en": "Preparation"
+      },
+      "subtitle": {
+        "de": "Alles bereitlegen — mischen geht nur einmal richtig.",
+        "en": "Stage everything — you only get to mix once."
+      },
+      "steps": [
+        {
+          "id": "prep-water",
+          "text": {
+            "de": "Wasser vorbereiten: Regenwasser sammeln oder Leitungswasser 24 h ausgasen lassen.",
+            "en": "Prepare water: collect rainwater or let tap water off-gas for 24 h."
+          },
+          "detail": {
+            "de": "Chlor/Chloramin tötet genau die Mikroben, die du gleich ansiedelst. Ein offenes Fass reicht: Chlor entweicht über Nacht.",
+            "en": "Chlorine kills exactly the microbes you are about to introduce. An open barrel is enough: chlorine off-gasses overnight."
+          }
+        },
+        {
+          "id": "prep-area",
+          "text": {
+            "de": "Mischfläche vorbereiten: große Plane, Schaufel, Eimer mit Litermaß, Handschuhe, Staubmaske.",
+            "en": "Prepare mixing area: big tarp, shovel, bucket with litre marks, gloves, dust mask."
+          },
+          "detail": {
+            "de": "Basalt, Gips und Kieselgur stauben stark — Maske ist Pflicht. Die Plane erlaubt sauberes Wenden per Ecke-zu-Ecke-Rollen.",
+            "en": "Basalt, gypsum and DE are dusty — wear the mask. The tarp lets you turn the pile by rolling corner to corner."
+          }
+        },
+        {
+          "id": "prep-check",
+          "text": {
+            "de": "Zutaten gegen die Einkaufsliste prüfen — alles da und abgewogen?",
+            "en": "Check ingredients against the shopping list — everything on hand and weighed?"
+          },
+          "detail": {
+            "de": "Mengen vorher in Eimer/Tüten abwiegen. Mittendrin abwiegen führt zu Fehlern und ungleichmäßiger Verteilung.",
+            "en": "Pre-weigh amounts into buckets/bags. Weighing mid-mix causes mistakes and uneven distribution."
+          }
+        }
+      ]
+    },
+    {
+      "id": "charge",
+      "color": "peach",
+      "days": 3,
+      "title": {
+        "de": "Kohle aufladen",
+        "en": "Charge the biochar"
+      },
+      "subtitle": {
+        "de": "Biochar niemals roh einmischen — sie würde erst Nährstoffe SAUGEN.",
+        "en": "Never mix in raw biochar — it would SOAK UP nutrients first."
+      },
+      "steps": [
+        {
+          "id": "charge-soak",
+          "text": {
+            "de": "Pflanzenkohle in Wanne mit Wurmhumus-Wasser + EM-1 tränken.",
+            "en": "Soak biochar in a tub with worm-casting water + EM-1."
+          },
+          "ingredients": [
+            "biochar",
+            "em-bokashi"
+          ],
+          "detail": {
+            "de": "Kohle ist ein leerer Schwamm mit riesiger Oberfläche. Ungeladen zieht sie wochenlang Nährstoffe aus dem Mix (N-Blockade). Geladen ist sie Wohnraum + Puffer.",
+            "en": "Charcoal is an empty sponge with huge surface area. Uncharged it pulls nutrients out of the mix for weeks (N lock). Charged it becomes microbe housing + buffer."
+          }
+        },
+        {
+          "id": "charge-wait",
+          "text": {
+            "de": "3+ Tage feucht ziehen lassen, gelegentlich wenden.",
+            "en": "Let it steep moist for 3+ days, turn occasionally."
+          },
+          "detail": {
+            "de": "Länger ist besser — die Aufladung kann parallel zur restlichen Vorbereitung laufen. Auch 1–2 Wochen sind gut.",
+            "en": "Longer is better — charging can run parallel to the rest of the prep. 1–2 weeks is great too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "drymix",
+      "color": "sage",
+      "days": 1,
+      "title": {
+        "de": "Trockenmix schichten",
+        "en": "Layer the dry mix"
+      },
+      "subtitle": {
+        "de": "Lasagne-Prinzip: dünne Schichten mischen sich fast von selbst.",
+        "en": "Lasagne principle: thin layers almost mix themselves."
+      },
+      "steps": [
+        {
+          "id": "mix-base1",
+          "text": {
+            "de": "Basis Schicht für Schicht auf die Plane: Torf → Belüftung → Kompost/Wurmhumus, mehrfach wiederholen.",
+            "en": "Base layer by layer on the tarp: peat → aeration → compost/castings, repeat several times."
+          },
+          "ingredients": [
+            "peat",
+            "pumice",
+            "rice-hulls",
+            "compost",
+            "ewc"
+          ],
+          "detail": {
+            "de": "Drittel-Regel: 1/3 Torf, 1/3 Belüftung (Bims + Reisspelzen), 1/3 Kompost + Wurmhumus 50/50. Viele dünne Schichten statt drei dicke — spart die Hälfte der Wendearbeit.",
+            "en": "Rule of thirds: 1/3 peat, 1/3 aeration (pumice + rice hulls), 1/3 compost + castings 50/50. Many thin layers instead of three thick ones — halves the turning work."
+          }
+        },
+        {
+          "id": "mix-amend",
+          "text": {
+            "de": "Mehle & Mineralien gleichmäßig über die Schichten streuen.",
+            "en": "Sprinkle meals & minerals evenly over the layers."
+          },
+          "ingredients": [
+            "neem",
+            "karanja",
+            "shrimp",
+            "alfalfa",
+            "kelp",
+            "malt",
+            "basalt",
+            "gypsum",
+            "oyster",
+            "bentonite",
+            "diatomaceous"
+          ],
+          "detail": {
+            "de": "Jede Zutat einzeln über die ganze Fläche streuen (Salzstreuer-Prinzip), nicht häufchenweise. Bentonit gibt CEC/Struktur, Kieselgur Silizium. Phosphor-Quelle nur falls gewählt — Kompost+Wurmhumus liefern meist genug P.",
+            "en": "Sprinkle each ingredient separately across the whole area (salt-shaker principle), never in piles. Bentonite adds CEC/structure, DE adds silicon. Phosphorus source only if chosen — compost+castings usually supply enough P."
+          }
+        },
+        {
+          "id": "mix-char",
+          "text": {
+            "de": "Geladene Pflanzenkohle einmischen.",
+            "en": "Mix in the charged biochar."
+          },
+          "detail": {
+            "de": "Jetzt, nicht früher — geladen und feucht verteilt sie sich besser und staubt nicht.",
+            "en": "Now, not earlier — charged and moist it distributes better and doesn't dust."
+          }
+        },
+        {
+          "id": "mix-turn",
+          "text": {
+            "de": "Haufen 3× komplett wenden (Plane-Ecken ziehen), bis alles homogen gesprenkelt aussieht.",
+            "en": "Turn the pile 3× completely (pull the tarp corners) until evenly speckled."
+          },
+          "detail": {
+            "de": "Homogenität entscheidet: Nester aus purem Neem oder Gips verbrennen später Wurzeln. Test: eine Handvoll von 5 Stellen — sie sollten identisch aussehen.",
+            "en": "Homogeneity matters: pockets of pure neem or gypsum burn roots later. Test: grab a handful from 5 spots — they should look identical."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wet",
+      "color": "blue",
+      "days": 1,
+      "title": {
+        "de": "Anfeuchten",
+        "en": "Moisten"
+      },
+      "subtitle": {
+        "de": "Ziel: Feldkapazität — feucht wie ein ausgedrückter Schwamm.",
+        "en": "Target: field capacity — moist like a wrung-out sponge."
+      },
+      "steps": [
+        {
+          "id": "wet-yucca",
+          "text": {
+            "de": "Erste Gießkanne mit Yucca-Pulver ansetzen (Netzmittel).",
+            "en": "Prepare the first watering can with yucca powder (wetting agent)."
+          },
+          "ingredients": [
+            "yucca"
+          ],
+          "detail": {
+            "de": "Trockener Torf stößt Wasser ab. Yucca-Saponine brechen die Oberflächenspannung — ohne sie läuft das Wasser einfach durch.",
+            "en": "Dry peat repels water. Yucca saponins break surface tension — without them water just runs through."
+          }
+        },
+        {
+          "id": "wet-water",
+          "text": {
+            "de": "Schichtweise wässern und wenden, bis der Fausttest passt: ballen → hält Form, 1–2 Tropfen.",
+            "en": "Water and turn in passes until the squeeze test passes: a squeezed handful holds shape, drips 1–2 drops."
+          },
+          "detail": {
+            "de": "Zu nass = anaerob (kippt ins Faulige), zu trocken = Mikroben starten nicht. Fausttest an mehreren Stellen wiederholen. Lieber in 3 Durchgängen wässern als einmal fluten.",
+            "en": "Too wet = anaerobic (goes putrid), too dry = microbes never start. Repeat the squeeze test in several spots. Better 3 watering passes than one flood."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cure",
+      "color": "pink",
+      "days": 14,
+      "title": {
+        "de": "Reifen (Cooking)",
+        "en": "Curing (cooking)"
+      },
+      "subtitle": {
+        "de": "Der Mix arbeitet jetzt selbst. Deine Aufgabe: beobachten.",
+        "en": "The mix now works on its own. Your job: observe."
+      },
+      "daily": [
+        {
+          "id": "cure-temp",
+          "text": {
+            "de": "Temperatur fühlen: Hand hineinstecken — warm ist gut, heiß (>40 °C) heißt warten.",
+            "en": "Feel the temperature: hand into the pile — warm is good, hot (>40 °C) means wait."
+          },
+          "detail": {
+            "de": "Die Erwärmung zeigt, dass die Mehle mikrobiell umgesetzt werden. In heiße Erde pflanzen verbrennt Wurzeln. Bezugsfertig = wieder kühl.",
+            "en": "The warming shows microbes digesting the meals. Planting into hot soil burns roots. Ready = cooled down again."
+          }
+        },
+        {
+          "id": "cure-smell",
+          "text": {
+            "de": "Riechen: erdig-waldig = gut. Ammoniak/faulig = zu nass oder zu verdichtet → wenden.",
+            "en": "Smell: earthy-forest = good. Ammonia/putrid = too wet or compacted → turn it."
+          },
+          "detail": {
+            "de": "Der Geruch ist dein bestes Messgerät. Fauliger Geruch heißt anaerobe Zonen — einmal komplett wenden bringt Sauerstoff hinein und behebt es meist binnen Tagen.",
+            "en": "Smell is your best instrument. Putrid means anaerobic pockets — one full turn adds oxygen and usually fixes it within days."
+          }
+        },
+        {
+          "id": "cure-moist",
+          "text": {
+            "de": "Feuchte prüfen (Fausttest), bei Bedarf leicht nachnebeln. Mit Stroh abgedeckt halten.",
+            "en": "Check moisture (squeeze test), mist lightly if needed. Keep covered with straw."
+          },
+          "ingredients": [
+            "straw"
+          ],
+          "detail": {
+            "de": "Das Stroh hält Feuchte und Temperatur stabil — wie ein Deckel auf dem Topf.",
+            "en": "The straw keeps moisture and temperature stable — like a lid on a pot."
+          }
+        }
+      ],
+      "steps": [
+        {
+          "id": "cure-turn7",
+          "text": {
+            "de": "Um Tag 7: Haufen einmal komplett wenden.",
+            "en": "Around day 7: turn the pile once completely."
+          },
+          "detail": {
+            "de": "Bringt Sauerstoff in die Mitte und gleicht Feuchtezonen aus. Danach nicht mehr wenden — das Pilznetz soll sich jetzt aufbauen.",
+            "en": "Adds oxygen to the core and evens out moisture zones. Don't turn after this — the fungal network should now establish."
+          }
+        },
+        {
+          "id": "cure-worms",
+          "text": {
+            "de": "Optional: Kompostwürmer einsetzen, sobald der Mix abgekühlt ist.",
+            "en": "Optional: add composting worms once the mix has cooled."
+          },
+          "ingredients": [
+            "worms"
+          ],
+          "detail": {
+            "de": "Würmer ziehen erst ein, wenn es kühl genug ist — sie sind gleichzeitig dein bester Reife-Indikator: bleiben sie, ist der Mix bald bezugsfertig.",
+            "en": "Worms only move in once it's cool enough — they double as your best maturity indicator: if they stay, the mix is nearly ready."
+          }
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "color": "sage",
+      "days": 2,
+      "title": {
+        "de": "Beete füllen & beleben",
+        "en": "Fill beds & activate"
+      },
+      "subtitle": {
+        "de": "Bereit-Check, dann einziehen lassen.",
+        "en": "Ready check, then move it in."
+      },
+      "steps": [
+        {
+          "id": "fin-check",
+          "text": {
+            "de": "Bereit-Check: kühl, erdiger Geruch, Fausttest passt, keine sichtbaren Mehl-Nester.",
+            "en": "Ready check: cool, earthy smell, squeeze test passes, no visible meal pockets."
+          },
+          "detail": {
+            "de": "Alle vier müssen stimmen. Im Zweifel 3–5 Tage länger reifen lassen — der häufigste Fehler ist zu frühes Pflanzen.",
+            "en": "All four must pass. When in doubt cure 3–5 days longer — planting too early is the most common mistake."
+          }
+        },
+        {
+          "id": "fin-fill",
+          "text": {
+            "de": "Beete füllen, NICHT verdichten — nur mit den Händen andrücken, nicht stampfen.",
+            "en": "Fill the beds, do NOT compact — press with hands only, never stomp."
+          },
+          "ingredients": [
+            "raised-beds"
+          ],
+          "detail": {
+            "de": "Die Belüftungsstruktur, die du gebaut hast, ist der ganze Sinn des Mixes. Festtreten macht sie kaputt.",
+            "en": "The aeration structure you built is the whole point of the mix. Stomping destroys it."
+          }
+        },
+        {
+          "id": "fin-tea",
+          "text": {
+            "de": "Mit leichtem Bakterientee tränken (Melasse + Wurmhumus in entchlortem Wasser).",
+            "en": "Soak with a light bacterial tea (molasses + castings in dechlorinated water)."
+          },
+          "detail": {
+            "de": "Impft die Beete final und startet den Nährstoffkreislauf. Rezept: 1 EL Melasse + 2 Hände Wurmhumus auf 10 L, 24 h belüftet.",
+            "en": "Final inoculation that kick-starts the nutrient cycle. Recipe: 1 tbsp molasses + 2 handfuls castings per 10 L, aerated 24 h."
+          }
+        },
+        {
+          "id": "fin-cover",
+          "text": {
+            "de": "Cover Crop einsäen und Strohmulch auflegen.",
+            "en": "Sow the cover crop and lay straw mulch."
+          },
+          "ingredients": [
+            "cover-crop",
+            "straw"
+          ],
+          "detail": {
+            "de": "Lebende Wurzeln füttern die Mykorrhiza zwischen den Zyklen; der Mulch schützt das Bodenleben vor Licht und Austrocknung.",
+            "en": "Living roots feed mycorrhiza between cycles; mulch protects soil life from light and drying out."
+          }
+        },
+        {
+          "id": "fin-temp",
+          "text": {
+            "de": "Bodentemperatur prüfen: mind. 15 °C vor dem Pflanzen.",
+            "en": "Check soil temperature: at least 15 °C before planting."
+          },
+          "ingredients": [
+            "thermometer"
+          ],
+          "detail": {
+            "de": "Unter 15 °C stockt die Wurzelentwicklung und Keimlinge dämpfen ab. Danach: weiter mit W1 im Wochenplan.",
+            "en": "Below 15 °C root growth stalls and seedlings damp off. Then: continue with W1 in the week plan."
+          }
+        }
+      ]
+    }
+  ]
+}
