@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-11",
   "totalDaysHint": {
     "de": "ca. 18–25 Tage bis bezugsfertig",
     "en": "approx. 18–25 days until ready"
@@ -93,7 +93,15 @@
             "en": "Longer is better — charging can run parallel to the rest of the prep. 1–2 weeks is great too."
           }
         }
-      ]
+      ],
+      "skipQuestion": {
+        "de": "Nutzt du bereits aufgeladene Kohle (z. B. fertige Terra-Preta- oder EM-Kohle)?",
+        "en": "Are you using pre-charged biochar (e.g. ready-made Terra Preta or EM char)?"
+      },
+      "skipLabel": {
+        "de": "Übersprungen — Kohle ist vorgeladen",
+        "en": "Skipped — biochar is pre-charged"
+      }
     },
     {
       "id": "drymix",
