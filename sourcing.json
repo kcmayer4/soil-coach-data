@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-08-06",
+  "updated": "2026-08-12",
   "materials": [
     {
       "id": "wormcast",
@@ -405,6 +405,22 @@
           ]
         }
       ]
+    },
+    {
+      "id": "melasse",
+      "name": {
+        "de": "Melasse (Zuckerrohr)",
+        "en": "Molasses (sugarcane)"
+      },
+      "summary": {
+        "de": "Mikrobenfutter für Bakterientee, EM-Vermehrung und Kohle-Aufladung. Entscheidend: UNGESCHWEFELT und ohne Zusätze — das Bio-Siegel ist zweitrangig, geschwefelte Backmelasse ist unbrauchbar. Verbrauch ist klein (1 EL auf 10 L Tee): 5 L reichen für mehrere Zyklen.",
+        "en": "Microbe food for bacterial tea, EM activation and biochar charging. What matters: UNSULPHURED with no additives — the organic label is secondary, sulphured baking molasses is useless. Usage is small (1 tbsp per 10 L tea): 5 L lasts several cycles."
+      },
+      "sourceIds": [
+        "em-chiemgau",
+        "ls-em-kaufhaus"
+      ],
+      "options": null
     }
   ],
   "sources": [
@@ -2827,6 +2843,23 @@
       "note": "100 % reine Reiskleie, Futtermittel-/Lebensmittelqualität · Mühle mit echter Bulk-Ware — nur per Anfrage/Telefon. Haltbarkeit 12 Monate bei max. 20 °C.",
       "lat": 53.38,
       "lon": 9.0
+    },
+    {
+      "id": "em-chiemgau",
+      "name": "Fischer's EM-Chiemgau",
+      "country": "DE",
+      "region": "Bayern",
+      "city": "Stephanskirchen",
+      "lat": 47.85,
+      "lon": 12.18,
+      "url": "https://www.em-chiemgau.de/",
+      "orderUrl": "https://www.em-chiemgau.de/zuckerrohr-melasse/",
+      "product": "Zuckerrohrmelasse (ungeschwefelt) 5 / 10 / 20 L Kanister",
+      "price": "5 L = 19 € (3,80 €/L); 10 L = 30 €; 20 L = 45 € (2,25 €/L); +6,90 € Versand",
+      "channel": "shop",
+      "pickup": false,
+      "shipping": true,
+      "note": "EM-Spezialist; Melasse als Nährlösung für EM-Vermehrung — ungeschwefelt und zusatzfrei, genau das Kriterium für Mikrobenfutter. 5 L reichen für mehrere Zyklen."
     }
   ],
   "trailers": [
